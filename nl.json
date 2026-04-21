@@ -2700,7 +2700,7 @@
         "Register.InvalidPromoCode": "Ongeldige promotiecode",
         "Register.InvalidPromoCode.Description": "De promotiecode die je hebt gebruikt, is ongeldig! Controleer of je hem goed hebt gespeld. Hoofdletters en kleine letters maken geen verschil.",
         "Register.ExpiredPromoCode": "Verlopen promotiecode",
-        "Register.ExpiredPromoCode.Description": "Helaas is deze promotiecode niet meer geldig. Je kunt een andere code proberen of deze verwijderen.",
+        "Register.ExpiredPromoCode.Description": "De ingevoerde promotiecode is verlopen. Probeer een andere code of verwijder deze.",
         "Account.PromoCode": "Promotiecode:",
         "Account.Type.Promo": "Promotie Account",
         "Settings.DashSettings.ScreenSwitchSpeed": "Snelheid van het wisselen van scherm",
