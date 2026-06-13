@@ -1,8 +1,20 @@
 {
     "localeCode": "ru",
-    "authors": [ "GhostZ36", "BrotiwkA", "Shadow Panther", "ENTERTHEWOLF", "ConfusedYeen", "Stanislavskii", "maksim789456", "MrSetto", "alextaco-anton", "Coffee from Kamchatka", "troyBORG" , "Shizzoid" ],
+    "authors": [
+        "GhostZ36",
+        "BrotiwkA",
+        "Shadow Panther",
+        "ENTERTHEWOLF",
+        "ConfusedYeen",
+        "Stanislavskii",
+        "maksim789456",
+        "MrSetto",
+        "alextaco-anton",
+        "Coffee from Kamchatka",
+        "troyBORG",
+        "Shizzoid"
+    ],
     "messages": {
-
         "General.OK": "OK",
         "General.Start": "Начать",
         "General.Finish": "Закончить",
@@ -39,29 +51,22 @@
         "General.Dismiss": "Закрыть",
         "General.Edit": "Редактировать",
         "General.DontShowAgain": "Больше не показывать",
-
         "General.UI.SearchPrompt": "Поиск...",
         "General.UI.SearchPromptLong": "Поиск миров...",
         "General.UI.ToggleEditMode": "Включить режим редактирования",
         "General.UI.ToggleSubtitles": "Переключить субтитры",
         "General.UI.Subtitles.On": "Субтитры: Вкл",
         "General.UI.Subtitles.Off": "Субтитры: Выкл",
-
         "General.UI.MusicVolumeLocal": "Громкость музыки (локальная):",
         "General.UI.VoiceVolumeLocal": "Громкость голоса (локальная):",
         "General.UI.SoundVolumeLocal": "Громкость звука (локальная):",
-
         "General.UI.PressToBegin": "Нажмите чтобы начать",
-
         "General.Sort.Ascending": "По возрастанию",
         "General.Sort.Descending": "По убыванию",
-
         "General.Units.Metric": "Метрические",
         "General.Units.Imperial": "Имперские",
-
         "Worlds.Home": "Дом",
         "Worlds.Tutorial": "Обучение",
-
         "Locomotion.Noclip.Name": "Noclip",
         "Locomotion.Noclip.Description": "Простой режим полёта сквозь стены. Идеально для редактирования мира.",
         "Locomotion.Teleport.Name": "Телепорт",
@@ -78,7 +83,6 @@
         "Locomotion.GrabWorld.Description": "Создаёт в мире якорь и перемещает пользователя относительно него.",
         "Locomotion.Slide.Name": "Скольжение",
         "Locomotion.Slide.Description": "Простое скользящее передвижение, которое цепляется к поверхности, если таковая имеется, или полёт, если поверхности нет.",
-
         "Interaction.Destroy": "Удалить",
         "Interaction.Duplicate": "Дублировать",
         "Interaction.SaveToInventory": "Сохранить в инвентарь",
@@ -102,22 +106,17 @@
         "Interaction.Grab.HoldToHold": "Удержание",
         "Interaction.Locomotion": "Передвижение",
         "Interaction.Locomotion.None": "Нет передвижения",
-
         "Interaction.NamedEquipTool": "Взять {name}",
         "Interaction.NamedEquipTool.Default": "Инструмент",
-
         "Interaction.EnterAnchor": "Сесть",
         "Interaction.ExitAnchor": "Встать",
-
         "Interaction.EquipAvatar": "Надеть аватар",
-
         "Interaction.SaveAsScreenshot": "Сохранить как скриншот",
         "Interaction.ExportScreenshot": "Экспортировать скриншот",
         "Interaction.ImportFile": "Импортировать файл",
         "Interaction.ExportFile": "Экспортировать файл",
         "Interaction.CopyLink": "Копировать ссылку",
         "Interaction.CopyImage": "Копировать картинку",
-
         "Inventory.OpenWorld": "Открыть мир",
         "Inventory.Equip": "Надеть",
         "Inventory.Delete": "Удалить",
@@ -142,7 +141,6 @@
         "Inventory.Favorite.Hyperlink": "Установить просмотрщик URL",
         "Inventory.Favorite.Document": "Установить просмотрщик документов",
         "Inventory.SpawnFacet": "Заспавнить фасет",
-
         "Dash.Screens.Home": "Дом",
         "Dash.Screens.Worlds": "Миры",
         "Dash.Screens.Contacts": "Контакты",
@@ -153,13 +151,9 @@
         "Dash.Screens.Settings": "Настройки",
         "Dash.Screens.Help": "Справка",
         "Dash.Screens.Exit": "Выход",
-
         "Dash.Actions.PasteFromClipboard": "Вставить содержимое из буфера",
-
         "Dash.Actions.TurnOffUIEdit": "Выключить режим редактирования UI",
-
         "Dash.Actions.CloudHome": "Открыть Дом",
-
         "Dash.Exit.Header": "Выйти из {appName}",
         "Dash.Exit.ExitAndSave": "Выйти и сохранить дома",
         "Dash.Exit.ExitAndDiscard": "Выйти и отменить изменения домов",
@@ -170,9 +164,7 @@
         "Dash.Exit.Shoutouts.You": "{name} (Это Вы! Спасибо!)",
         "Dash.Exit.ThankYou": "Спасибо за использование {appName}!",
         "Dash.Exit.SubmittedBy": "Опубликовано: {name}",
-
         "Facets.FPS": "{fps}<size=61.803%> FPS</size>",
-
         "World.Waiting": "Ожидание...",
         "World.HostIsStarting": "Хост начинает сессию",
         "World.Loading": "Загрузка...",
@@ -180,20 +172,17 @@
         "World.LoadedAssets": "Загружены {assets} из {total_assets}",
         "World.Downloading": "Загружено {bytes} из {total_bytes}",
         "World.Loaded": "Загружен",
-
         "World.Connection.EstablishingConnection": "Установка соединения",
         "World.Connection.RequestingJoin": "Запрос на подключение",
         "World.Connection.Authenticating": "Аутентификация",
         "World.Connection.Connected": "Соединено",
         "World.Connection.SyncingInitialState": "Синхронизация с текущим состоянием мира",
-
         "World.Connection.LNL.DirectIP": "LNL напрямую по IP<br><size=75%>{address}</size>",
         "World.Connection.LNL.LNLPoke": "Запрашиваем LNL Poke",
         "World.Connection.LNL.NATPunchthrough": "LNL через NAT {n}",
         "World.Connection.LNL.Relay": "LNL ретранслятор",
         "World.Connection.SteamNetworkingSockets": "Сетевые сокеты Steam",
         "World.Connection.TCP": "TCP<br><size=75%>{address}</size>",
-
         "World.Error.AccessDenied": "Отказано в доступе",
         "World.Error.SecurityViolation": "Нарушение безопасности",
         "World.Error.OnlyRegisteredUsers": "Только зарегистрированные пользователи могут подключиться",
@@ -219,7 +208,6 @@
         "World.Error.Unknown": "Неизвестная Ошибка",
         "World.Error.FailedToCreateBanAccessKey": "Ошибка создания ключа доступа для проверки бана",
         "World.Error.UnhandledError": "Необработанная ошибка",
-
         "World.Config.Name": "Название мира:",
         "World.Config.Description": "Описание:",
         "World.Config.MaxUsers": "Максимум пользователей:",
@@ -234,11 +222,9 @@
         "World.Config.AutosaveInterval": "Интервал автосохранения (минуты):",
         "World.Config.CleanupAssets": "Очистка неиспользованных ресурсов:",
         "World.Config.CleanupInterval": "Интервал очистки (секунды):",
-
         "World.Config.ResoniteLinkHeader": "ResoniteLink",
         "World.Config.ResoniteLinkOff": "ResoniteLink отключен",
         "World.Config.ResoniteLinkPort": "ResoniteLink активирован на порту {port}",
-
         "World.Actions.StartSession": "Старт сессии",
         "World.Actions.Join": "Подключиться",
         "World.Actions.Focus": "Фокус",
@@ -258,7 +244,6 @@
         "World.Actions.Overwrite": "Перезаписать на {name}",
         "World.Actions.ConfirmOverwrite": "Подтвердите ПЕРЕЗАПИСЬ",
         "World.Actions.Overwriting": "Перезапись...",
-
         "World.Actions.ClosePrompt": "Закрыть мир?",
         "World.Actions.LeavePrompt": "Выйти из мира?",
         "World.Actions.CloseConfirm": "Закрыть",
@@ -266,7 +251,6 @@
         "World.Actions.CannotClose": "(Этот мир закрыть невозможно)",
         "World.Actions.GuestWarning": "Вы гость данного мира",
         "World.Actions.HostingWarning": "Вы хост этого мира. Все пользователи будут отключены от мира.",
-
         "World.Actions.GetWorldOrb": "Получить сферу мира",
         "World.Actions.CopyWorldURL": "Скопировать URL мира",
         "World.Actions.CopyRecordURL": "Скопировать URL записи",
@@ -274,9 +258,7 @@
         "World.Actions.ModifyMetadata": "Редактировать метаданные",
         "World.Actions.GetSessionOrb": "Получить сферу сессии",
         "World.Actions.CopySessionURL": "Скопировать URL сессии",
-
         "World.Actions.EnableResoniteLink": "Активировать ResoniteLink",
-
         "World.Indicator.NoData": "Нет данных",
         "World.Indicator.LocalWorld": "Локальный мир",
         "World.Indicator.Author": "Автор: {name}",
@@ -288,7 +270,6 @@
         "World.Indicator.Description": "Описание",
         "World.Indicator.Description.None": "(Нет описания)",
         "World.Indicator.Visited": "(посещен)",
-
         "World.Detail.ActiveSessions": "Активные сессии:",
         "World.Detail.ActiveUsers": "Активные пользователи:",
         "World.Detail.NewSession": "<новая сессия>",
@@ -298,15 +279,12 @@
         "World.Detail.AccessLevel": "Видимость",
         "World.Detail.Users": "Пользователи",
         "World.Detail.Users.Count": "{active}{away, select, 0 {} other { (+{away} нет на месте)}} из {max}",
-
         "World.Detail.WorldInformationHeader": "Информация о мире",
         "World.Detail.PublishDate": "Дата публикации",
         "World.Detail.ModifyDate": "Дата обновления",
         "World.Detail.Visits": "Посещений",
-
         "World.Detail.Tags": "Тэги",
         "World.Detail.ActionsHeader": "Действия:",
-
         "World.Category.Everything": "Все",
         "World.Category.Featured": "Рекомендуемые",
         "World.Category.PublishedWorlds": "Опубликованные",
@@ -323,14 +301,12 @@
         "World.Category.MyWorlds": "Мои",
         "World.Category.Custom": "Расширенный поиск",
         "World.Category.GroupWorlds": "Миры группы",
-
         "World.AccessLevel.Anyone": "Все",
         "World.AccessLevel.RegisteredUsers": "Зарегистрированные",
         "World.AccessLevel.Contacts": "Контакты",
         "World.AccessLevel.ContactsPlus": "Контакты контактов",
         "World.AccessLevel.LAN": "Локальная сеть",
         "World.AccessLevel.Private": "Частная (по приглашению)",
-
         "World.SortParameter.SearchScore": "Релевантность",
         "World.SortParameter.Name": "Название",
         "World.SortParameter.OpenedWorldCount": "Открытые миры",
@@ -342,7 +318,6 @@
         "World.SortParameter.TotalVisits": "Всего посещений",
         "World.SortParameter.LastVisit": "Последнее посещение",
         "World.SortParameter.Random": "Случайный",
-
         "World.Filter.DataSources": "Источники данных:",
         "World.Filter.OpenedWorlds": "Открытые миры",
         "World.Filter.ActiveSessions": "Активные сессии",
@@ -363,7 +338,6 @@
         "World.Filter.MaxAccessLevel": "Максимальный уровень доступа:",
         "World.Filter.MinimumUptime": "Минимальное время работы:",
         "World.Filter.Sorting": "Сортировка:",
-
         "World.Edit.Title": "Редактировать метаданные мира",
         "World.Edit.Name": "Название мира:",
         "World.Edit.Description": "Описание:",
@@ -374,7 +348,6 @@
         "World.Edit.AccessPatreon": "Спонсоры Patreon",
         "World.Edit.AccessPublic": "Все (публичный)",
         "World.Edit.ReadOnly": "Защита от записи",
-
         "Tools.AvatarCreator": "Создатель Аватаров",
         "Tools.FullBodyCalibrator": "Калибратор Full Body и Аватара",
         "Tools.CameraStreaming": "Камера / Стриминг",
@@ -382,7 +355,6 @@
         "Tools.Debug": "Отладка",
         "Tools.StreamAudio": "Стриминг аудио",
         "Tools.Setup2FA": "Настроить 2FA",
-
         "Tools.StreamAudio.Dialog.Title": "Создать аудио стрим",
         "Tools.StreamAudio.Start": "Начать трансляцию",
         "Tools.StreamAudio.Bitrate": "Битрейт: {bitrate} кбит/с",
@@ -391,7 +363,6 @@
         "Tools.StreamAudio.Broadcast": "Широковещательный",
         "Tools.StreamAudio.PlayForOwner.Off": "Проигрывать для владельца: Выкл",
         "Tools.StreamAudio.PlayForOwner.On": "Проигрывать для владельца: Вкл",
-
         "Options.FreeformDash.On": "Свободный Дэшборд: Вкл",
         "Options.FreeformDash.Off": "Свободный Дэшборд: Выкл",
         "Options.SeatedMode.On": "Режим сидя",
@@ -401,133 +372,92 @@
         "Options.Nameplates.Hide": "Скрыть имена",
         "Options.Nameplates.DefaultStyle": "Стандартный стиль имён",
         "Options.Nameplates.CustomStyle": "Пользовательский стиль имён",
-
         "Indicator.OnlineUsers": "<color=hero.yellow>{users}</color> {users,plural, one {пользователь} few {пользователя} other {пользователей}} онлайн",
         "Indicator.OnlineUsersVR": "<color=hero.purple>{users}</color> {users,plural, one {пользователь} few {пользователя} other {пользователей}} в VR",
         "Indicator.OnlineUsersDesktop": "<color=hero.cyan>{users}</color> {users,plural, one {пользователь} few {пользователя} other {пользователей}} в экранном режиме",
-
         "Indicator.ServerStatus.Status": "Статус службы",
         "Indicator.ServerStatus.Good": "Хорошо",
         "Indicator.ServerStatus.Slow": "С перебоями",
         "Indicator.ServerStatus.Down": "Сниженная доступность",
         "Indicator.ServerStatus.NoInternet": "Отсутствует доступ",
-
         "Indicator.Sync.AllSynced": "Синхронизирован",
         "Indicator.Sync.SyncingItems": "Синхронизация<br><size=61.8033%>{item_count,plural, one {# предмета} few {# предметов} many {# предметов}}</size>",
         "Indicator.Sync.UploadingVariants": "Выгрузка<br><size=61.8033%>вариантов ассетов</size>",
         "Indicator.Sync.SyncError": "Ошибка синхронизации <size=61.803%>Проверьте журнал программы</size>",
         "Indicator.Sync.StorageFull": "Ошибка синхронизации <size=61.803%>Проверьте доступное пространство</size>",
-
         "Indicator.Storage.StorageFull": "Место закончилось",
         "Indicator.Storage.Usage": "{storage_used} из {storage_max}<br><size=61.803%>использовано</size>",
-
         "Indicator.LiveHiddenMessage": "(Информация скрыта во время прямой трансляции)",
-
         "Login.InvalidCredentials": "Неверные имя пользователя или пароль",
         "Login.InvalidCredentials.Description": "Перепроверьте имя пользователя или пароль и попробуйте еще раз или нажмите \"Забыли пароль?\"",
-
         "Login.InvalidLogin": "Неверные имя пользователя или пароль",
         "Login.InvalidLogin.Description": "Перепроверьте имя пользователя или пароль и попробуйте еще раз или нажмите \"Забыли пароль?\"",
-
         "Login.MalformedUID": "Некорректная информация об устройстве",
         "Login.MalformedUID.Description": "Попробуйте переустановить приложение или обратитесь в поддержку: {supportUrl}.",
-
         "Login.MissingUID": "Отсутствует информация об устройстве",
         "Login.MissingUID.Description": "Попробуйте переустановить приложение или обратитесь в поддержку: {supportUrl}.",
-
         "Login.MissingSecretMachineId": "Отсутствует секретный ID машины",
         "Login.MissingSecretMachineId.Description": "Попробуйте переустановить приложение или обратитесь в поддержку: {supportUrl}.",
-
         "Login.MalformedSecretMachineId": "Некорректный секретный ID машины",
         "Login.MalformedSecretMachineId.Description": "Попробуйте переустановить приложение или обратитесь в поддержку: {supportUrl}.",
-
         "Register.MissingUID": "Некорректная информация об устройстве",
         "Register.MissingUID.Description": "Попробуйте переустановить приложение или обратитесь в поддержку: {supportUrl}.",
-
         "Register.MalformedUID": "Некорректная информация об устройстве",
         "Register.MalformedUID.Description": "Попробуйте переустановить приложение или обратитесь в поддержку: {supportUrl}.",
-
         "Login.MissingLogin": "Не указаны учетные данные",
         "Login.MissingLogin.Description": "Вы не забыли ввести учетные данные?",
-
         "Login.InvalidRecoveryCode": "Неверный код восстановления",
         "Login.InvalidRecoveryCode.Description": "Проверьте код восстановления и попробуйте еще раз.",
-
         "Login.UnsupportedAuthentication": "Неподдерживаемый способ аутентификации",
         "Login.UnsupportedAuthentication.Description": "Мы не поддерживаем этот способ аутентификации. Пожалуйста попробуйте другой.",
-
         "Login.EmailNotVerified": "Электронная почта не подтверждена",
         "Login.EmailNotVerified.Description": "Ваша электронная почта не подтверждена, поищите письмо от нас в вашей почте, в том числе в папке спам.",
-
         "Login.AccountTempLocked": "Ваша учетная запись была временно заблокирована.",
         "Login.AccountTempLocked.Description": "Пожалуйста, свяжитесь с командой модерации: {moderationUrl}.",
-
         "Login.AccountBanned": "Ваша учетная запись была заблокирована.",
         "Login.AccountBanned.Description": "Пожалуйста, свяжитесь с командой модерации: {moderationUrl}.",
-
         "Login.DuplicateAccount": "Учетная запись уже существует",
         "Login.DuplicateAccount.Description": "Пожалуйста свяжитесь с командой поддержки: {supportUrl}.",
-
         "Login.UnknownError": "Неизвестная ошибка",
         "Login.UnknownError.Description": "Во время входа произошла неизвестная ошибка. Пожалуйста свяжитесь с командой поддержки: {supportUrl}.",
-
         "Register.MissingRequest": "Отсутствуют данные для регистрации",
         "Register.MissingRequest.Description": "Мы не получили никаких данных для регистрации. Пожалуйста, введите их для регистрации.",
-
         "Register.InvalidEmail": "Некорректная электронная почта",
         "Register.InvalidEmail.Description": "Адрес вашей электронной почты некорректен.",
-
         "Register.MissingUsername": "Отсутствует имя пользователя",
         "Register.MissingUsername.Description": "Вы точно указали имя пользователя?",
-
         "Register.MissingEmail": "Отсутствует электронная почта",
         "Register.MissingEmail.Description": "Вы точно указали адрес электронной почты?",
-
         "Register.UsernameTooLong": "Имя пользователя слишком длинное",
         "Register.UsernameTooLong.Description": "Мы принимаем имена пользователей длиной до 32 символов.",
-
         "Register.UsernameContainsAmpersand": "Имя пользователя не должно содержать символы @ и &",
         "Register.UsernameContainsAmpersand.Description": "В вашем имени пользователя не должны присутствовать символы @ и &.",
-
         "Register.UsernameStartsWithU": "Имя пользователя не должно начинаться с U-",
         "Register.UsernameStartsWithU.Description": "Имя пользователя не должно начинаться с U-.",
-
         "Register.InvalidUsername": "Некорректное имя пользователя",
         "Register.InvalidUsername.Description": "Ваше имя пользователя некорректно.",
-
         "Register.InvalidDateOfBirth": "Некорректная дата рождения",
         "Register.InvalidDateOfBirth.Description": "Ваша дата рождения некорректна.",
-
         "Register.UsernameContainsBlockedTerms": "Имя пользователя содержит запрещенные слова",
         "Register.UsernameContainsBlockedTerms.Description": "Ваше имя пользователя содержит запрещенные слова. Если вы считаете, что это ошибка, обратитесь по адресу: {supportUrl}.",
-
         "Register.MissingPassword": "Пароль не указан",
         "Register.MissingPassword.Description": "Вы не указали пароль.",
-
         "Register.InvalidPassword": "Некорректный пароль",
         "Register.InvalidPassword.Description": "Ваш пароль некорректен. Он должен содержать как минимум 8 символов и содержать как минимум 1 цифру, 1 заглавную букву 1 строчную букву.",
-
         "Register.EmailAlreadyRegistered": "Электронная почта уже используется",
         "Register.EmailAlreadyRegistered.Description": "Уже существует аккаунт, использующий этот адрес электронной почты. Если вы забыли пароль, вы можете нажать \"Забыли пароль?\". Также вы можете обратиться в поддержку по адресу: {supportUrl}.",
-
         "Register.UsernameAlreadyRegistered": "Имя пользователя уже используется",
         "Register.UsernameAlreadyRegistered.Description": "Уже существует аккаунт, использующий это имя пользователя. Если вы забыли пароль, вы можете нажать \"Забыли пароль?\". Также вы можете обратиться в поддержку по адресу: {supportUrl}.",
-
         "Register.ErrorCheckingUserId": "Ошибка проверки UserID",
         "Register.ErrorCheckingUserId.Description": "Пожалуйста, свяжитесь с поддержкой по адресу: {supportUrl}.",
-
         "Recovery.MissingEmail": "Отсутствует электронная почта",
         "Recovery.MissingEmail.Description": "Вы указали вашу электронную почту?",
-
         "Recovery.IncorrectEmail": "Некорректная электронная почта",
         "Recovery.IncorrectEmail.Description": "Вы ввели некорректная электронная почта для восстановления пароля. Пожалуйста, перепроверьте информацию и попробуйте еще раз.",
-
         "Recovery.NoPasswordSetup": "Пароль не установлен",
         "Recovery.NoPasswordSetup.Description": "Пожалуйста свяжитесь с командой поддержки: {supportUrl}.",
-
         "Register.UnknownError": "Неизвестная ошибка",
         "Register.UnknownError.Description": "Во время регистрации произошла неизвестная ошибка. Пожалуйста свяжитесь с командой поддержки: {supportUrl}.",
-
         "Account.Login": "Авторизоваться",
         "Account.Logout": "Выйти",
         "Account.Register": "Регистрация учетной записи",
@@ -565,11 +495,9 @@
         "Account.BirthYear": "Год рождения:",
         "Account.PoliciesAgreement": "Я согласен с <color=#22B2FF>условиями оказания услуг</color> и <color=#22B2FF>политикой конфиденциальности</color>",
         "Account.AlternateMethods": "Войти с помощью стороннего сервиса:",
-
         "Account.Saml2.Title": "SAML 2.0",
         "Account.Saml2.Select": "Выберите SAML 2.0 провайдера:",
         "Account.Saml2.LoggingIn": "Ожидание завершения входа в систему (проверьте свой веб-браузер)...",
-
         "Account.TOTP.Title": "Двухфакторная аутентификация",
         "Account.TOTP.Initializing": "Проверка состояния 2FA для вашего аккаунта...",
         "Account.TOTP.Code.Header": "Секретный код",
@@ -594,7 +522,6 @@
         "Account.TOTP.Deactivate.Deactivate": "Деактивировать",
         "Account.TOTP.Deactivate.Deactivating": "Деактивация...",
         "Account.TOTP.Message.DeactivationComplete": "2FA была успешно деактивирована на вашем аккаунте.<br><br>Ваш аккаунт сейчас подвержен дополнительному риску!<br><br>Мы настоятельно рекомендуем заново настроить 2FA, особенно если Вы использовали код восстановления в связи с утратой телефона.",
-
         "Account.Type.Standard": "Стандартный Аккаунт",
         "Account.Type.Business": "Бизнес Аккаунт",
         "Account.Type.Patreon": "Спонсор (Patreon)",
@@ -602,12 +529,9 @@
         "Account.Type.Mentor": "Ментор {platform}",
         "Account.Type.Moderator": "Модератор {platform}",
         "Account.Type.Team": "Команда {platform}",
-
         "Avatar.Badge.Live": "ЭФИР",
-
         "2FA.Header": "Проверка 2FA",
         "2FA.Token": "6-значный код:",
-
         "Profile.Status.Sociable": "Общительный",
         "Profile.Status.Online": "Онлайн",
         "Profile.Status.Away": "Отошёл",
@@ -617,36 +541,30 @@
         "Profile.Status.Headless": "Сервер",
         "Profile.Status.Bot": "<b>Бот:</b> {version}",
         "Profile.Status.ChatClient": "<b>Мессенджер:</b> {version}",
-
         "Session.Tab.Settings": "Настройки",
         "Session.Tab.Users": "Пользователи",
         "Session.Tab.Permissions": "Разрешения",
-
         "Session.Permission.Anonymous": "Анонимные пользователи:",
         "Session.Permission.Vistor": "Посетители:",
         "Session.Permission.Contact": "Контакты:",
         "Session.Permission.Host": "Хост:",
         "Session.Permission.PermissionOverrideCount": "Переопределения разрешений: {n,select, -1 {---} other {{n}}}",
         "Session.Permission.ClearOverrides": "Отменить переопределения разрешений",
-
         "Session.JoinVerifier.EnableHeader": "Включить свою проверку запроса входа?",
         "Session.JoinVerifier.EnableText": "<color=red>ВНИМАНИЕ:</color> Вы пытаетесь включить свою проверку запроса входа в сессию, которая является частью этого мира. Перед тем как это сделать, убедитесь, что вы доверяете создателю этого мира, так как своя проверку запроса входа может обойти стандартные правила доступа к сессии и разрешить или запретить доступ пользователям согласно собственным правилам.",
         "Session.JoinVerifier.Label": "Использовать свою проверку запроса входа: {name}",
         "Session.JoinVerifier.ComponentWarning": "<color=red>ВНИМАНИЕ:</color> Сейчас нет механизма, который позволил бы запретить изменение логики проверки после включения. Если Вы беспокоитесь о вмешательстве в скрипт ProtoFlux используемый для верификации, НЕ ИСПОЛЬЗУЙТЕ эту механику и НЕ ВКЛЮЧАЙТЕ её в своих мирах.",
         "Session.JoinVerifier.SetCustomVerifier": "Установить свою проверку запроса входа",
-
         "Permissions.NotAllowedToSpawn": "Вам запрещено создавать здесь предметы.",
         "Permissions.NotAllowedToSave": "Вам запрещено сохранять объекты из этого мира.",
         "Permissions.NotAllowedToSwapAvatar": "Вам запрещено использовать здесь свой аватар.",
         "Permissions.SavingDisabledForItem": "Сохранение для этого элемента отключено.",
-
         "User.Actions.Silence": "Заглушить в мире",
         "User.Actions.Mute": "Заглушить для себя",
         "User.Actions.Jump": "Переместиться к",
         "User.Actions.Respawn": "Возродить",
         "User.Actions.Kick": "Выгнать",
         "User.Actions.Ban": "Заблокировать",
-
         "Contacts.Add": "Добавить Контакт",
         "Contacts.Remove": "Удалить Контакт",
         "Contacts.ConfirmRemove": "Подтвердите удаление",
@@ -666,7 +584,6 @@
         "Contacts.SelfAccount": "Этот аккаунт",
         "Contacts.SearchPrompt": "Поиск пользователей...",
         "Contacts.WriteMessage": "Сообщение...",
-
         "Contacts.InSession": "В {name}",
         "Contacts.NoSession": "Без сессии",
         "Contacts.InPrivate": "В частном мире",
@@ -685,7 +602,6 @@
         "Contacts.Migrated": "Контакт не совершил миграцию",
         "Contacts.IncompatibleSession": "Сессия несовместима",
         "Contacts.AskToJoin": "<color=hero.yellow>Постучаться</color>",
-
         "Contacts.InviteRequest.UserWantsToJoin": "{username} желает присоединиться",
         "Contacts.InviteRequest.UserWantsToInviteAnother": "\"{requestingUser}\" желает пригласить \"{userToInvite}\" в сессию \"{sessionName}\"",
         "Contacts.InviteRequest.GrantInvite": "Разрешить приглашать (единожды)",
@@ -697,7 +613,6 @@
         "Contacts.InviteRequest.SentRequest": "Приглашение запрошено",
         "Contacts.InviteRequest.ForwardedRequest": "Запрос приглашения от \"{username}\" в сеанс \"{sessionName}\"",
         "Contacts.InviteRequest.GrantedRequest": "Предоставлено разрешение \"{username}\" на приглашение в сеанс \"{sessionName}\"",
-
         "Notifications.IsSociable": "Общительный(-ая), можно поговорить или пригласить!",
         "Notifications.IsOnline": "Сейчас Онлайн",
         "Notifications.IsOnlineOnDifferentVersion": "Сейчас Онлайн <size=75%>(использует версию: {version})</size>",
@@ -712,7 +627,6 @@
         "Notifications.UserLeft": "Пользователь отключен",
         "Notifications.PermissionChanged": "Ваша роль изменена на {new}",
         "Notifications.PermissionChangedDetail": "В мире {world}. Предыдущая роль: {old}",
-
         "Undo.SetField": "Установка {field_name} в {value}",
         "Undo.SetReference": "Установка ссылки {ref_name} в {ref_target}",
         "Undo.Spawn": "Создание {name}",
@@ -727,11 +641,9 @@
         "Undo.ResetPosition": "Сброс позиции",
         "Undo.ResetRotation": "Сброс вращения",
         "Undo.ResetScale": "Сброс масштаба",
-
         "Undo.GrabObjects": "Захват объектов",
         "Undo.DestroyGrabbed": "Удаление захваченного объекта(-ов)",
         "Undo.DuplicateGrabbed": "Дублирование захваченного объекта(-ов)",
-
         "Undo.ChangeBoxSize": "Изменение размера куба",
         "Undo.BrushStroke": "Штрих кистью",
         "Undo.ChangeColor": "Изменение цвета",
@@ -743,22 +655,16 @@
         "Undo.ChangeMesh": "Изменение меша",
         "Undo.InsertParent": "Вставка родителя для {name}",
         "Undo.Wiggler": "Хтоническое непотребство",
-
         "Undo.ExtractMaterialsFromHierarchy": "Извлечение материалов из иерархии",
         "Undo.BatchConvertMaterials": "Пакетное конвертирование материалов",
-
         "Undo.AddListElement": "Добавить изменение в список",
         "Undo.RemoveListElement": "Убрать изменение из списка",
-
         "Tools.Brush.ChangeColor": "Изменить цвет",
         "Tools.Brush.IncrementSize": "Увеличить размер",
         "Tools.Brush.DecrementSize": "Уменьшить размер",
         "Tools.Brush.FinishStrokeGroup": "Закончить рисунок",
-
         "Tools.GeometryLineBrush.Name": "Геометрическая кисть",
-
         "Tools.MeshPlaneBrush.AddHole": "Добавить отверстие",
-
         "Tools.Dev.Name": "Инструмент разработчика",
         "Tools.Dev.CreateNew": "Создание нового...",
         "Tools.Dev.Selection": "Выбор: {mode}",
@@ -768,7 +674,6 @@
         "Tools.Dev.DeselectAll": "Убрать выделение",
         "Tools.Dev.DestroySelected": "Удалить выделенные",
         "Tools.Dev.ConfirmDestroySelected": "ТОЧНО удалить выделенное",
-
         "Tools.Dev.GizmoOptions": "Настройки гизмо",
         "Tools.Dev.SelectParent": "Выбрать родителя",
         "Tools.Dev.LocalSpace": "Локальное пространство",
@@ -776,51 +681,40 @@
         "Tools.Dev.Translation": "Перемещение",
         "Tools.Dev.Rotation": "Вращение",
         "Tools.Dev.Scale": "Масштаб",
-
         "Tools.Dev.Selection.Single": "Одиночное",
         "Tools.Dev.Selection.Multi": "Множественное",
-
         "Tools.Dev.Interaction.Tip": "Инструмент",
         "Tools.Dev.Interaction.Projection": "Проекция",
-
         "Tools.Color.Name": "Инструмент цвета",
         "Tools.Color.Picker": "Пипетка",
-
         "Tools.GrabbableSetter.Name": "Инструмент в(ы)ключения хватабельности",
         "Tools.GrabbableSetter.Scalable": "Сделать масштабируемым",
         "Tools.GrabbableSetter.NonScalable": "Сделать не-масштабируемым",
         "Tools.GrabbableSetter.ApplyToRoot": "Применить на корень объекта",
         "Tools.GrabbableSetter.AppyToHit": "Применить на цель",
-
         "Tools.CharacterCollider.Name": "Инструмент управления коллайдерами для передвижения",
         "Tools.CharacterCollider.MarkGrippable": "Отметить Захватываемым",
         "Tools.CharacterCollider.DontMarkGrippable": "Не Отмечать Захватываемым",
         "Tools.CharacterCollider.EnsureWalkRun": "Обеспечить тип передвижения Ходьба/Бег",
         "Tools.CharacterCollider.EnsureZeroG": "Обеспечить тип передвижения Нулевая гравитация",
         "Tools.CharacterCollider.EnsurePhysicalFly": "Обеспечить тип передвижения Полёт",
-
         "Tools.Light.Point": "Точечный",
         "Tools.Light.Spot": "Конусный",
         "Tools.Light.Sun": "Солнце",
-
         "Tools.Light.Name": "Инструмент источников света",
         "Tools.Light.Shadows.None": "Нет теней",
         "Tools.Light.Shadows.Hard": "Четкие тени",
         "Tools.Light.Shadows.Soft": "Мягкие тени",
-
         "Tools.MeshVisibility.Name": "Инструмент видимости мешей",
         "Tools.MeshVisibility.KeepShadow": "Оставить тени",
         "Tools.MeshVisibility.ShadowOff": "Отключить тени",
         "Tools.MeshVisibility.ShadowOn": "Включить тени",
         "Tools.MeshVisibility.OnlyShadow": "Устан. только тени",
         "Tools.MeshVisibility.DoubleSidedShadow": "Устан. двусторонние тени",
-
         "Tools.Mesh.Name": "Инструмент мешей",
-
         "Tools.Slicer.Name": "Инструмент слайсеров",
         "Tools.Slicer.Add": "Добавить слайсер",
         "Tools.Slicer.Clear": "Очистить",
-
         "Tools.Material.Name": "Инструмент материалов",
         "Tools.Material.RayMode": "Режим луча",
         "Tools.Material.AreaMode": "Режим области",
@@ -831,11 +725,8 @@
         "Tools.Material.Convert": "Конвертировать в...",
         "Tools.Material.ConvertAll": "Конвертировать все в...",
         "Tools.Material.CreateNew": "Создать новый",
-
         "Tools.Mesh.Edit": "Редактировать меш",
-
         "Tools.Cartridge.Eject": "Извлечь сферу",
-
         "Tools.Microphone.Name": "Микрофон",
         "Tools.Microphone.Format.WAV": "WAV",
         "Tools.Microphone.Format.Vorbis": "OGG Vorbis",
@@ -844,7 +735,6 @@
         "Tools.Microphone.ModePress": "Нажмите чтобы начать/закончить запись",
         "Tools.Microphone.SourceRaw": "Без эффектов",
         "Tools.Microphone.SourceFiltered": "Фильтрованный и нормализованный",
-
         "Tools.ProtoFlux.Name": "Инструмент Proto-Flux",
         "Tools.ProtoFlux.Drive": "Управление",
         "Tools.ProtoFlux.Source": "Источник",
@@ -860,53 +750,39 @@
         "Tools.ProtoFlux.PackInto": "Упаковать в <size=50%>{name}</size>",
         "Tools.ProtoFlux.Unpack": "Распаковать <size=50%>{name}</size>",
         "Tools.ProtoFlux.ExplicitCast": "Явное приведение\n<size=50%>(<color=red>Внимание:</color> потенциальная потеря данных)</size>",
-
         "Tools.Meter.Mode.Ray": "Режим: Луч",
         "Tools.Meter.Mode.Perpendicular": "Режим: Перпендикуляр",
         "Tools.Meter.Mode.Drag": "Режим: Рулетка",
-
         "Tools.Meter.Points.Two": "Две точки",
         "Tools.Meter.Points.Multiple": "Несколько точек",
-
         "Tools.Meter.Name": "Инструмент-рулетка",
         "Tools.Meter.ObjectSpace": "Измерение в пространстве объекта",
         "Tools.Meter.WorldSpace": "Измерение в пространстве мира",
-
         "Tools.Glue.Name": "Инструмент склеивания",
         "Tools.Glue.Mode.BakeMeshes": "Режим: запечь меши",
         "Tools.Glue.Mode.BakeSkinnedMeshes": "Режим: запечь skinned meshes",
         "Tools.Glue.Mode.ParentObjects": "Режим: соединить иерархию",
-
         "Tools.RigTransfer.Name": "Инструмент переноса рига",
         "Tools.RigTransfer.ClearSource": "Очистить источник",
-
         "Tools.GaussianSplat.Name": "Инструмент Гауссовых пятен",
         "Tools.GaussianSplat.ClipBox": "Форма коробка",
         "Tools.GaussianSplat.ClipSphere": "Форма Сфера",
         "Tools.GaussianSplat.ClipCylinder": "Форма Цилиндр",
-
         "Tools.ComponentClone.Name": "Инструмент клонирования компонентов",
         "Tools.ComponentClone.SingleInstanceOn": "Единственный экземпляр: Да",
         "Tools.ComponentClone.SingleInstanceOff": "Единственный экземпляр: Нет",
         "Tools.ComponentClone.ClearTemplate": "Очистить шаблон",
-
         "Tools.Shape.Name": "Инструмент примитивов",
-
         "Tools.CameraObjectHider.Name": "Инструмент для скрытия объектов от камеры",
-
         "Tools.ControllerDiagnostic.Name": "Инструмент диагностики контроллеров",
-
         "Tools.Labeler.Name": "Инструмент меток",
-
         "ProtoFlux.UI.Call": "<size=50%>Синхронный</size> вызов",
         "ProtoFlux.UI.AsyncCall": "<size=50%>Асинхронный</size> вызов",
         "ProtoFlux.UI.NodeBrowser.Title": "Ноды ProtoFlux",
-
         "CreateNew.Back": "<<< <i>Вернуться</i>",
         "CreateNew.EmptyObject": "Пустой объект",
         "CreateNew.ParticleSystem": "Система частиц",
         "CreateNew.LegacyParticleSystem": "Система частиц (Устаревшая)",
-
         "CreateNew.Object": "Объект",
         "CreateNew.Object.AvatarCreator": "Создатель аватаров",
         "CreateNew.Object.Camera": "Камера",
@@ -919,17 +795,14 @@
         "CreateNew.Object.SpawnPoint": "Точка спауна",
         "CreateNew.Object.UIXCanvas": "UIX холст",
         "CreateNew.Object.Facet": "Элемент интерфейса (Facet)",
-
         "CreateNew.Object.FogVolume": "Туман",
         "CreateNew.Object.FogVolume.Additive": "Аддитивный",
         "CreateNew.Object.FogVolume.Alpha": "Альфа",
         "CreateNew.Object.FogVolume.Multiplicative": "Мультипликативный",
         "CreateNew.Object.FogVolume.Gradient": "Градиент",
-
         "CreateNew.Text": "Текст",
         "CreateNew.Text.Basic": "Простой",
         "CreateNew.Text.Outline": "Выделенный",
-
         "CreateNew.Editor": "Редактор",
         "CreateNew.Editor.UserInspector": "Инспектор пользователей",
         "CreateNew.Editor.LightSourcesWizard": "Мастер источников света",
@@ -939,7 +812,6 @@
         "CreateNew.Editor.ReflectionProbes": "Мастер зондов отражений",
         "CreateNew.Editor.TexturePackingWizard": "Мастер упаковки текстур",
         "CreateNew.Editor.TextureUnpackingWizard": "Мастер распаковки текстур",
-
         "CreateNew.3DModel": "3D Модель",
         "CreateNew.3DModel.Triangle": "Треугольник",
         "CreateNew.3DModel.Box": "Куб",
@@ -950,7 +822,6 @@
         "CreateNew.3DModel.Quad": "Квад",
         "CreateNew.3DModel.Grid": "Сетка",
         "CreateNew.3DModel.Torus": "Тор",
-
         "CreateNew.Collider": "Коллайдер",
         "CreateNew.Collider.Box": "Куб",
         "CreateNew.Collider.Sphere": "Сфера",
@@ -958,19 +829,15 @@
         "CreateNew.Collider.Cylinder": "Цилиндр",
         "CreateNew.Collider.Cone": "Конус",
         "CreateNew.Collider.Mesh": "Модель",
-
         "CreateNew.Light": "Свет",
         "CreateNew.Light.Point": "Точечный",
         "CreateNew.Light.Spot": "Конусный",
         "CreateNew.Light.Directional": "Направленный",
-
         "CreateNew.Materials": "Материалы",
-
         "CreateNew.Directory.Title": "Создать новую директорию:",
         "CreateNew.Directory.Error.EmptyName": "Пожалуйста введите название:",
         "CreateNew.Directory.Error.LongName": "Название слишком длинное:",
         "CreateNew.Directory.Error.InvalidName": "Некорректное название:",
-
         "AvatarCreator.Title": "Создатель аватаров",
         "AvatarCreator.Instructions": "Сведите образы шлема и контроллеров с аватаром и нажмите Создать чтобы конвертировать модель в аватар",
         "AvatarCreator.UseSymmetry": "Использовать симметрию",
@@ -989,9 +856,7 @@
         "AvatarCreator.AlignToolAnchors": "Свести точки инструментов",
         "AvatarCreator.Create": "Создать",
         "AvatarCreator.ProtectionUnavailable": "<i>Защита аватара недоступна в этом мире. Переключитесь на другой мир чтобы защитить свой аватар.</i>",
-
         "Importer.General.AsRawFile": "Сырой файл",
-
         "Importer.Folder.Title": "Импорт Папки",
         "Importer.Folder.Individual": "Индивидуальный импорт",
         "Importer.Folder.Individual.Description": "Создаёт отдельный диалог импорта на каждый файл в папке",
@@ -999,7 +864,6 @@
         "Importer.Folder.Batch.Description": "Создаёт один импорт на каждый тип, используя одинаковые настройки для каждого файла",
         "Importer.Folder.Minecraft": "Мир Minecraft",
         "Importer.Folder.Minecraft.Description": "Импортирует мир Minecraft при наличии установленного Mineways.",
-
         "Importer.Image.Title": "Импорт Изображения",
         "Importer.Image.Prompt": "Что вы импортируете?",
         "Importer.Image.Regular": "Изображение / Текстуру",
@@ -1012,26 +876,21 @@
         "Importer.Image.180": "180 Фото",
         "Importer.Image.Stereo180": "Стерео 180 Фото",
         "Importer.Image.LUT": "LUT",
-
         "Importer.Image.Failure.Heading": "Ошибка импорта изображения <color=hero.yellow>{image}</color>",
         "Importer.Image.Failure.Description": "Не получилось импортировать изображение из-за:\n\n<color=hero.red>{error}</color>",
-
         "Importer.LUT.Failure.Heading": "Ошибка импорта LUT <color=hero.yellow>{image}</color>",
         "Importer.LUT.Failure.Description": "Не получилось импортировать LUT из-за:\n\n<color=hero.red>{error}</color>",
-
         "Importer.ImageVideo.LayoutPrompt": "Какую раскладку использует?",
         "Importer.ImageVideo.LayoutHorizontalLR": "Бок о бок левый-правый",
         "Importer.ImageVideo.LayoutHorizontalRL": "Бок о бок правый-левый",
         "Importer.ImageVideo.LayoutVerticalLR": "Сверху вниз левый-правый",
         "Importer.ImageVideo.LayoutVerticalRL": "Сверху вниз правый-левый",
-
         "Importer.Model.Title": "Импорт Модели",
         "Importer.Model.Prompt": "Что вы импортируете?",
         "Importer.Model.Regular": "3D Модель",
         "Importer.Model.3DScan": "3D Скан",
         "Importer.Model.CAD": "CAD Модель",
         "Importer.Model.PointCloud": "Облако точек",
-
         "Importer.Model.GaussianSplat": "Гауссовы пятна",
         "Importer.Model.GaussianSplatVertical": "Вертикальная ось",
         "Importer.Model.RegularVertical": "Обычный",
@@ -1039,7 +898,6 @@
         "Importer.Model.GaussianSplatEncoding": "Кодирование",
         "Importer.Model.GaussianSplatLossless": "Без потерь",
         "Importer.Model.GaussianSplatSPZ": "SPZ (с потерями)",
-
         "Importer.Model.VertexColorModel": "Модель с цветами вершин",
         "Importer.Model.AdvancedSettings": "Дополнительные Настройки",
         "Importer.Model.ModelKindPrompt": "Какого типа 3D Модель?",
@@ -1054,7 +912,6 @@
         "Importer.Model.Inches": "Дюймы",
         "Importer.Model.FinalizePrompt": "Всё готово?",
         "Importer.Model.RunImport": "Начать импорт!",
-
         "Importer.Model.Advanced.Scale": "Масштаб: ",
         "Importer.Model.Advanced.AutoScale": "Масштаб автоматический",
         "Importer.Model.Advanced.MaxTexSize": "Максимальный размер текстур",
@@ -1062,7 +919,6 @@
         "Importer.Model.Advanced.Material": "Материал: ",
         "Importer.Model.Advanced.PreferSpecular": "Предпочитать зеркальный (specular) материал",
         "Importer.Model.Advanced.AlignAxis": "Выровнять к: ",
-
         "Importer.Model.Advanced.Normals": "Рассчитать нормали",
         "Importer.Model.Advanced.Tangents": "Рассчитать касательные",
         "Importer.Model.Advanced.VertexColors": "Импорт цветов вершин",
@@ -1071,7 +927,6 @@
         "Importer.Model.Advanced.TextureAlpha": "Рассчитать прозрачность текстур",
         "Importer.Model.Advanced.AlbedoColor": "Импорт цвета поверхности (albedo)",
         "Importer.Model.Advanced.ImportEmissive": "Импорт свечения (emissive)",
-
         "Importer.Model.Advanced.Colliders": "Генерировать Коллайдеры",
         "Importer.Model.Advanced.Animations": "Импорт Анимаций",
         "Importer.Model.Advanced.SetupSnappable": "Устан. как стыкующийся",
@@ -1082,7 +937,6 @@
         "Importer.Model.Advanced.VisualizeRig": "Визуализировать скелет",
         "Importer.Model.Advanced.ForceTpose": "Выставить в T-Позу",
         "Importer.Model.Advanced.ForcePointCloud": "Как облако точек",
-
         "Importer.Model.Advanced.DualSided": "Сделать двусторонним",
         "Importer.Model.Advanced.FlatShaded": "Сделать Flat Shaded",
         "Importer.Model.Advanced.DeduplicateInstances": "Дедуплицировать инстансы (медленно)",
@@ -1094,17 +948,14 @@
         "Importer.Model.Advanced.ForcePointFiltering": "Принудительно точечная фильтрация",
         "Importer.Model.Advanced.ForceNoMipMaps": "Без MipMap'ов",
         "Importer.Model.Advanced.ForceUncompressed": "Принудительно без сжатия",
-
         "Importer.Model.Advanced.Grabbable": "Сделать хватаемым",
         "Importer.Model.Advanced.Scalable": "Сделать масштабируемым",
         "Importer.Model.Advanced.PositionAtOrigin": "Поставить в точку отсчёта (Origin)",
         "Importer.Model.Advanced.AssetsOnObject": "Поставить ассеты на объект",
-
         "Importer.Splat.Progress.Importing": "Импорт Гауссовых пятен",
         "Importer.Splat.Progress.ReadingHeader": "Чтение заголовка файла",
         "Importer.Splat.Progress.ConvertingSplats": "Преобразовано {converted} из {total}",
         "Importer.Splat.Progress.EncodingData": "Кодирование преобразованных данных",
-
         "GaussianSplat.Encoding.Title": "Кодирование Гауссовых пятен",
         "GaussianSplat.Encoding.Metadata": "Кодирование метаданных",
         "GaussianSplat.Encoding.EncodingPositions": "Кодирование позиций {encoded} из {total}",
@@ -1113,12 +964,10 @@
         "GaussianSplat.Encoding.EncodingAlphas": "Кодирование альф {encoded} из {total}",
         "GaussianSplat.Encoding.EncodingColors": "Кодирование цветов {encoded} из {total}",
         "GaussianSplat.Encoding.EncodingFinalizing": "Завершение кодирования",
-
         "GaussianSplat.Processing.RemovingSplats": "Удаление пятен",
         "GaussianSplat.Processing.SplatProgress": "Обработано {count} из {total}",
         "GaussianSplat.Processing.LoadingData": "Загрузка данных",
         "GaussianSplat.Processing.FailNoData": "Не удалось получить данные для обработки",
-
         "Importer.Video.Title": "Импорт Видео",
         "Importer.Video.Prompt": "Что вы импортируете?",
         "Importer.Video.Regular": "Видео",
@@ -1130,41 +979,32 @@
         "Importer.Video.Stereo180": "Стерео 180° Видео",
         "Importer.Video.Depth.Prompt": "Пресет глубины",
         "Importer.Video.Depth.Default": "По умолчанию",
-
         "Importer.Slices.Title": "Слайсы картинки как объемная текстура",
         "Importer.Slices.TitleGrayscale": "Слайсы картинки как объемная текстура (ч/б)",
         "Importer.Slices.Description": "Превращает все картинки в папке в объемную (volumetric) текстуру",
-
         "Importer.UnsupportedRecordType.Heading": "Неподдерживаемый тип записи",
         "Importer.UnsupportedRecordType.Description": "Запись, которую вы пытаетесь импортировать ({url}), имеет неподдерживаемый тип. Ее тип: {recordType}. Сообщите нам об этом по адресу {bugUrl}.",
         "Importer.Link.Invalid.Heading": "Недопустимая ссылка на папку",
         "Importer.Link.Invalid.Description": "Ссылка на папку ({url}), которую вы пытаетесь импортировать, недопустима. Дважды проверьте ссылку и повторите попытку.",
         "Inventory.Link.LinkText": "Ссылка на инвентарь {name}",
-
         "Exporter.Title": "Панель экспорта",
         "Exporter.FileName": "Имя файла:",
         "Exporter.ExportAs": "Экспортировать как:",
         "Exporter.Export": "Экспорт",
         "Exporter.Exporting": "Идет экспорт...",
         "Exporter.InvalidFileName": "Недопустимое имя файла",
-
         "Export.PackageExportable.Package": "Пакет Resonite",
         "Export.PackageExportable.PackageWithVariants": "Пакет Resonite <size=75%>(с вариантами ассетов)</size>",
-
         "Export.AudioExportable.OriginalFormat": "Аудио <size=75%>(оригинальный формат)</size>",
-
         "Export.VideoExportable.OriginalFormat": "Видео <size=75%>(оригинальный формат)</size>",
-
         "Export.GaussianSplatExportable.PLY": "PLY (без потерь)",
         "Export.GaussianSplatExportable.SPZ": "SPZ (с потерями)",
-
         "Importer.Package.Progress.DecodingPackage": "Декодирование пакета",
         "Importer.Package.Progress.DecodingObject": "Декодирование объекта",
         "Importer.Package.Progress.ImportingAssets": "Импорт ассетов",
         "Importer.Package.Progress.LoadingObject": "Загрузка объекта",
         "Importer.Package.Progress.Imported": "Пакет импортирован",
         "Importer.Package.Progress.Fail": "Ошибка импорта. Проверьте логи",
-
         "NewWorld.Title": "Новый мир",
         "NewWorld.SessionTitle": "Новая сессия",
         "NewWorld.Template": "Шаблон мира:",
@@ -1174,7 +1014,6 @@
         "NewWorld.Port": "Порт:",
         "NewWorld.AutoPort": "Авто-порт:",
         "NewWorld.DefaultName": "Мир {name}",
-
         "FullBody.Title": "Калибровка Full Body и аватара",
         "FullBody.SetHeight": "1) Установите свой рост",
         "FullBody.HeightInstructions": "Убедитесь, что это ваш настоящий рост, иначе калибровка будет работать некорректно. Манекен должен чётко подойти к шлему и контроллерам.",
@@ -1186,12 +1025,10 @@
         "FullBody.JustCalibrateAvatarDescription": "Пропустить full body калибровку и просто откалибровать аватар.",
         "FullBody.SkipAndAdjustAvatar": "Пропустить и подогнать аватар",
         "FullBody.CalibrateInstructions": "Сведите себя с красным оверлеем тела в вашем игровом пространстве и нажмите оба триггера на контроллерах для подтверждения. Убедитесь, что ваши реальные ноги и таз совпадают с виртуальным телом настолько точно насколько это возможно.",
-
         "FullBody.BeforeCalibrationInstructions": "Убедитесь, что ваши трекеры работают и ваш рост установлен правильно",
         "FullBody.CalibratingPoseInstructions": "Сведите себя с референсом и нажмите оба триггера на контроллерах, чтобы подтвердить положение.",
         "FullBody.AdjustAvatarInstructions": "Попытайтесь подогнать сдвиги для лучшего совпадения с референсом",
         "FullBody.FineTuneCalibrationInstructions": "Проверьте и донастройте калибровку с помощью передвижения синих референсов",
-
         "FullBody.CalibrateTrackersHeader": "Калибровка трекеров",
         "FullBody.CalibrateTrackersInstructions": "Возьмите и позиционируйте синие части тела относительно трекеров чтобы подогнать их сведение. Они должны быть точно в позиции трекеров на вашем теле.\nВы также можете перекалибровать в любое время, вновь открыв этот инструмент.",
         "FullBody.UseSymmetry": "Использовать симметрию",
@@ -1203,7 +1040,6 @@
         "FullBody.CalibrateAvatar": "Калибровать мой аватар",
         "FullBody.FinishPrompt": "Всё хорошо?",
         "FullBody.FinishCalibration": "Завершить калибровку fullbody",
-
         "FullBody.CalibrateAvatarTitle": "Калибровать аватар",
         "FullBody.CalibrateAvatarInstructions": "Убедитесь, что все трекеры привязаны, затем перенесите синие сферы так, чтобы аватар максимально точно соответствовал референсу тела.",
         "FullBody.ShowReferenceOverlay": "Показать оверлей референса",
@@ -1218,34 +1054,28 @@
         "FullBody.CloseCalibrator": "Закрыть калибровщик",
         "FullBody.CalibrationRedoInstructions": "Если калибровка неверна или вы хотите откалибровать другие аватары - вы можете сделать это в этом окне. Также вы можете снова открыть калибровщик в любое время в будущем для других корректировок.\nЕсли вы только изменили трекеры, вам не нужно калибровать ваши аватары снова.",
         "FullBody.ReturnToTrackerCalibration": "Вернуться к калибровке трекеров",
-
         "FullBody.Hips": "Таз",
         "FullBody.Feet": "Ступни",
         "FullBody.Chest": "Грудь",
         "FullBody.Elbows": "Локти",
         "FullBody.Knees": "Колени",
-
         "FullBody.TrackerMapped": "Трекер привязан",
         "FullBody.NotTracking": "Не отслеживаются...",
         "FullBody.NoTracker": "Трекер не привязан",
         "FullBody.FeetNotTracking": "Ступни не отслеживаются...",
-
         "FullBody.AvatarPointMapped": "Привязан",
         "FullBody.AvatarPointNotMapped": "Не привязан",
         "FullBody.AvatarPointNoTracker": "Нет трекера",
-
         "CameraControl.Title": "Управление камерой",
         "CameraControl.MirroringOffWarning": "ОТОБРАЖЕНИЕ ОТКЛ.",
         "CameraControl.MirrorToDisplay": "Отобразить на монитор",
         "CameraControl.TakePhoto": "Фото",
         "CameraControl.Take360Photo": "360° Фото",
-
         "CameraControl.Mode.SmoothPOV": "Сглаженный вид от 1-го лица",
         "CameraControl.Mode.ThirdPerson": "От 3-го лица",
         "CameraControl.Mode.Group": "Режим группы",
         "CameraControl.Mode.World": "Режим мира",
         "CameraControl.Mode.Manual": "Ручной режим",
-
         "CameraControl.Settings.AvoidOcclusion": "Избегать перекрытия",
         "CameraControl.Settings.KeepInWorldspace": "Держать в пространстве мира",
         "CameraControl.Settings.MovementWobble": "Колебание движения",
@@ -1258,15 +1088,12 @@
         "CameraControl.Settings.PhotoTimer": "Таймер Фото",
         "CameraControl.Settings.ShowLiveBadge": "Показать бейдж ЭФИР",
         "CameraControl.Settings.AudioFromCameraViewpoint": "Звук с позиции камеры",
-
         "CameraControl.OpenCloseUsers": "Пользователи",
         "CameraControl.CreateCameraAnchor": "Создать якорь камеры",
-
         "CameraControl.Anchors.Interpolate": "Интерполировать между якорями",
         "CameraControl.Anchors.InterpolationSpeed": "Скорость интерполяции якорей:",
         "CameraControl.Anchors.LinearInterpolation": "Линейная интерполяция",
         "CameraControl.Anchors.NoAnchors": "В этом мире нет якорей камеры",
-
         "CameraControl.Positioning.FieldOfView": "Угол обзора",
         "CameraControl.Positioning.AngleOffset": "Угловое смещение",
         "CameraControl.Positioning.Distance": "Дистанция",
@@ -1275,7 +1102,6 @@
         "CameraControl.Positioning.FirstPersonRoll": "1-е лицо поворот",
         "CameraControl.Positioning.FirstPersonOffset": "1-е лицо смещение",
         "CameraControl.Positioning.Reset": "Сброс",
-
         "CameraControl.Control.AnyoneCanInteract": "Все могут использовать",
         "CameraControl.Control.RenderPreviewForEveryone": "Показать превью для Всех",
         "CameraControl.Control.RenderPrivateUI": "Показать приватный UI",
@@ -1288,7 +1114,6 @@
         "CameraControl.Control.PositionSmoothSpeed": "Скорость сглаживания позиции: {n}",
         "CameraControl.Control.AngleSmoothSpeed": "Скорость сглаживания поворота: {n}",
         "CameraControl.Control.FramingSmoothSpeed": "Скорость сглаживания кадрирования: {n}",
-
         "CameraControl.OBS.IP": "OBS Websocket IP:",
         "CameraControl.OBS.Password": "OBS Пароль (Не обяз.):",
         "CameraControl.OBS.Connect": "Подключиться",
@@ -1314,17 +1139,14 @@
         "CameraControl.OBS.Live": "ЭФИР",
         "CameraControl.OBS.Recording": "ЗАП",
         "CameraControl.OBS.OpenInstallerReason": "С этой страницы можно скачать плагин websocket для OBS",
-
         "CameraControl.OBS.Streaming.Start": "Начать трансляцию",
         "CameraControl.OBS.Streaming.Starting": "Запуск трансляции...",
         "CameraControl.OBS.Streaming.Stop": "Остановить трансляцию",
         "CameraControl.OBS.Streaming.Stopping": "Остановка трансляции...",
-
         "CameraControl.OBS.Recording.Start": "Начать запись",
         "CameraControl.OBS.Recording.Starting": "Запуск записи...",
         "CameraControl.OBS.Recording.Stop": "Остановить запись",
         "CameraControl.OBS.Recording.Stopping": "Остановка записи...",
-
         "Settings.Category.Audio": "Аудио",
         "Settings.Category.Controls": "Управление",
         "Settings.Category.Devices": "Устройства",
@@ -1336,23 +1158,18 @@
         "Settings.Category.UserInterface": "Интерфейс",
         "Settings.Category.Graphics": "Графика",
         "Settings.Category.InteractiveCamera": "Камера",
-
         "Settings.LegacyFeatureSettings.ConvertLegacySettings": "DEBUG - Обновить устаревшие настройки",
         "Settings.DebugSettings.DebugResetAllSimpleSettings": "DEBUG - Сбросить простые настройки",
-
         "Settings.GeneralControlsSettings": "Общие настройки управления",
         "Settings.LocomotionSettings": "Перемещение",
         "Settings.MovementSettings": "Движение",
         "Settings.MouseSettings": "Мышь",
-
         "Settings.GeneralHapticsSettings": "Тактильная отдача",
         "Settings.GeneralVRSettings": "VR",
         "Settings.LeapMotionSettings": "Отслеживание рук Leap Motion",
         "Settings.ViveHandTrackingSettings": "Отслеживание рук Vive",
         "Settings.TrackingSmoothingSettings": "Сглаживание отслеживания",
-
         "Settings.UserMetricsSettings": "Метрики пользователя",
-
         "Settings.OnlineStatusSettings": "Онлайн статус",
         "Settings.OnlineStatusSettings.DefaultStatus": "Статус по умолчанию",
         "Settings.OnlineStatusSettings.DefaultStatus.Description": "Это статус по умолчанию, который будет установлен при входе, кроме случаев, когда запомнен предыдущий статус.",
@@ -1366,35 +1183,27 @@
         "Settings.OnlineStatusSettings.InvisibleRememberTimespan.Description": "Ваш последний статус Невидимый будет запомнен только если вы зайдете снова в течение этого времени. Если вы зайдете позже, будет установлен статус по умолчанию.",
         "Settings.OnlineStatusSettings.AutoAwayTimespan": "Переключиться в AFK если нет активности в течение",
         "Settings.OnlineStatusSettings.AutoAwayTimespan.Description": "Когда вы не активны в течение указанного времени, ваш онлайн статус будет автоматически переключен в Отошел. Когда вы вернетесь, он автоматически вернется к прошлому состоянию, если вы не установили статус Отошел вручную.",
-
         "Settings.AudioInputDeviceSettings": "Аудио ввод",
         "Settings.AudioOutputDeviceSettings": "Аудио вывод",
         "Settings.AudioVolumeSettings": "Громкость",
         "Settings.AudioAccessibilitySettings": "Аудио (доступность)",
         "Settings.AudioInputFilteringSettings": "Обработка ввода",
-
         "Settings.RealtimeNetworkingSettings": "Настройки сети реального времени",
         "Settings.AssetGatherSettings": "Получение ассетов",
-
         "Settings.HostAccessSettings": "Доступ к хостам",
         "Settings.UserRestrictionsSettings": "Ограничения пользователей",
-
         "Settings.OperatingSystemSettings": "Настройки окон",
         "Settings.DebugSettings": "Отладка",
         "Settings.LegacyFeatureSettings": "Устаревшие настройки",
         "Settings.TwitchInterfaceSettings": "Настройки стриминга Twitch",
-
         "Settings.MessagingPrivacySettings": "Приватность обмена сообщениями",
-
         "Settings.LocaleSettings": "Язык",
         "Settings.DashSettings": "Дэшборд",
         "Settings.NamePlateSettings": "Таблички имен",
         "Settings.LaserSettings": "Лазеры",
         "Settings.DesktopViewSettings": "Рабочий стол",
         "Settings.PhotoCaptureSettings": "Быстрый захват фото",
-
         "Settings.DesktopRenderSettings": "Настройки графики экранного режима",
-
         "Settings.InteractiveCameraFramingSettings": "Кадрирование",
         "Settings.InteractiveCameraPositioningSettings": "Позиционирование",
         "Settings.InteractiveCameraRenderSettings": "Настройки рендера",
@@ -1403,15 +1212,12 @@
         "Settings.InteractiveCameraAnchorSettings": "Якоря",
         "Settings.InteractiveCameraPhotoSettings": "Фото",
         "Settings.InteractiveCameraPostProcessingSettings": "Пост-обработка",
-
         "Settings.GeneralControlsSettings.PrimaryHand": "Основная рука",
         "Settings.GeneralControlsSettings.PrimaryHand.Description": "Какой рукой вы в основном пользуетесь. Различные системы используют эту настройку для взаимодействий, например для экипировки инструментов.",
         "Settings.GeneralControlsSettings.DoubleClickInterval": "Интервал двойного щелчка",
         "Settings.GeneralControlsSettings.DoubleClickInterval.Description": "Для любого взаимодействия, требующего двойного щелчка, эта настройка задает время между щелчками, которое будет считаться двойным щелчком. Если у вас не получается сделать двойной щелчок, уменьшите значение. Если одиночные щелчки срабатывают как двойные - увеличьте.",
-
         "Settings.LocomotionSettings.LocomotionPreferences": "Настройки перемещения",
         "Settings.LocomotionSettings.LocomotionPreferences.Breadcrumb": "Настройки перемещения",
-
         "Settings.MovementSettings.LeftSidewaysMode": "Режим перемещения вбок левого контроллера",
         "Settings.MovementSettings.LeftSidewaysMode.Description": "Эта настройка задает, какому перемещению соответствует движение вбок джойстика/тачпада вашего левого контроллера.",
         "Settings.MovementSettings.RightSidewaysMode": "Режим перемещения вбок правого контроллера",
@@ -1434,15 +1240,12 @@
         "Settings.MovementSettings.TurningDeadzone.Description": "Этой настройкой можно компенсировать дрейф и избежать случайного поворота при перемещении и повороте одним и тем же джойстиком. Увеличение этой настройки потребует от вас сильнее отклонять джойстик чтобы начать поворачиваться.",
         "Settings.MovementSettings.MovementExponent": "Экспонента скорости",
         "Settings.MovementSettings.MovementExponent.Description": "Используйте чтобы контролировать кривую ускорения при движении. Вы можете начать двигаться медленно и затем ускориться или сразу начать двигаться быстро, в зависимости от того, является ли значение больше или меньше 1.0",
-
         "Settings.GrabbingSettings": "Настройки хвата",
         "Settings.GrabbingSettings.DefaultHandGrabType": "Тип хвата по умолчанию",
         "Settings.GrabbingSettings.DefaultHandGrabType.Description": "Задает ваш режим хвата по умолчанию когда вы заходите в новые миры.\n\n<color=hero.yellow>Palm:</color> Вы будете хватать все объекты, находящиеся рядом с вашей рукой.\n\n<color=hero.yellow>Precision:</color> Вы будете хватать один объект, находящийся между вашими указательным и большим пальцами.\n\n<color=hero.yellow>Auto:</color> Режим автоматически переключается между хватом ладонью и точным хватом в зависимости от ориентации вашей руки.\n\n<color=hero.yellow>Off:</color> Вы сможете хватать предметы только с помощью лазеров.",
-
         "Settings.FullBodyTrackingSettings": "Трекинг тела",
         "Settings.FullBodyTrackingSettings.BodyHorizontalAngle": "Угол горизонтального положения тела",
         "Settings.FullBodyTrackingSettings.BodyHorizontalAngle.Description": "Это угол между положениями головы и ног, за пределами которого трекинг будет считать, что вы в горизонтальном положении. Это влияет на некоторые вещи, например отключает симуляцию шагов для ваших ног.",
-
         "Settings.GamepadSettings": "Контроллер",
         "Settings.GamepadSettings.ThumbstickLookSpeed": "Скорость поворота камеры",
         "Settings.GamepadSettings.ThumbstickLookSpeed.Description": "Настраивает скорость, с которой камера поворачивается стиком.",
@@ -1450,7 +1253,6 @@
         "Settings.GamepadSettings.ThumbstickLookExponent.Description": "Настраивает кривую ответа поворота камеры стиком. С этой настройкой вы можете начать движение плавно и затем нарастить скорость или наоборот начать движение быстрее, в зависимости от того, больше или меньше значение этого параметра чем 1.0.",
         "Settings.GamepadSettings.UseGamepadWhenUnfocused": "Использовать контроллер когда окно не в фокусе",
         "Settings.GamepadSettings.UseGamepadWhenUnfocused.Description": "Когда эта настройка включена, весь ввод с контроллера будет использоваться даже когда окно приложения не находится в фокусе. Вы можете отключить её если одновременно вы играете в другие игры, которые используют контроллер.",
-
         "Settings.MouseSettings.MouseSensitivity": "Чувствительность",
         "Settings.MouseSettings.MouseSensitivity.Description": "Общая чувствительность мыши для экранного режима.",
         "Settings.MouseSettings.MouseLookSpeed": "Скорость поворота камеры",
@@ -1463,7 +1265,6 @@
         "Settings.MouseSettings.MouseFreeformRotateSpeed.Description": "Эта настройка контролирует скорость свободного вращения предметов, которые вы держите, в экранном режиме.",
         "Settings.MouseSettings.ScrollWheelGrabMoveSpeed": "Скорость перемещения хвата",
         "Settings.MouseSettings.ScrollWheelGrabMoveSpeed.Description": "При захвате объектов в экранном режиме, задает, как быстро они будут двигаться при вращении колесика мыши.",
-
         "Settings.KeyboardLookSettings": "Настройки обзора клавишами",
         "Settings.KeyboardLookSettings.LookEnabled": "Обзор клавишами",
         "Settings.KeyboardLookSettings.LookEnabled.Description": "Когда включен, Обзор клавишами позволит вам поворачивать голову стрелками на клавиатуре. <br/> Подходит для ситуаций, когда обзор мышью недоступен или неудобен, например при использовании лэптопа или когда нужна более доступная альтернатива мыши.",
@@ -1471,56 +1272,42 @@
         "Settings.KeyboardLookSettings.HorizontalSpeed.Description": "Используйте чтобы настроить, как быстро ваша голова поворачивается горизонтально при использовании Обзора клавишами.",
         "Settings.KeyboardLookSettings.VerticalSpeed": "Вертикальная скорость обзора клавишами.",
         "Settings.KeyboardLookSettings.VerticalSpeed.Description": "Используйте чтобы настроить, как быстро ваша голова поворачивается вертикально при использовании Обзора клавишами.",
-
         "Settings.GeneralHapticsSettings.EnableControllerVibration": "Вибрация контроллера",
         "Settings.GeneralHapticsSettings.EnableControllerVibration.Description": "Включает тактильную отдачу на VR контроллерах.",
         "Settings.GeneralHapticsSettings.EnableHaptics": "Тактильная отдача",
         "Settings.GeneralHapticsSettings.EnableHaptics.Description": "Когда эта настройка включена, вы будете получать тактильную отдачу от аватаров и предметов в мире на ваших контроллерах и других устройствах с отдачей.",
-
         "Settings.GeneralVRSettings.UseVRHotswitching": "Быстрое переключение VR",
         "Settings.GeneralVRSettings.UseVRHotswitching.Description": "Когда включено, Resonite автоматически переключается между VR и экранным режимом, когда вы снимаете или надеваете VR шлем.",
-
         "Settings.TrackingSmoothingSettings.HandPositionSmoothing": "Сглаживание позиции рук",
         "Settings.TrackingSmoothingSettings.HandRotationSmoothing": "Сглаживание поворота рук",
         "Settings.TrackingSmoothingSettings.HandPositionSmoothing.Description": "Когда включено, определяет, насколько сильно сглаживается позиция рук. Обычно помогает пользователям с тремором и другими ограничениями, вызывающими дрожание.",
         "Settings.TrackingSmoothingSettings.HandRotationSmoothing.Description": "Когда включено, определяет, насколько сильно сглаживается поворот рук. Обычно помогает пользователям с тремором и другими ограничениями, вызывающими дрожание.",
-
         "Settings.TrackingSmoothingSettings.FeetPositionSmoothing": "Сглаживание позиции ног",
         "Settings.TrackingSmoothingSettings.FeetRotationSmoothing": "Сглаживание поворота ног",
-
         "Settings.TrackingSmoothingSettings.FeetPositionSmoothing.Description": "Когда включено, определяет, насколько сильно сглаживается позиция ног при использовании FBT (трекинга тела). Может быть полезно чтобы уменьшить вибрацию и дрожание, но из-за этого трекеры могут отставать и не откликаться на резкие движения.",
         "Settings.TrackingSmoothingSettings.FeetRotationSmoothing.Description": "Когда включено, определяет, насколько сильно сглаживается поворот ног при использовании FBT (трекинга тела). Может быть полезно чтобы уменьшить вибрацию и дрожание, но из-за этого трекеры могут отставать и не откликаться на резкие движения.",
-
         "Settings.TrackingSmoothingSettings.HipsPositionSmoothing": "Сглаживание позиции бедер",
         "Settings.TrackingSmoothingSettings.HipsRotationSmoothing": "Сглаживание поворота бедер",
         "Settings.TrackingSmoothingSettings.HipsPositionSmoothing.Description": "Когда включено, определяет, насколько сильно сглаживается позиция бедер при использовании FBT (трекинга тела). Может быть полезно чтобы уменьшить вибрацию и дрожание, но из-за этого трекеры могут отставать и не откликаться на резкие движения.",
         "Settings.TrackingSmoothingSettings.HipsRotationSmoothing.Description": "Когда включено, определяет, насколько сильно сглаживается поворот бедер при использовании FBT (трекинга тела). Может быть полезно чтобы уменьшить вибрацию и дрожание, но из-за этого трекеры могут отставать и не откликаться на резкие движения.",
-
         "Settings.MediaPrivacySettings": "Приватность в медиа",
         "Settings.MediaPrivacySettings.MediaMetadataOptOut": "Исключить меня из метаданных медиа",
         "Settings.MediaPrivacySettings.MediaMetadataOptOut.Description": "Если вы включите эту опцию, вы будете исключены из метаданных записанных медиа (например, виртуальных фото и аудио записей). Вы всё ещё будете присутствовать в самих ассетах, но метаинформация, такая как ваши UserID и позиция в сцене, не будет сохранена.\n\nЕсли вам известно о пользователях, использующих модифицированный клиент, который игнорирует эту настройку, пожалуйста сообщите о них команде модерации, так как это является харассментом.",
         "Settings.MediaPrivacySettings.HideInScreenshots": "Не показывать меня на скриншотах",
         "Settings.MediaPrivacySettings.HideInScreenshots.Description": "Когда включено, вы не будете отображаться в скриншотах, снятых в игре.\n\n<color=hero.red>ВАЖНО:</color> Обратите внимание, что это не затрагивает камеры реального времени, скриншоты снятые внешними средствами или другие средства рендера в виртуальном мире, которые могут быть частью механик этого мира.",
-
         "Settings.MediaPrivacySettings.StripImageFileMetadata": "Убирать метаданные изображений при импорте",
         "Settings.MediaPrivacySettings.StripImageFileMetadata.Description": "Когда включено, убирает метаданные изображений при <b>импорте</b>.\n\nВключает метаданные EXIF, встроенные комментарии, IPTC, XMP, и GEOTIFF.\n\nЭто также уберет любую информацию о местонахождении (такую как GPS координаты) вместе с метаданными.\n\n<b>Не</b> включает файлы, импортированные с опцией \"Сырой файл\".",
-
         "Settings.Category.Integrations": "Интеграции",
         "Settings.DiscordIntegrationSettings": "Интеграция (Discord)",
         "Settings.SteamIntegrationSettings": "Интеграция (Steam)",
-
         "Settings.DiscordIntegrationSettings.RichPresence": "Присутствие (Discord)",
         "Settings.DiscordIntegrationSettings.RichPresence.Description": "Задает, какую информацию {appName} передает в систему богатого присутствия Discord.\n\n<color=hero.yellow>None</color> - Не отправлять информацию о присутствии в Discord.\n<color=hero.yellow>Basic</color> - Отправлять только базовую информацию, такую как присутствие в {appName}.\n<color=hero.yellow>Full</color> - Когда вы в публичной сессии, отправляет всю подходящую информацию в Discord. Включает название мира и количество пользователей в сессии.\n\nDiscord сам также определяет в какую игру вы играете. Это можно отключить в настройках Discord.",
-
         "Settings.SteamIntegrationSettings.RichPresence": "Присутствие (Steam)",
         "Settings.SteamIntegrationSettings.RichPresence.Description": "Задает, какую информацию {appName} передает в систему богатого присутствия Steam.\n\n<color=hero.yellow>None</color> - Не отправлять информацию о присутствии в Steam.\n<color=hero.yellow>Basic</color> - Отправлять только базовую информацию, такую как присутствие в {appName}.\n<color=hero.yellow>Full</color> - Когда вы в публичной сессии, отправляет всю подходящую информацию в Steam. Включает название мира и количество пользователей в сессии.\n\nSteam сам также будет отображать что вы в {appName}, независимо от этой настройки. Изменение этой настройки только задает сколько дополнительных сведений о вашей активной сессии отправляются в Steam.",
-
         "Settings.SteamIntegrationSettings.SaveScreenshots": "Сохранять скриншоты",
         "Settings.SteamIntegrationSettings.SaveScreenshots.Description": "Если вы снимаете фото и эта настройка включена, копия фото будет сохранена в скриншоты Steam.",
-
         "Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay": "Использовать Steam Voice при активном Remote Play",
         "Settings.SteamIntegrationSettings.ForceSteamVoiceOnRemotePlay.Description": "Когда включено, автоматически заставляет аудио ввод использовать Steam Voice ,когда вы играете через Steam Remote Play. Это позволяет не использовать автоматическое переключение чтобы работать со встроенным микрофоном шлема.<br><br>Отключение этой настройки может быть полезно если вы используете другое устройство захвата, например внешний микрофон.",
-
         "Settings.LeapMotionSettings.LeapMotionEnabled": "Включение трекинга рук Leap Motion",
         "Settings.LeapMotionSettings.LeapMotionEnabled.Description": "Когда включен, устройство Leap Motion, если подключено, будет использоваться для отслеживания ваших рук и пальцев.",
         "Settings.LeapMotionSettings.Offset": "Отступ трекинга рук",
@@ -1529,20 +1316,17 @@
         "Settings.LeapMotionSettings.SnapDistance.Description": "Когда ваши руки рядом с контроллерами, они автоматически \"прилипнут\" к ним и будут использовать трекинг с самих контроллеров вместо Leap Motion. Эта настройка задает дистанцию \"прилипания\".",
         "Settings.LeapMotionSettings.UseFingersWhenSnapped": "Отслеживать руки при использовании контроллеров",
         "Settings.LeapMotionSettings.UseFingersWhenSnapped.Description": "Когда руки \"прилипли\" к контроллерам, эта настройка позволяет использовать позы пальцев с Leap Motion.",
-
         "Settings.ViveHandTrackingSettings.ViveHandTrackingEnabled": "Включение трекинга рук Vive",
         "Settings.ViveHandTrackingSettings.ViveHandTrackingEnabled.Description": "Когда включен, ваши руки и пальцы будут отслеживаться трекингом Vive. Обычно для этого используются камеры самого VR шлема. Вас возможно потребуется включить трекинг рук в настройках Steam VR.",
         "Settings.ViveHandTrackingSettings.SnapDistance": "Дистанция \"прилипания\" к контроллерам",
         "Settings.ViveHandTrackingSettings.SnapDistance.Description": "Когда ваши руки рядом с контроллерами, они автоматически \"прилипнут\" к ним и будут использовать трекинг с самих контроллеров вместо камер VR шлема. Эта настройка задает дистанцию \"прилипания\".",
         "Settings.ViveHandTrackingSettings.UseFingersWhenSnapped": "Отслеживать руки при использовании контроллеров",
         "Settings.ViveHandTrackingSettings.UseFingersWhenSnapped.Description": "Когда руки \"прилипли\" к контроллерам, эта настройка позволяет использовать позы пальцев с камер VR шлема.",
-
         "Settings.TrackerSettings": "Настройки трекеров",
         "Settings.TrackerSettings.UseTrackers": "Использовать трекеры",
         "Settings.TrackerSettings.UseTrackers.Description": "Этой опцией вы можете полностью отключить все трекеры тела. Это может быть полезным если все ваши трекеры заряжаются в углу, а ваш аватар из-за этого согнулся буквой Зю.",
         "Settings.TrackerSettings.Trackers": "Управление трекерами",
         "Settings.TrackerSettings.Trackers.Breadcrumb": "Трекеры",
-
         "Settings.TrackerSettings.Trackers.UseTracker": "Использовать трекер",
         "Settings.TrackerSettings.Trackers.UseTracker.Description": "Должен ли этот трекер использоваться для трекинга? Вы можете временно отключить этот трекер без сброса его привязки.",
         "Settings.TrackerSettings.Trackers.FreezeTracking": "Заморозить трекинг",
@@ -1567,53 +1351,42 @@
         "Settings.TrackerSettings.Trackers.TrackerIsCharging.Description": "Показывает что трекер сейчас заряжается. Обратите внимание, что некоторые трекеры могут не показывать эту информацию.",
         "Settings.TrackerSettings.Trackers.Unmap": "Сбросить привязку",
         "Settings.TrackerSettings.Trackers.Remove": "Удалить трекер",
-
         "Settings.SteamLinkSettings": "Steam Link",
         "Settings.SteamLinkSettings.OSC_DataPort": "Порт трекинга лица OSC",
         "Settings.SteamLinkSettings.OSC_DataPort.Description": "На каком порту нужно принимать данные трекинга лица OSC. Порт должен совпадать с соответствующей настройкой в SteamVR чтобы трекинг лица работал.",
-
         "Settings.BabbleSettings": "Project Babble",
         "Settings.BabbleSettings.OSC_DataPort": "Порт трекинга лица OSC",
         "Settings.BabbleSettings.OSC_DataPort.Description": "На каком порту нужно принимать данные трекинга лица OSC. Порт должен совпадать с соответствующей настройкой в приложении Babble чтобы трекинг лица работал.",
-
         "Settings.HapticPointMapping.MappingTarget": "Привязать к",
         "Settings.HapticPointMapping.MappingTarget.Description": "Задайте какой части аватара должно соответствовать это устройство.",
-
         "Settings.HapticPointMapping.PointRadius": "Радиус тактильной точки",
         "Settings.HapticPointMapping.PointRadius.Description": "Задает размер тактильной точки на аватаре. Чем он больше, тем легче срабатывает отдача, но это также снижает точность, потому что любой тактильный триггер в радиусе действия точки активирует её.",
-
         "Settings.HapticPointMapping.TorsoHorizontalPosition": "Горизонтальная позиция на туловище",
         "Settings.HapticPointMapping.TorsoHorizontalPosition.Description": "Это горизонтальная позиция на туловище, считая слева направо.",
         "Settings.HapticPointMapping.TorsoVerticalPosition": "Вертикальная позиция на туловище",
         "Settings.HapticPointMapping.TorsoVerticalPosition.Description": "Это вертикальная позиция на туловище, считая снизу вверх.",
         "Settings.HapticPointMapping.TorsoSide": "Сторона туловища",
         "Settings.HapticPointMapping.TorsoSide.Description": "Указывает, на какой стороне туловища размещено это устройство (спереди или сзади)",
-
         "Settings.HapticPointMapping.HeadPitchAngle": "Угол наклона на голове",
         "Settings.HapticPointMapping.HeadPitchAngle.Description": "Задает позицию вдоль \"вертикальной\" оси головы. Позиция по умолчанию - это центр лица (примерно там, где нос). Увеличение угла сдвигает позицию вверх до макушки. Уменьшение - вниз до подбородка.",
         "Settings.HapticPointMapping.HeadYawAngle": "Угол поворота на голове",
         "Settings.HapticPointMapping.HeadYawAngle.Description": "Задает горизонтальную позицию вокруг головы, поворачивая налево или направо. Позиция по умолчанию - это центр лица (примерно там, где нос). Уменьшение значения сдвигает налево, увеличение - направо. Позиция оборачивается вокруг всей головы вплоть до 180°, когда позиция приходится на затылок.",
-
         "Settings.HapticPointMapping.ArmSide": "Рука",
         "Settings.HapticPointMapping.ArmSide.Description": "К какой из рук должно быть привязано устройство? К левой или правой?",
         "Settings.HapticPointMapping.ArmPositionAlong": "Позиция вдоль руки",
         "Settings.HapticPointMapping.ArmPositionAlong.Description": "Задает позицию вдоль руки. Отсчет начинается от плеча и заканчивается на запястье. Середина - там, где локоть.",
         "Settings.HapticPointMapping.ArmAngleAround": "Угол вокруг руки",
         "Settings.HapticPointMapping.ArmAngleAround.Description": "Задает угол вдоль окружности руки. Позиция в 0° направлена в сторону верха руки. Уменьшение значения двигает позицию влево, увеличение - вправо. Значения в районе 180° указывают на точку с той стороны руки, где находится ладонь.",
-
         "Settings.HapticPointMapping.LegSide": "Нога",
         "Settings.HapticPointMapping.LegSide.Description": "К какой из ног должно быть привязано устройство? К левой или правой?",
         "Settings.HapticPointMapping.LegPositionAlong": "Позиция вдоль ноги",
         "Settings.HapticPointMapping.LegPositionAlong.Description": "Задает позицию вдоль ноги. Отсчет начинается от таза и заканчивается на пятке. Середина - там, где колено.",
         "Settings.HapticPointMapping.LegAngleAround": "Угол вокруг ноги",
         "Settings.HapticPointMapping.LegAngleAround.Description": "Задает угол вдоль окружности ноги. Позиция в 0° направлена вперед - туда, где колено. Уменьшение значения двигает позицию влево, увеличение - вправо. Значения в районе 180° указывают на точку с задней стороны ноги.",
-
         "Settings.HapticPointMapping.ControllerSide": "Контроллер",
         "Settings.HapticPointMapping.ControllerSide.Description": "К какому контроллеру должна быть привязана эта тактильная точка? К левому или правому?",
-
         "Settings.HapticPointMapping.Tag": "Тактильная метка",
         "Settings.HapticPointMapping.Tag.Description": "Метка, ассоциированная с этой тактильной точкой. Она будет привязана к точке на аватаре с той же тактильной меткой в компоненте TagHapticPointMapper. Если на аватаре нет точки с такой меткой, тактильное устройство не будет работать,\n\nПолезно если вам нужен полный контроль над точным расположением тактильной точки на аватаре к которой будет привязано тактильное устройство - например, когда автоматическая привязка работает не так как нужно.",
-
         "Settings.GiggleTechSettings": "Устройства GiggleTech",
         "Settings.GiggleTechSettings.Devices": "Управление GigglePuck'ами",
         "Settings.GiggleTechSettings.GigglePuckIP": "IP адрес GigglePuck для добавления вручную",
@@ -1636,14 +1409,11 @@
         "Settings.GiggleTechSettings.Devices.MinimumIntensity.Description": "Это минимальная интенсивность, на которой будет срабатывать тактильная отдача. Когда интенсивность слишком маленькая, устройство может зависнуть и перестать отвечать.",
         "Settings.GiggleTechSettings.Devices.InitialActivationIntensity": "Начальная интенсивность активации",
         "Settings.GiggleTechSettings.Devices.InitialActivationIntensity.Description": "Когда тактильная отдача переходит из неактивного состояния в активное, устройство будет включено как минимум на этот уровень интенсивности на небольшое время. Это может помочь \"подтолкнуть\" отдачу, если интенсивность слишком мала для того, чтобы мотор начал крутиться.",
-
         "Settings.UserMetricsSettings.UserHeight": "Рост",
         "Settings.UserMetricsSettings.UserHeight.Description": "Это ваш реальный рост, который используется чтобы правильно масштабировать ваш аватар и подогнать его под ваше тело. Также это высота, которая будет использоваться для сидячего режима.\n\nВы можете ввести свой рост в подходящих единицах длины, например <nobr><color=hero.yellow>175 cm</color></nobr> или <nobr><color=hero.yellow>1.75 m</color></nobr> для метрической системы или <color=hero.yellow>5'11\"</color> для имперской.",
-
         "Settings.FavoritesSettings": "Избранное",
         "Settings.FavoritesSettings.AutoLoadCloudHome": "Загружать облачный дом при запуске",
         "Settings.FavoritesSettings.AutoLoadCloudHome.Description": "Когда включено, ваш облачный дом будет автоматически загружаться при запуске. Если вы предпочитаете не загружать его автоматически, вы можете отключить эту опцию. Настройка действует при следующем запуске.",
-
         "Settings.AudioInputDeviceSettings.UseSystemDefault": "Использовать системное устройство ввода по умолчанию",
         "Settings.AudioInputDeviceSettings.UseSystemDefault.Description": "Включите чтобы автоматически использовать устройство ввода, которое вы выбрали как устройство по умолчанию в системных настройках. Если вам нужно использовать устройство, отличное от устройства по умолчанию, выключите эту настройку и выберите устройство в настройках ниже.",
         "Settings.AudioInputDeviceSettings.DevicePriorities": "Устройства аудио ввода",
@@ -1654,7 +1424,6 @@
         "Settings.AudioInputDeviceSettings.Testing.ListenToInput": "Слушать этот ввод",
         "Settings.AudioInputDeviceSettings.Testing.StopListeningToInput": "Перестать слушать",
         "Settings.AudioInputDeviceSettings.Testing.Monitoring.Header": "Живой мониторинг аудио",
-
         "Settings.AudioOutputDeviceSettings.UseSystemDefault": "Использовать системное устройство вывода по умолчанию",
         "Settings.AudioOutputDeviceSettings.UseSystemDefault.Description": "Включите чтобы автоматически использовать устройство вывода, которое вы выбрали как устройство по умолчанию в системных настройках. Если вам нужно использовать устройство, отличное от устройства по умолчанию, выключите эту настройку и выберите устройство в настройках ниже. Это может быть полезно если вы используете разные устройства при переключении между VR и экранным режимом.",
         "Settings.AudioOutputDeviceSettings.DevicePriorities": "Устройства аудио вывода",
@@ -1666,7 +1435,6 @@
         "Settings.AudioOutputDeviceSettings.SeparateStreamingCameraOutput.Description": "При включении потоковая камера будет воспроизводить звук со своей точки обзора и выводить его на отдельное аудиоустройство.<br><br>Это позволяет вам сохранять собственный звук с вашей точки зрения, а также захватывать звук с камеры перспектива.<br><br>Чтобы это работало, выбранное устройство должно отличаться от вашего обычного устройства вывода.",
         "Settings.AudioOutputDeviceSettings.StreamingCameraPriorities": "Устройства вывода потоковой камеры",
         "Settings.AudioOutputDeviceSettings.StreamingCameraPriorities.Breadcrumb": "Устройства вывода потоковой камеры",
-
         "Settings.AudioVolumeSettings.MasterVolume": "Главная громкость",
         "Settings.AudioVolumeSettings.MasterVolume.Description": "Настраивает громкость всех звуков. Если все звуки слишком тихие или громкие, вам нужна эта настройка.",
         "Settings.AudioVolumeSettings.SoundEffectVolume": "Громкость звуковых эффектов",
@@ -1677,14 +1445,12 @@
         "Settings.AudioVolumeSettings.VoiceVolume.Description": "Задает громкость речи всех пользователей. Для некоторых пред-записанных голосов также будет использоваться эта настройка. Вы можете настроить громкость голоса отдельных пользователей на вкладке сессии.",
         "Settings.AudioVolumeSettings.UserInterfaceVolume": "Громкость интерфейса",
         "Settings.AudioVolumeSettings.UserInterfaceVolume.Description": "Этой настройкой вы можете задать отдельно громкость интерфейса - наведение и нажатие на кнопки, движки, некоторые взаимодействия инструментов, снятие фотографий, и так далее.",
-
         "Settings.AudioAccessibilitySettings.WhisperVolume": "Громкость шёпота",
         "Settings.AudioAccessibilitySettings.WhisperVolume.Description": "Когда вы включаете режим шёпота, эта настройка задает, насколько громкими будут звуки снаружи сферы. Если они слишком громкие или тихие, эта настройка поможет задать их затухание.",
         "Settings.AudioAccessibilitySettings.VoiceMessageVolume": "Громкость голосовых сообщений",
         "Settings.AudioAccessibilitySettings.VoiceMessageVolume.Description": "Задает, насколько громкими будут внешние звуки, когда вы записываете голосовое сообщение на вкладке контактов. Позволяет избежать \"перебивания\" и сконцентрироваться на том, что вы хотите сказать.",
         "Settings.AudioAccessibilitySettings.ForceVoiceAudioEffectsOff": "Принудительно отключить звуковые эффекты для голосов",
         "Settings.AudioAccessibilitySettings.ForceVoiceAudioEffectsOff.Description": "Включение этого параметра подавит любые звуковые эффекты (например, реверберацию), применяемые к голосам других пользователей в мире. Это может помочь, если у вас возникли проблемы с пониманием голосов из-за этих эффектов.<br><br><color=hero.red>Важно:</color> Миры могут по желанию отключать эту функцию, если им нужны звуковые эффекты для игрового процесса. В этих случаях этот параметр не будет иметь никакого эффекта.",
-
         "Settings.AudioInputFilteringSettings.UseVoiceNormalization": "Нормализация голоса",
         "Settings.AudioInputFilteringSettings.UseVoiceNormalization.Description": "Эта функциональность пытается поддерживать громкость вашего голоса на постоянном уровне. Это делает громкость вашего голоса постоянной для других пользователей, независимо от настроек микрофона. Настоятельно рекомендуем оставить эту настройку включенной, чтобы другие пользователи могли хорошо слышать вас.",
         "Settings.AudioInputFilteringSettings.NoiseGateThreshold": "Порог шумодава",
@@ -1695,13 +1461,10 @@
         "Settings.AudioInputFilteringSettings.NoiseGateHold.Description": "Задает, как долго громкость звука будет удерживаться после того, как шумодав сработал, прежде чем опять начать подстраивать громкость. Большее значение пропустит больше тихого звука после громкого.",
         "Settings.AudioInputFilteringSettings.NoiseGateRelease": "Затухание шумодава",
         "Settings.AudioInputFilteringSettings.NoiseGateRelease.Description": "Эта настройка задает, как быстро шумодав закрывается после того, как звук стал слишком тихим.",
-
         "Settings.AudioInputFilteringSettings.NormalizationThreshold": "Порог нормализации",
         "Settings.AudioInputFilteringSettings.NormalizationThreshold.Description": "Этой настройкой вы можете задать порог, начиная с которого записываемый звук будет нормализован. Если ваша обычная речь слишком тихая и не усиливается, уменьшите эту настройку. Если случайные тихие звуки усиливаются, увеличьте её.",
-
         "Settings.AudioInputFilteringSettings.UseNoiseSuppression": "Подавление шума (RNNoise)",
         "Settings.AudioInputFilteringSettings.UseNoiseSuppression.Description": "Эта функциональность обрабатывает записываемое аудио чтобы отфильтровать различные мешающие шумы. Она может значительно очистить звук, написанный на шумный микрофон, и получить более чистый голос. Настоятельно рекомендуем оставить эту настройку включенной. С другой стороны, она может отфильтровать некоторые звуки, которые не определяются как речь.",
-
         "Settings.AudioPerformanceSettings": "Настройки производительности звука",
         "Settings.AudioPerformanceSettings.MaxVoices": "Максимальное количество источников звуков",
         "Settings.AudioPerformanceSettings.MaxVoices.Description": "Это контролирует, сколько звуков может воспроизводиться одновременно. Увеличение этого значения позволит вам слышать больше звуков одновременно за счет использования процессора.<br><br>Если вы установите это значение слишком высоким, вы можете услышать потрескивание звука.",
@@ -1709,11 +1472,9 @@
         "Settings.AudioPerformanceSettings.SimulationFrameSize.Description": "Это контролирует, сколько аудиоданных вычисляется за один раз при рендеринге звука. Увеличение значения может улучшить производительность в некоторых отношениях, но это будет достигнуто за счет менее частых аудио событий и увеличения задержка.<br><br>Обычно мы не рекомендуем изменять это значение и оставляем значение по умолчанию 1024.",
         "Settings.AudioPerformanceSettings.OutputBufferSize": "Размер буфера воспроизведения",
         "Settings.AudioPerformanceSettings.OutputBufferSize.Description": "Этот параметр управляет размером буфера для воспроизведения звука. Более высокие значения будут иметь большую задержку звука, но более устойчивы к потрескиванию и щелчкам.<br><br>Уменьшая это значение, вы можете уменьшить задержку звука, но система будет более восприимчива к потрескиванию и сбоям.",
-
         "Settings.VoiceSettings": "Настройки голоса",
         "Settings.VoiceSettings.MutePersistence": "Запоминать отключения микрофона",
         "Settings.VoiceSettings.MutePersistence.Description": "<color=hero.yellow>Start Unmuted:</color> При запуске, микрофон всегда включен.\n\n<color=hero.yellow>Start Muted:</color> При запуске, микрофон всегда отключен. Вам нужно будет или поменять режим голоса, или использовать клавишу \"push to talk\" (по умолчанию V) чтобы говорить.\n\n<color=hero.yellow>Remember Last: </color> При запуске, будет восстановлено последнее запомненное состояние микрофона.",
-
         "Settings.EarmuffSettings": "Приглушение голоса",
         "Settings.EarmuffSettings.EarmuffEnabled": "Использовать приглушение",
         "Settings.EarmuffSettings.EarmuffEnabled.Description": "Когда включен режим приглушения: голоса пользователей будут становится ощутимо тише, зависимо от расстояния до них и направления вашего взгляда.\n\nЭто создает \"конус слуха\", который может помочь, когда в мире слишком много накладывающихся голосов.",
@@ -1729,7 +1490,6 @@
         "Settings.EarmuffSettings.TransitionLength.Description": "Управляет расстоянием, за которое голоса будут становиться тише от нормальной громкости до полностью приглушенных. Большие значения сделают переход громкости плавнее, а маленькие могут вызвать резкий скачок громкости.",
         "Settings.EarmuffSettings.VolumeAttenuation": "Заглушение голоса",
         "Settings.EarmuffSettings.VolumeAttenuation.Description": "Управляет громкостью голосов за пределами \"конуса слуха\". Если установить в 0 % - это полностью заглушит всех пользователей за пределами конуса.",
-
         "Settings.RealtimeNetworkingSettings.DisableLAN": "Отключить LAN",
         "Settings.RealtimeNetworkingSettings.DisableLAN.Description": "Выключает функциональности локальной сети, такие как широковещательное объявление вашей сессии в локальной сети или обнаружение сессий других пользователей в этой локальной сети.",
         "Settings.RealtimeNetworkingSettings.PreferSteamNetworking": "Приоритет Steam Networking Sockets",
@@ -1738,12 +1498,10 @@
         "Settings.RealtimeNetworkingSettings.PreferTCP.Description": "Когда включено, подключение через TCP будет в приоритете перед остальными протоколами. Это в основном влияет на подключения по локальной сети, так как TCP по умолчанию не используется для подключений через интернет.\n\nTCP может дать преимущество в скорости в локальных сетях, а также будет работать в некоторых окружениях, где протоколы на базе UDP не будут работать.\n\nС другой стороны, TCP подвержен блокировке пакетов \"head of line\", из-за чего голоса и позы могут приходить с ощутимой задержкой.",
         "Settings.RealtimeNetworkingSettings.LNL_WindowSize": "Размер окна LNL",
         "Settings.RealtimeNetworkingSettings.LNL_WindowSize.Description": "Задает размер окна LNL протокола для сетевых передач реального времени. Изменение этой настройки применяется моментально во всех активных сессиях.\n\nЕсли вы сталкиваетесь с очередью пакетов, вы можете увеличить это значение чтобы повысить пропускную способность. С другой стороны, большие значения могут еще сильнее дестабилизировать работу сети, так что будьте аккуратны.\n\n<color=hero.yellow>Значение по умолчанию:</color> 64\n\n<color=hero.red>ВАЖНО:</color> Эта настройка предназначена для диагностики и как временная мера; это значение будет подстраиваться автоматически в будущем.",
-
         "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers": "Максимальное количество одновременных передач ассетов",
         "Settings.AssetGatherSettings.MaxConcurrentAssetTransfers.Description": "Когда вы являетесь хостом сессии, эта настройка определяет, сколько локально импортированных ассетов будет передаваться в каждый момент времени. Увеличение может сделать передачу ассетов другим пользователям быстрее, но также может ухудшить качество сетевого соединения. Рекомендует протестировать, какие значения оптимальны для вашей сети.",
         "Settings.AssetGatherSettings.MaxConcurrentDownloads": "Максимальное количество одновременных загрузок",
         "Settings.AssetGatherSettings.MaxConcurrentDownloads.Description": "Используйте чтобы определить, сколько ассетов может одновременно скачиваться. Большие значения могут ускорить загрузку миров, но также могут перегрузить вашу сеть, поэтому будьте аккуратнее, тестируя это значение.",
-
         "Settings.HostAccessSettings.Entries": "Список доступа к хостам",
         "Settings.HostAccessSettings.Entries.Breadcrumb": "Список доступа к хостам",
         "Settings.HostAccessSettings.Entries.AllowHTTP_Requests": "Разрешить HTTP запросы",
@@ -1760,36 +1518,27 @@
         "Settings.HostAccessSettings.Entries.LastOSC_ReceiverRequestReason": "Последний повод запроса приема OSC",
         "Settings.HostAccessSettings.Entries.Remove": "Удалить хост (при следующей попытке доступа снова появится диалог)",
         "Settings.HostAccessSettings.DebugReset": "Сбросить список доступа к хостам",
-
         "Settings.UserRestrictionsSettings.DebugReset": "Сбросить ограничения пользователей",
-
         "Settings.OperatingSystemSettings.KeepOriginalScreenshotFormat": "Сохранять оригинальный формат скриншотов",
         "Settings.OperatingSystemSettings.KeepOriginalScreenshotFormat.Description": "Включите чтобы отключить конвертацию скриншотов в формат JPG или PNG при сохранении их в папку Документы в Windows. Это может усложнить их использование, так как не все приложения поддерживают формат WEBP.",
-
         "Settings.DebugSettings.DebugInputBindings": "Отладка привязок ввода",
         "Settings.DebugSettings.DebugInputBindings.Description": "Когда включено, будет показана информация для системы привязок ввода. В основном это полезно для разработчиков.",
         "Settings.DebugSettings.ConvertParticleSystems": "Конвертировать системы частиц в PhotonDust",
         "Settings.DebugSettings.ConvertParticleSystems.Description": "Включение этой опции будет запускать преобразование из старой системы частиц в новую (PhotonDust) для любого <b>вновь</b> загружаемого предмета или мира.<br><br><color=red>Это предназначено только для тестирования!</color> Если вы не участвуете в тестировании, мы не рекомендуем включать эту опцию, ВАШ КОНТЕНТ БУДЕТ ПОВРЕЖДЕН.<br><br>Пожалуйста, сверьтесь с нашим GitHub/Discord если вы хотите помочь в тестировании.",
-
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip": "Дважды нажать хват для экипировки",
         "Settings.LegacyFeatureSettings.UseLegacyGripEquip.Description": "Когда включено, вы можете экипировать инструменты и гаджеты быстрым двойным нажатием хвата. Эта настройка, скорее всего, когда-нибудь будет убрана.",
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher": "Использовать старый переключатель миров",
         "Settings.LegacyFeatureSettings.UseLegacyWorldSwitcher.Description": "Когда включено, кнопка приложения на вашей неосновной руке откроет старый переключатель миров. Это решение в будущем будет заменено более гибким.",
         "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts": "Использовать старый жест инвентаря или меню сессий",
         "Settings.LegacyFeatureSettings.UseLegacyInventorySessionShortcuts.Description": "Когда включено, если вы зажмете хват и нажмете кнопку приложения (которая обычно открывает/закрывает Дэшборд), откроется старая панель инвентаря или меню сессий.",
-
         "Settings.LegacyFeatureSettings.SuppressFeetSimulation": "Отключить симуляцию ног",
         "Settings.LegacyFeatureSettings.SuppressFeetSimulation.Description": "Это нужно чтобы некоторые системы, типа позеров, подменяющих позиции прокси ног, работали без модификации. <br><br>Если вы включите эту настройку без использования позеров или похожих систем, анимации НЕ будут выглядеть правильно. Выключите настройку после того, как закончили использовать позеры. <br><br><color=hero.red>ВАЖНО:</color> Эта настройка, скорее всего, будет убрана в будущем. Мы рекомендуем обновить позеры для совместимости с новой системой анимации, чтобы они автоматически отключали анимацию в активном состоянии.",
-
         "Settings.LegacyFeatureSettings.PreserveLegacyReverbZoneHandling": "Использовать устаревшую систему зон реверберации",
         "Settings.LegacyFeatureSettings.PreserveLegacyReverbZoneHandling.Description": "При включении любой устаревший аудио контент, в котором включена пространственная обработка, будет автоматически игнорировать зоны реверберации, чтобы сохранить ограничения устаревшей аудиосистемы.<br><br>Включите этот параметр и снова загрузите устаревший контент. После сохранения преобразованного устаревшего контента выбор будет \"запечен\", и вам придется изменить его вручную впоследствии.",
-
         "Settings.TwitchInterfaceSettings.ChannelName": "Название канала Twitch",
         "Settings.TwitchInterfaceSettings.ChannelName.Description": "Устанавливает имя канала Twitch по умолчанию для панели чата Twitch в панели настроек камеры. В основном используется стримерами на Twitch, которые хотят видеть чат на их канале.",
-
         "Settings.MessagingPrivacySettings.DoNotSendReadStatus": "Не отправлять статус прочтения",
         "Settings.MessagingPrivacySettings.DoNotSendReadStatus.Description": "Когда включено, другие пользователи не будут видеть, что вы прочитали их сообщения. Вы также не будете видеть, когда они прочитали ваши сообщения.",
-
         "Settings.LocaleSettings.CultureLocaleCode": "Код региональных настроек",
         "Settings.LocaleSettings.CultureLocaleCode.Description": "Когда задано, это значение будет использоваться вместо региональных настроек. Региональные настройки задают форматирование чисел и количеств. По умолчанию используется региональные настройки операционной системы, но вы можете задать иные. Например, вы можете использовать ваш родной язык с форматированием, используемым в США.",
         "Settings.LocaleSettings.UseImperialUnits": "Использовать имперские единицы измерения",
@@ -1797,14 +1546,12 @@
         "Settings.LocaleSettings.AvailableLocales": "Выберите язык",
         "Settings.LocaleSettings.AvailableLocales.Breadcrumb": "Языки",
         "Settings.LocaleSettings.AvailableLocales.SystemLocale": "Язык системы",
-
         "Settings.DashSettings.DashCurvature": "Изгиб",
         "Settings.DashSettings.DashCurvature.Description": "Эта настройка определяет изгиб дэшборда в VR. Установите в 0 чтобы сделать его полностью плоским.",
         "Settings.DashSettings.OpenCloseSpeed": "Скорость открытия/закрытия",
         "Settings.DashSettings.OpenCloseSpeed.Description": "Используйте чтобы настроить, как быстро дэшборд открывается и закрывается. Если вам не нравится анимация, можете поставить очень большое значение чтобы дэшборд открывался и закрывался практически моментально.",
         "Settings.DashSettings.AllowReplacingSettings": "Разрешить замену экрана настроек",
         "Settings.DashSettings.AllowReplacingSettings.Description": "Когда включено, вы сможете взять фасет Настроек на Дэшборде в режиме редактирования интерфейса и заменить его на другой.\n\nЭта настройка должна быть выключена если вы хотите брать отдельные настройки как фасеты. Рекомендуется включать эту настройку временно, когда вы хотите заменить интерфейс настроек другим, и выключать её после этого.",
-
         "Settings.NotificationSettings": "Уведомления",
         "Settings.NotificationSettings.UserOnline": "Контакт онлайн",
         "Settings.NotificationSettings.UserOnline.Description": "Будете ли вы получать нотификации, когда ваши контакты становятся онлайн.",
@@ -1828,16 +1575,13 @@
         "Settings.NotificationSettings.UserJoinAndLeave.Description": "Когда включено, вы будете получать уведомления, когда пользователи заходят или покидают мир, в котором вы сейчас находитесь.",
         "Settings.NotificationSettings.PermissionChanged": "Изменена роль доступа",
         "Settings.NotificationSettings.PermissionChanged.Description": "Когда включено, вы получите уведомление, когда ваша роль доступа в мире изменится. Например, когда вам поменяли роль с Guest на Builder.",
-
         "Settings.NamePlateSettings.NameplateVisibility": "Видимость табличек имён",
         "Settings.NamePlateSettings.NameplateVisibility.Description": "Определяет, чьи таблички имен видны вам.",
         "Settings.NamePlateSettings.UseCustomNameplates": "Показывать кастомные таблички имён",
         "Settings.NamePlateSettings.UseCustomNameplates.Description": "Если некоторые таблички имен сложно прочитать, полностью спрятаны или вам нужно увидеть настоящее имя и значки пользователя (например, в целях модерации), вы можете выключить кастомные таблички имен чтобы видеть системные.",
-
         "Settings.CustomizationSettings": "Настройки кастомизации",
         "Settings.CustomizationSettings.UserInterfaceEditMode": "Режим редактирования интерфейса",
         "Settings.CustomizationSettings.UserInterfaceEditMode.Description": "Когда включено, вы сможете редактировать размещение фасетов (модулей интерфейса) в Дэшборде и на якорях фасетов на ваших руках и в поле зрения (если они включены).\n\nНе забудьте выключить эту настройку, когда закончите с редактированием! Вы также можете выключить её с помощью отдельной кнопки ниже вашего Дэшборда.",
-
         "Settings.FacetAnchorsSettings": "Якоря фасетов",
         "Settings.FacetAnchorsSettings.UseFacetAnchors": "Использовать якоря фасетов",
         "Settings.FacetAnchorsSettings.UseFacetAnchors.Description": "Когда включено, вы сможете использовать кнопку приложения на вашем правом контроллере чтобы переключить якоря фасетов на ваших руках и предплечьях. На них можно разместить любые фасеты для быстрого доступа, так же, как и на Дэшборде.",
@@ -1847,7 +1591,6 @@
         "Settings.FacetAnchorsSettings.FacetAnchorToggle.Description": "Определяет, какой контроллер (левый или правый) будет переключать якоря фасетов. Дэшборд будет вызываться другим контроллером.",
         "Settings.FacetAnchorsSettings.ShowContainerBackground": "Показать фон",
         "Settings.FacetAnchorsSettings.ShowContainerBackground.Description": "Выключение этой настройки отключит фон на якорях фасетов, чтобы остались видимыми только сами фасеты.",
-
         "Settings.LaserSettings.SmoothSpeed": "Скорость сглаживания лазеров",
         "Settings.LaserSettings.SmoothSpeed.Description": "Используйте чтобы определить, как быстро лазер реагирует на ваши движения. Низкие значения сделают лазер более заторможенным, но улучшат фильтрацию дрожи. Высокие значения делают лазер более отзывчивым, но пропускают больше дрожания контроллеров.",
         "Settings.LaserSettings.ModulateStartAngle": "Угол начала модулирования",
@@ -1862,40 +1605,30 @@
         "Settings.LaserSettings.StickThreshold.Description": "Задает как сильно лазер будет прилипать к интерактивным предметам. Чем больше значение, тем больше прилипает лазер. Установите в ноль чтобы полностью убрать прилипание.",
         "Settings.LaserSettings.ShowInDesktop": "Показывать лазеры в экранном режиме",
         "Settings.LaserSettings.ShowInDesktop.Description": "Когда включено, лазер будет полностью отрисован в виде от первого лица в экранном режиме.",
-
         "Settings.EditSettings": "Изменить настройки",
         "Settings.EditSettings.ConfirmComponentDestroy": "Подтвердить уничтожение компонентов",
         "Settings.EditSettings.ConfirmComponentDestroy.Description": "Если включено, вам будет предложено подтвердить, прежде чем уничтожать компонент в инспекторе. Это помогает предотвратить их случайное уничтожение при неправильном щелчке.",
         "Settings.EditSettings.ConfirmSlotDestroy": "Подтвердить уничтожение слотов",
         "Settings.EditSettings.ConfirmSlotDestroy.Description": "Если включено, вам будет предложено подтвердить, когда вы уничтожаете слоты с помощью инструмента разработчика. Это может предотвратить случайное уничтожение объектов при неправильном щелчке.",
-
         "Settings.CursorSettings": "Настройки курсора",
-
         "Settings.CursorSettings.BaseCursorSize": "Базовый размер курсора",
         "Settings.CursorSettings.BaseCursorSize.Description": "Задает базовый размер курсора. Рекомендуем установить его в самом начале, до настройки множителей, так как их размер считается относительно базового.",
-
         "Settings.CursorSettings.GrabMultiplier": "Множитель хвата",
         "Settings.CursorSettings.GrabMultiplier.Description": "Применяется как множитель к размеру курсора при захвате объектов и предметов.",
-
         "Settings.CursorSettings.InteractionMultiplier": "Множитель взаимодействия",
         "Settings.CursorSettings.InteractionMultiplier.Description": "Применяется как множитель к размеру курсора при взаимодействии с элементами интерфейса, такими как кнопки.",
-
         "Settings.CursorSettings.TextMultiplier": "Множитель текста",
         "Settings.CursorSettings.TextMultiplier.Description": "Применяется как множитель к размеру курсора при взаимодействии с текстовыми объектами.",
-
         "Settings.CursorSettings.SliderMultiplier": "Множитель слайдера",
         "Settings.CursorSettings.SliderMultiplier.Description": "Применяется как множитель к размеру курсора при взаимодействии со слайдерами и областями прокрутки.",
-
         "Settings.CursorSettings.DirectCursorEnabled": "Прямой курсор включен",
         "Settings.CursorSettings.DirectCursorEnabled.Description": "При включении показывает прямой курсор.\n\nПрямой курсор - это точка в пространстве, в которой будет находиться ваш курсор без сглаживания или корректировок, выполненных другими настройками или системами.",
-
         "Settings.DesktopViewSettings.FollowCursor": "Следовать за курсором",
         "Settings.DesktopViewSettings.FollowCursor.Description": "Когда включено, вид Рабочего стола будет автоматически переключаться на экран, на котором сейчас находится курсор мыши. Это может быть удобно если вы используете физические клавиатуру и мышь в VR.",
         "Settings.DesktopViewSettings.Brightness": "Яркость",
         "Settings.DesktopViewSettings.Brightness.Description": "Яркость вида Рабочего стола.",
         "Settings.DesktopViewSettings.Opacity": "Непрозрачность",
         "Settings.DesktopViewSettings.Opacity.Description": "Уменьшите значение чтобы сделать вид Рабочего стола полупрозрачным, чтобы лучше видеть, что происходит в мире за ним.",
-
         "Settings.PhotoCaptureSettings.FingerGestureEnabled": "Жест фото пальцами",
         "Settings.PhotoCaptureSettings.FingerGestureEnabled.Description": "Когда включено, вы можете быстро снимать фото в мире, удерживая пальцы в виде рамки фото и затем сгибая один из указательных пальцев.",
         "Settings.PhotoCaptureSettings.NormalCaptureResolution": "Разрешение фото",
@@ -1922,20 +1655,16 @@
         "Settings.PhotoCaptureSettings.EncodeFormat.Description": "Формат файла, в который будет сохранено снятое фото. Если вам нужны фото в определенном формате, вы можете выбрать, в каком формате их сохранять.\n\nОбратите внимание, что некоторые форматы могут не поддерживать определенные особенности (например, поддержку альфа-канала), могут сохраняться существенно медленнее, иметь худшее качество или занимать больше места.",
         "Settings.PhotoCaptureSettings.AlwaysHideNameplates": "Всегда прятать таблички имен",
         "Settings.PhotoCaptureSettings.AlwaysHideNameplates.Description": "Включите если вы хотите, чтобы таблички имен никогда не были видны в ваших фото. Эта настройка не зависит от текущих настроек видимости табличек имен и будет всегда их прятать на снятых фото.",
-
         "Settings.DesktopRenderSettings.FieldOfView": "Угол зрения",
         "Settings.DesktopRenderSettings.FieldOfView.Description": "Используйте чтобы задать угол зрения камеры (FOV) в экранном режиме. Большие значения дают лучший обзор, но приводят к искажениям по краям.",
-
         "Settings.DesktopRenderSettings.SprintFieldOfViewZoom": "Сужать угол зрения при беге",
         "Settings.DesktopRenderSettings.SprintFieldOfViewZoom.Description": "Когда эта настройка включена, ваш угол зрения будет сужаться, когда вы перемещаетесь бегом в <b>экранном</b> режиме.\nОтключите настройку чтобы убрать этот эффект.\n<b>НЕ</b> влияет на эффекты из пользовательского контента.",
-
         "Settings.DesktopRenderSettings.VSync": "VSync",
         "Settings.DesktopRenderSettings.VSync.Description": "Когда включено, частота кадров будет синхронизирована с частотой обновления вашего монитора. Отключение может позволить рендерить кадры быстрее, но также приведет к разрывам картинки.\n\nМожет быть полезно для тестирования производительности, так как снимет ограничение со скорости обновлений и рендеринга.\n\n<color=hero.red>ВАЖНО:</color> Эту настройку нельзя включить в VR, так как VR задает частоту кадров.",
         "Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused": "Ограничить частоту кадров в фоне",
         "Settings.DesktopRenderSettings.LimitFramerateWhenUnfocused.Description": "Когда включено, частота кадров будет ограничена до заданного значения, когда окно приложения не в фокусе. Это полезно если вы одновременно используете другие программы и игры, так как освободит больше ресурсов для них.",
         "Settings.DesktopRenderSettings.MaximumBackgroundFramerate": "Максимальная частота кадров в фоне",
         "Settings.DesktopRenderSettings.MaximumBackgroundFramerate.Description": "Задает максимальную допустимую частоту кадров в фоне. Меньшие значение освободят больше системных ресурсов.",
-
         "Settings.InteractiveCameraFramingSettings.PositioningMode": "Режим позиционирования",
         "Settings.InteractiveCameraFramingSettings.PositioningMode.Description": "Определяет как интерактивная камера позиционируется в мире.",
         "Settings.InteractiveCameraFramingSettings.FieldOfView": "Угол зрения",
@@ -1956,55 +1685,45 @@
         "Settings.InteractiveCameraFramingSettings.FramingViewportPosition.Description": "Это нормализованные координаты в поле зрения камеры. камера будет пытаться кадрировать цель (например, голову пользователя в режиме третьего лица) в эту точку в поле зрения.",
         "Settings.InteractiveCameraFramingSettings.AimInFrontOfHead": "Целиться в точку перед головой",
         "Settings.InteractiveCameraFramingSettings.AimInFrontOfHead.Description": "Вместо того чтобы целиться точно в голову пользователя, камера будет целиться в точку перед его головой. Это может быть полезно если вы хотите показать, на что смотрит пользователь (например, на объекты и интерфейсы в мире).",
-
         "Settings.InteractiveCameraPositioningSettings.AvoidOcclusion": "Избегать перекрытия",
         "Settings.InteractiveCameraPositioningSettings.AvoidOcclusion.Description": "Если вид камеры перекрывается объектом с коллайдером, она автоматически передвинется ближе к цели чтобы избежать перекрытия.",
         "Settings.InteractiveCameraPositioningSettings.KeepInWorldSpace": "Держать в пространстве мира",
         "Settings.InteractiveCameraPositioningSettings.KeepInWorldSpace.Description": "Заставляет камеру оставаться в корневом пространстве мира, а не следовать в пространство, содержащее пользователя. Может обеспечить лучшее кадрирование и позиционирование при использовании якорей (например, в транспортных средствах).",
         "Settings.InteractiveCameraPositioningSettings.MovementWobble": "Колебание движения",
         "Settings.InteractiveCameraPositioningSettings.MovementWobble.Description": "Добавляет случайное смещение к позиции камеры, которые меняется со временем. Может сделать кадры более динамичными, особенно если вы мало двигаетесь.",
-
         "Settings.InteractiveCameraRenderSettings.HideAllBadges": "Спрятать значки",
         "Settings.InteractiveCameraRenderSettings.HideAllBadges.Description": "Камера не будет отрисовывать никакие значки, независимо от ваших настроек значков.",
         "Settings.InteractiveCameraRenderSettings.HideAllLasers": "Спрятать лазеры",
         "Settings.InteractiveCameraRenderSettings.HideAllLasers.Description": "Камера не будет отрисовывать лазеры.",
         "Settings.InteractiveCameraRenderSettings.ForceEyesOnCamera": "Глаза пользователя всегда смотрят на камеру",
         "Settings.InteractiveCameraRenderSettings.ForceEyesOnCamera.Description": "Когда аватар симулирует движение глаз (то есть у пользователя нет трекинга глаз), это заставит аватар смотреть преимущественно на камеру.",
-
         "Settings.InteractiveCameraGroupSettings.GroupDetectionRadius": "Радиус поиска группы",
         "Settings.InteractiveCameraGroupSettings.GroupDetectionRadius.Description": "Пользователи в пределах этого радиуса будут добавлены к группе, которую камера снимает в режиме группы.",
         "Settings.InteractiveCameraGroupSettings.GroupLeaveBoundary": "Граница покидания группы",
         "Settings.InteractiveCameraGroupSettings.GroupLeaveBoundary.Description": "Как далеко пользователь должен переместиться за пределы радиуса группы, прежде чем он будет исключен из группы.",
-
         "Settings.InteractiveCameraSmoothingSettings.PositionSmoothSpeed": "Скорость сглаживания позиции",
         "Settings.InteractiveCameraSmoothingSettings.PositionSmoothSpeed.Description": "определяет как быстро камера перемещается в целевую позицию в мире. Камера двигается быстрее при больших значениях, но при этом двигается более резко.",
         "Settings.InteractiveCameraSmoothingSettings.AngleSmoothSpeed": "Скорость сглаживания угла",
         "Settings.InteractiveCameraSmoothingSettings.AngleSmoothSpeed.Description": "Определяет как быстро камера отзывается на изменения угла относительно цели.",
         "Settings.InteractiveCameraSmoothingSettings.FramingSmoothSpeed": "Скорость сглаживания кадрирования",
         "Settings.InteractiveCameraSmoothingSettings.FramingSmoothSpeed.Description": "Определяет как быстро камера изменяет кадрирование. При больших значениях камера более точно отслеживает цель, но двигается более резко.",
-
         "Settings.InteractiveCameraAnchorSettings.InterpolateBetweenAnchors": "Интерполировать между якорями",
         "Settings.InteractiveCameraAnchorSettings.InterpolateBetweenAnchors.Description": "Когда включено, камера будет плавно перемещаться между якорями для камер в мире.",
         "Settings.InteractiveCameraAnchorSettings.AnchorInterpolationSpeed": "Скорость интерполяции",
         "Settings.InteractiveCameraAnchorSettings.AnchorInterpolationSpeed.Description": "Когда интерполяция между якорями включена, определяет как быстро камера перемещается от одного якоря к другому.",
         "Settings.InteractiveCameraAnchorSettings.UseLinearInterpolation": "Использовать линейную интерполяцию",
         "Settings.InteractiveCameraAnchorSettings.UseLinearInterpolation.Description": "Включите чтобы использовать линейную интерполяцию при перемещении между якорями вместо плавной. Линейная интерполяция начинается и заканчивается моментально, но дает постоянную скорость перемещения, независимо от дистанции между якорями. Это означает, что, если расстояние между якорями больше, камере потребуется больше времени чтобы переместиться между ними.",
-
         "Settings.InteractiveCameraPhotoSettings.SpawnPhotoInWorld": "Создавать отснятые фото в мире",
         "Settings.InteractiveCameraPhotoSettings.SpawnPhotoInWorld.Description": "Когда вы снимаете фото с помощью диалога интерактивной камеры, должны ли они появляться в мире? Когда отключено, они только сохранятся в ваши документы или в инвентарь (если сконфигурировано автосохранение)",
-
         "Settings.InteractiveCameraPostProcessingSettings.MotionBlur": "Размытие в движении",
         "Settings.InteractiveCameraPostProcessingSettings.MotionBlur.Description": "Должна ли камера отрисовывать эффект размытия в движении (motion blur)?",
         "Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections": "Отражения в экранном пространстве",
         "Settings.InteractiveCameraPostProcessingSettings.ScreenSpaceReflections.Description": "Должна ли камера отрисовывать отражения в экранном пространстве? Это может дать более качественные отражения для гладких поверхностей, но может привести к артефактам и ухудшению производительности.",
-
         "Settings.InteractiveCameraAudioSettings": "Аудио",
         "Settings.InteractiveCameraAudioSettings.RenderOwnVoiceOnCamera": "Передавать собственный голос на камеру",
         "Settings.InteractiveCameraAudioSettings.RenderOwnVoiceOnCamera.Description": "Когда аудиовыход для интерактивной камеры отделен от ее собственного аудиоустройства, это управляет тем, будет ли камера слышать ваш собственный голос или нет.<br><br>Это полезно, чтобы сделать ваш собственный голос полностью стабилизированным, как его будут слышать другие пользователи в мире.<br><br>Обязательно отключите захват микрофона в вашем программном обеспечении для записи, когда эта опция включена.",
-
         "Settings.DescriptionField.NoTextTitle": "Больше информации",
         "Settings.DescriptionField.NoTextDescription": "<i><alpha=#77>Задержите курсор над настройкой чтобы увидеть её описание.</closeall>",
-
         "Settings.RelaySettings": "Сетевые ретрансляторы",
         "Settings.RelaySettings.AlwaysUseRelay": "Всегда использовать ретранслятор для подключения",
         "Settings.RelaySettings.AlwaysUseRelay.Description": "Реле обычно используются как резервный способ связи, когда прямое подключение к хосту не может быть установлено. При включении этой опции, вы будете всегда подключаться через ретранслятор.\n\nЭто может быть использовано в случае проблем со связью до конкретных хостов. Мы <b>НЕ</b> рекомендуем оставлять эту опцию постоянно включеннойn.",
@@ -2012,11 +1731,9 @@
         "Settings.RelaySettings.UseClosestAvailableRelay.Description": "Когда эта опция включена, самый ближний ретранслятор из доступных будет выбрано автоматически для подключения. Если вы хотите подключиться через какой-то конкретный ретранслятор (например, чтобы исключить накопление очереди пакетов в случае дальнего подключения), вы можете отключить эту опцию и задать предпочитаемые ретрансляторы ниже.",
         "Settings.RelaySettings.RelayPriorities": "Задать приоритеты ретрансляторов",
         "Settings.RelaySettings.RelayPriorities.Breadcrumb": "Приоритеты ретрансляторов",
-
         "Settings.VideoStreamingServicesSettings": "Службы потоковой передачи видео",
         "Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser": "Использовать файлы cookie из браузера",
         "Settings.VideoStreamingServicesSettings.UseCookiesFromBrowser.Description": "Если видео YouTube и других сервисов не загружаются, выберите браузер, который вы обычно используете для загрузки файлов cookie при получении этих видео. Это увеличивает шансы успешной загрузки видео.",
-
         "Settings.PostProcessingSettings": "Пост-обработка",
         "Settings.PostProcessingSettings.MotionBlurIntensity": "Интенсивность размытия в движении",
         "Settings.PostProcessingSettings.MotionBlurIntensity.Description": "Задает силу эффекта размытия в движении (motion blur). Большие значения дают больше размытия при том же количестве движения.\n\nЕсли вы установите эффект в <nobr><color=hero.yellow>0 %</color></nobr>, фильтр будет полностью отключен, что может улучшить производительность.",
@@ -2028,7 +1745,6 @@
         "Settings.PostProcessingSettings.ScreenSpaceReflections.Description": "Когда включено, любые части сцены, видимые камерой, будут отражаться в блестящих поверхностях режиме реального времени. Это может добавить больше реализма сцене и улучшить внешний вид блестящих поверхностей за счет ухудшения производительности.\n\nОбратите внимание что этот фильтр сейчас считается экспериментальным и может работать неправильно во многих сценариях, приводя к призрачным отражениям и артефактам.",
         "Settings.PostProcessingSettings.Antialiasing": "Антиалиасинг (AA)",
         "Settings.PostProcessingSettings.Antialiasing.Description": "Антиалиасинг сглаживает ступенчатые границы объектов в сцене. Вы можете выбрать один из нескольких фильтров, у каждого из которых есть свои преимущества и недостатки. FXAA используется чаще всего и работает достаточно хорошо, но также может размыть другие части сцены, такие как текст.\n\n<color=red>Внимание:</color> Некоторые варианты антиалиасинга могут работать некорректно или вообще не работать в VR.",
-
         "Settings.TextureQualitySettings": "Качество текстур",
         "Settings.TextureQualitySettings.TextureSizeRatio": "Относительный размер текстур",
         "Settings.TextureQualitySettings.TextureSizeRatio.Description": "Определяет относительный размер всех текстур, который будет загружен. Можно использовать чтобы уменьшить общее разрешение текстур, что уменьшит использование VRAM и скорость загрузки ценой визуальной четкости.\n\nНапример, если текстура имеет размер 4K и вы выберете половинное разрешение, будет загружена 2K версия текстуры.",
@@ -2041,7 +1757,6 @@
         "Settings.TextureQualitySettings.AnisotropicLevel": "Уровень анизотропии",
         "Settings.TextureQualitySettings.AnisotropicLevel.Description": "Контролирует качество анизотропной фильтрации.",
         "Settings.TextureQualitySettings.ReloadAllTextures": "Перезагрузить все текстуры (может быть тяжелой операцией)",
-
         "Settings.GaussianSplatQualitySettings": "Качество рендеринга Гауссовых пятен",
         "Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera": "Сортировка мега операций на камеру",
         "Settings.GaussianSplatQualitySettings.SortMegaOperationsPerCamera.Description": "При рендеринге гауссовых пятен пятна должны быть отсортированы для каждой камеры. В настоящее время эта операция может быть довольно тяжелой, поэтому она распределяется по времени для улучшения общей частоты кадров.<br><br><color=hero.yellow>Увеличьте</color> значение, чтобы сортировка происходила быстрее. Это уменьшит артефакты при быстром изменении угла обзора вокруг гауссовых пятен.<br><br><color=hero.yellow>Уменьшите</color> значение, чтобы снизить использование графического процессора, если ваш графический процессор испытывает трудности с обработкой это. Однако это увеличит артефакты при быстром изменении угла обзора.",
@@ -2059,7 +1774,6 @@
         "Settings.GaussianSplatQualitySettings.ColorFormat.Description": "Кодировка, используемая для цветов и непрозрачности пятен",
         "Settings.GaussianSplatQualitySettings.SphericalHarmonicsFormat": "Формат данных сферических гармоник",
         "Settings.GaussianSplatQualitySettings.SphericalHarmonicsFormat.Description": "Кодировка, используемая для данных сферических гармоник пятен",
-
         "Settings.ResolutionSettings": "Разрешение",
         "Settings.ResolutionSettings.Fullscreen": "Полноэкранный режим",
         "Settings.ResolutionSettings.Fullscreen.Description": "Переключает между полноэкранным и оконным режимами",
@@ -2068,7 +1782,6 @@
         "Settings.ResolutionSettings.FullscreenResolution": "Разрешение полноэкранного режима",
         "Settings.ResolutionSettings.FullscreenResolution.Description": "Какое разрешение должно использоваться в полноэкранном режиме. Размер останется тем же, но уменьшение разрешения может улучшить производительность (особенно с экранами высокого разрешения типа 4K) ценой размытой картинки.",
         "Settings.ResolutionSettings.ApplyResolution": "Применить изменения",
-
         "Settings.RenderingQualitySettings": "Качество рендера",
         "Settings.RenderingQualitySettings.PerPixelLights": "Количество источников света на пиксель",
         "Settings.RenderingQualitySettings.PerPixelLights.Description": "Задает количество точечных и направленных источников света, которые могут напрямую освещать объекты, отрендеренные прямым методом - обычно прозрачные и не-PBS (например, с toon shader).\n\nУвеличение этого значения улучшит качество освещения и уменьшит мерцание в окрестностях нескольких источников света за счет производительности - объект нужно отрендерить лишний раз для каждого источника света, освещающего его.",
@@ -2080,15 +1793,12 @@
         "Settings.RenderingQualitySettings.ShadowDistance.Description": "Задает дистанцию, покрытую тенями. Увеличение этого значения делает более далекие части сцены покрытыми тенями, но также растягивает детализацию теней на большую площадь.\n\nЭто значение следует менять вместе с каскадами и разрешением теней - с большим разрешением теней вы можете позволить себе и большую дистанцию. Если вы уменьшите разрешение и каскады теней, вам следует уменьшить и дистанцию теней чтобы тени сохранили высокую детализацию.",
         "Settings.RenderingQualitySettings.SkinWeightMode": "Веса skinned mesh'ей",
         "Settings.RenderingQualitySettings.SkinWeightMode.Description": "Для всех skinned mesh`ей (3D моделей которые деформируются костями, как большинство аватаров), эта настройка задает, сколько костей используется для расчета позиции каждой вершины.\n\nУменьшение этого значения дает выигрыш в производительности, но качество деформаций будет ниже, из-за чего могут появиться острые складки и другие артефакты, обычно в районе суставов/шарниров.",
-
         "Settings.RendererDecouplingSettings": "Отложенный рендер",
         "Settings.RendererDecouplingSettings.ActivationFramerate": "Частота кадров активации",
         "Settings.RendererDecouplingSettings.DeactivationFrames": "Частота кадров деактивации",
         "Settings.RendererDecouplingSettings.ForceDecouple": "Принудительное откладывание",
         "Settings.RendererDecouplingSettings.AssetProcessingMaxTimeMilliseconds": "Максимальное время обработки ассета (в миллисекундах)",
         "Settings.RendererDecouplingSettings.AssetProcessingMaxTimeMilliseconds.Description": "Настройка управляет максимальным временем затрачиваемое на выгрузку ассетов в GPU, когда механизм отложенного рендеринга включен. Уменьшение значения параметра увеличивает частоту кадров (например, при тестировании производительности GPU), но может замедлить производительность выгрузки ассетов и на очень низких значениях приводит к заторможенному отклику UI.",
-
-
         "Settings.ImportSettings": "Импортировать настройки",
         "Settings.ImportSettings.SessionUrls": "При импорте URL сеанса",
         "Settings.ImportSettings.SessionUrls.Description": "Что должно произойти при импорте URL сеанса. Доступны следующие параметры:\n\n<color=hero.yellow>Открыть</color> - Открыть сеанс.\n<color=hero.yellow>SpawnInterface</color> - Создает представление (например, сферу сеанса) URL в вашем текущем местоположении.\n<color=hero.yellow>SpawnUrl</color> - Создает URL в вашем текущем местоположении как интерфейс URL.",
@@ -2096,9 +1806,7 @@
         "Settings.ImportSettings.WorldUrls.Description": "Что должно произойти при импорте URL мира. Доступны следующие параметры:\n\n<color=hero.yellow>Открыть</color> - открыть мир.\n<color=hero.yellow>SpawnInterface</color> - создает представление (например, сферу мира) мира в вашем текущем местоположении.\n<color=hero.yellow>SpawnUrl</color> - создает URL в вашем текущем местоположении в качестве интерфейса URL.",
         "Settings.ImportSettings.NetworkUrls": "При импорте сетевого URL",
         "Settings.ImportSettings.NetworkUrls.Description": "Что должно произойти при импорте сетевого URL. Доступны следующие параметры:\n\n<color=hero.yellow>Открыть</color> - открыть соединение с сеансом по URL.\n<color=hero.yellow>SpawnInterface</color> - создает представление (например, сферу сеанса) URL в вашем текущем location.\n<color=hero.yellow>SpawnUrl</color> - создает URL в вашем текущем местоположении как URL-интерфейс.",
-
         "Settings.MysterySettings": "Загадочные настройки",
-
         "LocomotionArchetype.Walk": "Перемещение пешком",
         "LocomotionArchetype.Fly": "Полет",
         "LocomotionArchetype.NoClip": "Noclip",
@@ -2108,15 +1816,12 @@
         "LocomotionArchetype.ThreeAxisNoClip": "Трёх-осевой Noclip",
         "LocomotionArchetype.ThreeAxisFly": "Трёх-осевой полёт",
         "LocomotionArchetype.ZeroG": "Нуль-Гравитация",
-
         "LocomotionSettings.MakePreferred": "Сделать предпочитаемым",
         "LocomotionSettings.MakeLeastPreferred": "Сделать менее предпочитаемым",
-
         "Security.Hyperlink.Title": "Внешняя ссылка",
         "Security.Hyperlink.Warning": "<b><size=125%>ПРЕДУПРЕЖДЕНИЕ: Внешняя гиперссылка </size></b>\nВы нажали на гиперссылку в мире. Вы хотите её открыть? Гиперссылка откроется в вашем браузере на рабочем столе.",
         "Security.Hyperlink.Open": "Открыть",
         "Security.Hyperlink.Cancel": "Отмена",
-
         "Security.HostAccess.Title": "Доступ к хосту",
         "Security.HostAccess.Warning": "<b><size=125%>ПРЕДУПРЕЖДЕНИЕ: Мир пытается открыть соединение со сторонним хостом</size></b>\nРазрешение доступа может позволить третьей стороне получить некоторую персональную информацию, такую как IP и ваше географическое положение.",
         "Security.HostAccess.TargetHost": "Целевой Хост: <b>{host}</b>",
@@ -2124,43 +1829,33 @@
         "Security.HostAccess.NoReason": "<i>Нет приведённой причины</i>",
         "Security.HostAccess.Allow": "Принять",
         "Security.HostAccess.Deny": "Отклонить",
-
         "ComponentSelector.Back": "< (назад)",
         "ComponentSelector.Title": "Компоненты",
         "ComponentSelector.CreateCustomType": "Создать компонент кастомного типа",
         "ComponentSelector.CommonGenericTypes": "Распространенные базовые типы",
         "ComponentSelector.CustomGenericArguments": "Кастомные аргументы базового типа:",
         "ComponentSelector.InvalidType": "Некорректный тип",
-
         "Inspector.Title": "Инспектор сцены",
         "Inspector.Slot.AttachComponent": "Добавить компонент",
-
         "Inspector.Slot.Axis.X": "X: <b>+</b>Вправо <b>-</b>Влево",
         "Inspector.Slot.Axis.Y": "Y: <b>+</b>Вверх <b>-</b>Вниз",
         "Inspector.Slot.Axis.Z": "Z: <b>+</b>Вперед <b>-</b>Назад",
-
         "Inspector.Slot.Reset.Label": "Сбросить:",
         "Inspector.Slot.Reset.Position": "Позицию",
         "Inspector.Slot.Reset.Rotation": "Вращение",
         "Inspector.Slot.Reset.Scale": "Масштаб",
-
         "Inspector.Slot.CreatePivotAtCenter": "Создать точку вращения в центре",
-
         "Inspector.Slot.JumpTo": "Прыгнуть к",
         "Inspector.Slot.BringTo": "Переместить сюда",
         "Inspector.Slot.BringTo.Undo": "Переместить {name} к пользователю",
-
         "Inspector.Slot.ParentUnder.Label": "Сделать потомком:",
         "Inspector.Slot.ParentUnder.WorldRoot": "Корня мира",
         "Inspector.Slot.ParentUnder.WorldRoot.Undo": "Установка {name} потомком корня мира",
         "Inspector.Slot.ParentUnder.LocalUserSpace": "Локального пространства пользователя",
         "Inspector.Slot.ParentUnder.LocalUserSpace.Undo": "Установка {name} потомком локального пространства пользователя",
-
         "Inspector.Member.ResetToDefault": "Сбросить в значение по умолчанию",
-
         "Inspector.Member.BreakLinkDrive": "Разорвать связь/драйв",
         "Inspector.Member.OpenLinkDrive": "Открыть источник связи/драйва",
-
         "Inspector.Member.SetAllToAvg": "Установить все к среднему значению",
         "Inspector.Member.SetAllToX": "Установить все к X",
         "Inspector.Member.SetAllToY": "Установить все к Y",
@@ -2172,10 +1867,8 @@
         "Inspector.Member.SplitBlendshape.X": "Разделить blendshape по оси X",
         "Inspector.Member.SplitBlendshape.Y": "Разделить blendshape по оси Y",
         "Inspector.Member.SplitBlendshape.Z": "Разделить blendshape по оси Z",
-
         "Inspector.ProceduralAsset.UpdateCount": "Количество обновлений: {n}",
         "Inspector.ProceduralAsset.Error": "Ошибка: {error}",
-
         "Inspector.Mesh.StatsHeader": "Статистика меша",
         "Inspector.Mesh.VertexCount": "Кол-во вершин: {n}",
         "Inspector.Mesh.TriangleCount": "Кол-во треугольников: {n}",
@@ -2184,7 +1877,6 @@
         "Inspector.Mesh.BoneCount": "Кол-во костей: {n}",
         "Inspector.Mesh.BlendshapeCount": "Кол-во blendshape'ов: {n}",
         "Inspector.Mesh.ChannelStats": "Нормали: {normals}, Тангенсы: {tangents}, Цвета: {colors}, UV0: {uv0}, UV1: {uv1}, UV2: {uv2}, UV3: {uv3}",
-
         "Inspector.Mesh.BakeMesh": "Запечь меш",
         "Inspector.Mesh.SetupRenderer": "Настроить рендерер",
         "Inspector.Mesh.ResaveMesh": "Пересохранить меш",
@@ -2206,30 +1898,21 @@
         "Inspector.Mesh.StripBlendshapeNormals": "Убрать нормали blendshape'ов",
         "Inspector.Mesh.StripBlendshapeTangents": "Убрать тангенсы blendshape'ов",
         "Inspector.Mesh.MergeBlendshapes": "Объединить blendshape'ы",
-
         "Inspector.Mesh.GetBoneList": "Получить список костей",
         "Inspector.Mesh.GetBoneData": "Получить данные костей",
-
         "Inspector.Mesh.TrimVertexBoneWeightsTo": "Урезать Vertex Bone Weights до:",
         "Inspector.Mesh.BoneTrimCount": "{n,plural, one {# Кость} few {# Кости} many {# Костей}}",
         "Inspector.Mesh.UV_Multiplicator": "Множитель:",
         "Inspector.Mesh.ScaleUVs": "Масштаб UV",
-
         "Inspector.MeshRenderer.MergeByMaterial": "Объединить под-меши с одинаковым материалом",
         "Inspector.MeshRenderer.SplitByMaterial": "Разделить на отдельные меши по материалу",
-
         "Inspector.GaussianSplatRenderer.GeneratePointCloudCollider": "Создать коллайдер облака точек",
-
         "Inspector.MeshCollider.VHACD": "Разбор на выпуклые многогранники (V-HACD 2.0)",
         "Inspector.MeshCollider.ReplaceBox": "Заменить кубическим коллайдером",
-
         "Inspector.Texture3D.SpawnVisualizer": "Создать визуализацию",
-
         "Inspector.Skybox.SetActiveSkybox": "Установить как активный скайбокс",
         "Inspector.AmbientLightSH2.SetActiveAmbientLight": "Установить как активный окружающий свет",
-
         "Inspector.CommonAvatarBuilder.UpdateLocomotionModules": "Обновить модули передвижения на присутствующих пользователях",
-
         "Inspector.VHACD.Parameter.MergeDoubles": "Объединить дубликаты",
         "Inspector.VHACD.Parameter.Resolution": "Разрешение",
         "Inspector.VHACD.Parameter.Depth": "Глубина",
@@ -2244,19 +1927,15 @@
         "Inspector.VHACD.Parameter.MaxVerticesPerHull": "Максимум вершин на многогранник",
         "Inspector.VHACD.Parameter.MinVolumePerHull": "Минимальный объём на многогранник",
         "Inspector.VHACD.Parameter.ConvexHullApproximation": "Приближение выпуклого многогранника",
-
         "Inspector.VHACD.DecompositionMode.Header": "Режим разбора:",
         "Inspector.VHACD.DecompositionMode.Voxel": "Воксельный",
         "Inspector.VHACD.DecompositionMode.Tetrahedron": "Тетраэдральный",
-
         "Inspector.VHACD.RunDecomposition": "Запустить разбор",
         "Inspector.VHACD.RemoveVisuals": "Убрать визуализацию",
         "Inspector.VHACD.RemoveHulls": "Убрать многогранники",
-
         "Inspector.ReflectionProbe.Bake": "Запечь отражения",
         "Inspector.ReflectionProbe.Baking": "Запекание...",
         "Inspector.ReflectionProbe.OnChangesRenderCount": "Число преобразований при изменениях: {count}",
-
         "Inspector.SkinnedMesh.SeparateOutBlendshapes": "Отделить части меша, не затронутые blendshape'ами",
         "Inspector.SkinnedMesh.StripEmptyBlendshapes": "Убрать пустые blendshape'ы",
         "Inspector.SkinnedMesh.StripBlendshapesResult": "Готово! Убрали: {n,plural, one {# blendshape} few {# blendshape'а} many {# blendshape'ов}}",
@@ -2273,12 +1952,10 @@
         "Inspector.SkinnedMesh.SortBlendshapes.Name": "Сортировать blendshape'ы (по имени)",
         "Inspector.SkinnedMesh.SortBlendshapes.NameLength": "Сортировать blendshape'ы (по длине имени, затем по имени)",
         "Inspector.SkinnedMesh.ResetBonesToBindPoses": "Сбросить кости для привязки поз",
-
         "Inspector.SimpleAvatarProtection.RemoveAll": "Убрать все вхождения",
         "Inspector.SimpleAvatarProtection.RemoveSingle": "Убрать это вхождение",
         "Inspector.SimpleAvatarProtection.Warning": "<color=red><size=150%>ВНИМАНИЕ!</size></color><br>Удаление этого компонента любыми способами кроме выделенных кнопок, расположенных ниже, вызовет срабатывание защитного механизма, который уничтожит весь объект без возможности восстановления!",
         "Inspector.SimpleAvatarProtection.ConfirmRemoveAll": "Снять ПОЛНОСТЬЮ защиту аватара",
-
         "Inspector.BipedRig.GetDiagnosticInfo": "Получить диагностику рига",
         "Inspector.BipedRig.GenerateDebugVisuals": "Генерировать отладочную визуализацию",
         "Inspector.BipedRig.ClearDebugVisuals": "Убрать отладочную визуализацию",
@@ -2288,15 +1965,12 @@
         "Inspector.BipedRig.HandRigResult": "Готово! Есть левая: {left}, есть правая: {right}",
         "Inspector.BipedRig.LeftHandRigResult": "Готово! Обнаружена левая: {detected}",
         "Inspector.BipedRig.RightHandRigResult": "Готово! Обнаружена правая: {detected}",
-
         "Inspector.Texture.Size": "Размер: {width} x {height}",
         "Inspector.Texture.Format": "Формат: {format}, Память: <nobr>{memory}</nobr>",
         "Inspector.Texture.Variant": "ID Варианта: {variant}",
         "Inspector.Texture3D.Size": "Размер: {width} x {height} x {depth}",
-
         "Inspector.Texture.BakeTexture": "Запечь текстуру",
         "Inspector.Texture.ReplaceFromClipboard": "Заменить из буфера",
-
         "Inspector.Texture.InvertRGB": "Инвертировать RGB",
         "Inspector.Texture.InvertR": "Инвертировать R",
         "Inspector.Texture.InvertG": "Инвертировать G",
@@ -2350,18 +2024,14 @@
         "Inspector.Texture.AlphaGamma": "Гамма Альфа-канала",
         "Inspector.Texture.AdjustAlphaGamma": "Поменять гамму Альфа-канала",
         "Inspector.Texture.AddAlpha": "Добавить Альфа-канал",
-
         "Inspector.Texture.InvalidFloats": "Диагностика: не действительные float числа",
         "Inspector.Texture.GenerateMetadata": "Диагностика: Генерация Bitmap Метаданных",
-
         "Inspector.Material.VariantInfo": "Вариант: {variantID} (Raw: {rawVariantID})",
         "Inspector.Material.WaitingForApply": "Ожидание применения: {waiting}",
-
         "Inspector.Audio.BakeAudio": "Запечь аудио клип",
         "Inspector.Audio.FormatInfo": "Частота дискретизации: {rate} Гц, Каналы: {channels} ({channel_count})",
         "Inspector.Audio.Duration": "Длительность: {duration}, Количество сэмплов: {samples}",
         "Inspector.Audio.EncodingInfo": "Кодек: {info}, полностью раскодировано: {decoded}",
-
         "Inspector.Audio.Normalize": "Нормализовать громкость",
         "Inspector.Audio.AmplitudeThreshold": "Предел амплитуды:",
         "Inspector.Audio.TrimSilence": "Обрезать тишину",
@@ -2378,17 +2048,14 @@
         "Inspector.Audio.ToFLAC": "Конвертировать в FLAC",
         "Inspector.Audio.DenoiseRNNoise": "Шумоподавление (RNNoise, оптимизирован для голоса на 48 кГц)",
         "Inspector.Audio.ExtractSides": "Извлечь боковые каналы (может убрать голос со стереотреков)",
-
         "Inspector.AudioStream.BufferState": "Доступно сэмплов: {samples}, Пропущено: {missed}, Длина: {length}, Глобальный индекс: {index}",
         "Inspector.AudioStream.EncodeState": "Доступно к кодированию: {samples}, Размер фрейма: {frame} (Max: {max_frame}), Частота дискретизации: {rate}",
         "Inspector.AudioStream.DecodeState": "Всего пакетов: {total}, Всего потеряно пакетов: {lost}, Потеря пакетов: {loss, number, percent}",
         "Inspector.AudioStream.BufferStats": "Сред кодек: {avgCodec}/с, Сред чтение: {avgRead}/с, Сред запись: {avgWritten}/с",
-
         "Inspector.GaussianSplat.SplatInfo": "Количество пятен: {count}, использование VRAM: {vram}",
         "Inspector.GaussianSplat.Variant": "Загруженный вариант: {variant}",
         "Inspector.GaussianSplat.ColorByIndex": "Цвет пятен по индексу",
         "Inspector.GaussianSplat.ReorderMorton": "Изменить порядок пятен с помощью упорядочивания Мортона",
-
         "Inspector.DynamicBoneChain.SetupFromChildren": "Настроить по потомкам",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll": "Настроить по потомкам (принудительно для всех)",
         "Inspector.DynamicBoneChain.SetupFromChildrenRig": "Настроить по потомкам (только риг)",
@@ -2397,25 +2064,19 @@
         "Inspector.DynamicBoneChain.CollidersGrabbingHeader": "------- Коллайдеры и хватание -------",
         "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy": "Добавить фиксированные коллайдеры от иерархии (от корневого слота)",
         "Inspector.DynamicBoneChain.AlwaysGrabLastBone": "Всегда хватать последнюю кость",
-
         "Inspector.DataPreset.SetActive": "Установить активным",
         "Inspector.DataPreset.SetValues": "Установить значения",
         "Inspector.DataPreset.AddAllChildren": "Добавить для всех потомков",
-
         "Inspector.Rig.CleanupBoneColliders": "Очистить коллайдеры костей",
         "Inspector.Rig.GenerateDebugVisuals": "Генерировать отладочную визуализацию",
         "Inspector.Rig.ClearDebugVisuals": "Убрать отладочную визуализацию",
-
         "Inspector.AvatarExpression.AutoAssign": "Авто присвоение blendshape'ов (используя эвристику)",
-
         "Inspector.CharacterController.Warning": "<color=red><size=150%>ВНИМАНИЕ!</size></color><br>Этот компонент можно использовать как простое твердое тело, выбрав SimulateRotation. Перед тем как сделать это, имейте в виду, что он не оптимизирован для этих целей и полная поддержка твердых тел будет позже.<br>Полная поддержка твердых тел даст:<br><b>- Эффективное использование ЦП и сети</b> - с CharacterController вы используете больше ресурсов ЦП и ощутимо больше сетевого трафика<br><b>- Ограничения</b> - вы сможете задавать суставы, петли, пружины и другие ограничения между твердыми телами<br><b>- Плавная симуляция и взаимодействие для всех</b> - CharacterController ведет себя очень странно если другой пользователь пытается с ним взаимодействовать<br><b>- Новые фичи и инструменты</b> - чтобы упростить их использование<br>-----------------------<br>Вы можете узнать больше в заявке #22 на GitHub. Прочитали и осознали? Дерзайте!",
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>ВНИМАНИЕ!</size></color><br>С помощью этого компонента можно взаимодействовать с референсами, используя их ID. Этот процесс часто называют 'Ref Hacking'.<br><br><b>Прежде</b> чем начать, пожалуйста примите к сведению, что это <b>не</b> поддерживается и может сломаться в любой момент. Не полагайтесь на данную функцию, при создании своих творений.",
         "Inspector.FacetPreset.Warning": "<color=red><size=125%>ВНИМАНИЕ!</size></color><br>FacetPresets автоматически обновит свое содержимое, когда мы опубликуем новые версии этих предустановок. Если вы создаете пользовательскую версию, мы рекомендуем удалить этот компонент.",
         "Inspector.GrabbableSaveBlock.Warning": "<color=red><size=125%>ВНИМАНИЕ!</size></color><br> Этот компонент не предназначен для обеспечения безопасности/защиты от кражи активов. Он предназначен для использования в случаях, когда вы хотите заблокировать более простые методы сохранения по причинам игрового процесса или дизайна. Его можно легко обойти, и он не станет более безопасным ни при каких обстоятельствах.",
-
         "Inspector.ParticleSystem.BasicInfo": "Частицы: {count}, FPS: {fps}, Время симуляции: {time}, Время отправки: {renderSubmitTime}, Время выделения: {allocationCount}",
         "Inspector.ParticleSystem.TrailInfo": "Следы: {trailCount} (ёмкость: {trailCapacity}), Ёмкость точек следов: {trailPointCapacity}",
-
         "Inspector.ParticleStyle.CommonTransitions": "Часто используемые шаблоны:",
         "Inspector.ParticleStyle.AlphaFadeInOut": "Альфа нарастание и затухание",
         "Inspector.ParticleStyle.AlphaFadeIn": "Альфа нарастание",
@@ -2424,7 +2085,6 @@
         "Inspector.ParticleStyle.IntensityFadeIn": "Нарастание интенсивности",
         "Inspector.ParticleStyle.IntensityFadeOut": "Затухание интенсивности",
         "Inspector.ParticleStyle.ClearFades": "Очистить нарастания/затухания",
-
         "Inspector.Collider.SetFromLocalBounds": "Установить по локальным границам",
         "Inspector.Collider.SetFromGlobalBounds": "Установить по глобальным границам",
         "Inspector.Collider.SetFromLocalBoundsPrecise": "Установить по локальным границам (точно)",
@@ -2432,32 +2092,22 @@
         "Inspector.Collider.SetFromPreciseBounds": "Установить по точным границам",
         "Inspector.Collider.SetFromPreciseCylinderBounds": "Установить по точным цилиндрическим границам",
         "Inspector.Collider.Visualize": "Визуализировать коллайдер",
-
         "Inspector.SimpleAwayIndicator.TestAway": "Выставить как 'отошел' (debug)",
         "Inspector.SimpleAwayIndicator.TestRestore": "Восстановить (debug)",
-
         "Inspector.Fields.Drive": "Драйвить",
         "Inspector.Fields.DriveWriteBack": "Драйвить <size=50%>(с обратной записью)</size>",
-
         "Inspector.Actions.CopyComponent": "Скопировать компонент",
         "Inspector.Actions.MoveComponent": "Переместить компонент",
-
         "Inspector.Wizard.PackTexture": "Запаковать текстуру",
         "Inspector.Wizard.UnpackTexture": "Распаковать текстуру",
-
         "Inspector.Error": "<color=hero.red>Ошибка! Проверьте журнал программы.</color>",
-
         "UserInspector.Title": "Инспектор пользователей",
-
         "WorkerInspector.Title": "Инспектор {name}",
-
         "CreateNew.Title": "Новый",
-
         "Wizard.General.ProcessRoot": "Корень обработки:",
         "Wizard.General.Result": "Результат:",
         "Wizard.General.ErrorNoRoot": "Корень не выбран",
         "Wizard.General.RemovedResult": "Убрано {n}",
-
         "Wizard.AssetOptimization.Title": "Мастер оптимизации ассетов",
         "Wizard.AssetOptimization.CleanupUnusedAssets": "Очистить неиспользуемые ассеты",
         "Wizard.AssetOptimization.CleanupEmptySlots": "Очистить пустые слоты",
@@ -2470,7 +2120,6 @@
         "Wizard.AssetOptimization.RecalculateAllNormalsMerged": "Пересчитать все нормали (слияние)",
         "Wizard.AssetOptimization.RecalculateAllTangents": "Пересчитать все тангенсы (Mikktspace)",
         "Wizard.AssetOptimization.ResizedResult": "Масштабировано {n}",
-
         "Wizard.LightSources.Title": "Мастер источников света",
         "Wizard.LightSources.Header": "Источники света в сцене",
         "Wizard.LightSources.ProcessRoot": "Корень обработки:",
@@ -2487,7 +2136,6 @@
         "Wizard.LightSources.Enable": "Включить",
         "Wizard.LightSources.Disable": "Выключить",
         "Wizard.LightSources.Destroy": "Удалить",
-
         "Wizard.CubemapCreator.Title": "Мастер создания Cubemap",
         "Wizard.CubemapCreator.Textures": "Исходные текстуры:",
         "Wizard.CubemapCreator.TexturesNote": "Учтите, что некоторые стандарты меняют местами левую и правую стороны. Если полученная панорама выглядит неправильно, поменяйте текстуры местами.",
@@ -2498,7 +2146,6 @@
         "Wizard.CubemapCreator.PosZ": "Положительный Z (передняя)",
         "Wizard.CubemapCreator.NegZ": "Отрицательный Z (задняя)",
         "Wizard.CubemapCreator.TopBottomRotation": "Поворот верхней/нижней граней:",
-
         "Wizard.ReflectionProbes.Title": "Мастер зондов отражений",
         "Wizard.ReflectionProbes.ProcessRoot": "Корень обработки:",
         "Wizard.ReflectionProbes.ProcessDisabled": "Обрабатывать выключенные",
@@ -2509,7 +2156,6 @@
         "Wizard.ReflectionProbes.HideDebugVisuals": "Спрятать отладочную визуализацию",
         "Wizard.ReflectionProbes.BakeProbes": "Запечь пробы",
         "Wizard.ReflectionProbes.Baking": "Запекание {index} из {count}...",
-
         "Wizard.TextRenderer.Header": "Мастер текстовых объектов (TextRenderer)",
         "Wizard.TextRenderer.ProcessRoot": "Корень обработки:",
         "Wizard.TextRenderer.ProcessStandalone": "Обработать отдельные",
@@ -2519,13 +2165,11 @@
         "Wizard.TextRenderer.ReplaceMaterial": "Заменить материал",
         "Wizard.TextRenderer.ReplaceFont": "Заменить фонт",
         "Wizard.TextRenderer.SetColor": "Установить цвет",
-
         "Wizard.TextureWizards.DefaultValue": "Значение по умолчанию",
         "Wizard.TextureWizards.Invert": "Инвертировать",
         "Wizard.TextureWizards.ClearTexture": "Отчистить текстуру",
         "Wizard.TextureWizards.ResolutionOverride": "Перегрузить разрешение",
         "Wizard.TextureWizards.PlaceTextureHere": "Поместите текстуру сюда",
-
         "Wizard.TexturePacker.Title": "Мастер упаковки текстур",
         "Wizard.TexturePacker.Packing": "Упаковка...",
         "Wizard.TexturePacker.PackTextures": "Запаковать текстуры",
@@ -2534,12 +2178,9 @@
         "Wizard.TexturePacker.UseSmallest": "По меньшему",
         "Wizard.TexturePacker.UseLargest": "По большему",
         "Wizard.TexturePacker.GenerateMipmaps": "Сгенерировать Mipmaps",
-
-
         "Wizard.TextureUnpacker.Title": "Мастер распаковки текстур",
         "Wizard.TextureUnpacker.Unpacking": "Распаковка...",
         "Wizard.TextureUnpacker.UnpackTexture": "Распаковать текстуру",
-
         "Desktop.Controls.Title": "Настройки в режиме Desktop",
         "Desktop.OpenKeyboard": "Показать клавиатуру",
         "Desktop.FollowCursor.On": "Следовать за курсором: Вкл",
@@ -2548,14 +2189,11 @@
         "Desktop.LegacyInputMode.Off": "Старый способ ввода: Выкл",
         "Desktop.Brightness": "Яркость: {n,number,percent}",
         "Desktop.Opacity": "Непрозрачность: {n,number,percent}",
-
         "VolumePlaneSlicer.Highlight": "Подсветка",
         "VolumePlaneSlicer.Slicer": "Срез",
-
         "Tutorial.Welcome.Welcome": "Добро пожаловать!",
         "Tutorial.Welcome.Description": "Окунитесь в новую цифровую вселенную, наполненную бесконечными возможностями. Неважно, пришли вы сюда чтобы общаться с людьми со всего света или чтобы строить, создавать и разрабатывать что-либо, будь то прекрасное искусство, интерактивные аватары и гаджеты, сложные интерактивные миры и игры, {appName} это бесконечное, настраиваемое место, где вам всегда рады, и где вы всегда найдете группу, с которой вы сможете <i>резонировать</i>.<br><br>Перед тем как вы начнете своё приключение, мы проведем вас через настройку основных элементов, чтобы обеспечить вас приятным опытом. Когда будете готовы, нажмите на кнопку ниже.",
         "Tutorial.Welcome.Begin": "Поехали!",
-
         "Tutorial.Welcome.AccountHeader": "Аккаунт {appName}",
         "Tutorial.Welcome.AccountDescription": "Создание аккаунта даст Вам 1Гб бесплатного хранилища и доступ к сохранению предметов, установке постоянного аватара, добавлению контактов и переписке.",
         "Tutorial.Welcome.AccountCreate": "Создать аккаунт",
@@ -2564,7 +2202,6 @@
         "Tutorial.Welcome.AccountSkipHeader": "Пропустить создание аккаунта?",
         "Tutorial.Welcome.AccountSkipDescription": "Некоторая функциональность, такая как сохранение предметов в инвентарь, установка постоянного аватара или добавление контактов, будет недоступна.",
         "Tutorial.Welcome.AccountSkipConfirm": "Точно пропустить",
-
         "Tutorial.Welcome.SettingsHeader": "Базовые настройки",
         "Tutorial.Welcome.SettingsDescription": "Вы можете выбрать базовые настройки передвижения и другие предпочтения. Все эти настройки можно изменить позже.",
         "Tutorial.Welcome.SettingsTurning": "Стиль поворота",
@@ -2577,16 +2214,13 @@
         "Tutorial.Welcome.SettingsPrimaryLeft.Description": "Левша",
         "Tutorial.Welcome.SettingsPrimaryRight": "Правый",
         "Tutorial.Welcome.SettingsPrimaryRight.Description": "Правша",
-
         "Tutorial.Welcome.SettingsHeadDirectionMovement": "Направление перемещения",
         "Tutorial.Welcome.SettingsUseHeadDirection": "В направлении головы",
         "Tutorial.Welcome.SettingsUseHeadDirection.Description": "Вы будете перемещаться в том же направлении, куда смотрите",
         "Tutorial.Welcome.SettingsUseControllerDirection": "В направлении контроллера",
         "Tutorial.Welcome.SettingsUseControllerDirection.Description": "Вы будете перемещаться в направлении, куда указывает контроллер",
-
         "Tutorial.Welcome.LeftControllerMode": "Режим левого контроллера",
         "Tutorial.Welcome.RightControllerMode": "Режим правого контроллера",
-
         "Tutorial.Welcome.SidewaysTurnOnly": "Только поворот",
         "Tutorial.Welcome.SidewaysTurnOnly.Description": "Использовать этот контроллер только для поворота",
         "Tutorial.Welcome.SidewaysTurnAndMove": "Поворот и перемещение",
@@ -2595,20 +2229,15 @@
         "Tutorial.Welcome.SidewaysStrafe.Description": "Использовать этот контроллер для стрейфа",
         "Tutorial.Welcome.SidewaysOff": "Выключен",
         "Tutorial.Welcome.SidewaysOff.Description": "Только движение вперед/назад",
-
         "Tutorial.Welcome.SettingsHeight": "Ваш рост",
         "Tutorial.Welcome.SettingsHeightExamples": "Например: 1.85 m, 185 cm, 6' 1\", 6 feet 1 inch",
-
         "Tutorial.Welcome.StartTutorialHeader": "Готовы начать?",
         "Tutorial.Welcome.StartTutorialDescription": "Все настроено и почти готово к работе. Мы переместим вас в мир базового обучения. В конце вас ждет новый домашний мир, с которого вы можете начать изучение {appName}. Когда будете готовы, нажмите на кнопку ниже.",
         "Tutorial.Welcome.StartTutorial": "Начать обучение",
-
         "Tutorial.CommunityYouTube.Title": "YouTube каналы сообщества",
-
         "Tutorial.UserResources.UserResourcesTitle": "Ресурсы пользователей",
         "Tutorial.UserResources.SupportTitle": "Как поддержать {appName}",
         "Tutorial.UserResources.MerchandiseTitle": "Мерч {appName}",
-
         "Tutorial.Intro.BadgesAppTeam": "Член команды {appName}",
         "Tutorial.Intro.BadgesModerator": "Модератор",
         "Tutorial.Intro.BadgesMentor": "Ментор",
@@ -2618,9 +2247,7 @@
         "Tutorial.Intro.BadgesTitle": "Значки",
         "Tutorial.Intro.BadgesDescription": "Значки - это маленькие метки, показывающие разные стороны пользователя. Вот несколько важных значков, которые следует запомнить. Значки ограниченных возможностей можно самостоятельно присвоить с помощью бота {appName}. Больше информации - на {appName} Wiki.",
         "Tutorial.Intro.HelpSite": "Справка",
-
         "Object.Mirror.Toggle": "Включить локально",
-
         "Twitch.Panel.Button.Commands.Enabled": "Команды включены",
         "Twitch.Panel.Button.Commands.Disabled": "Команды отключены",
         "Twitch.Panel.Button.SafeMode.Enabled": "Безопасный режим включен",
@@ -2628,15 +2255,12 @@
         "Twitch.Panel.Button.SubscriberCommands.Enabled": "Команды подписчиков<br> Включены только для подписчиков",
         "Twitch.Panel.Button.SubscriberCommands.Disabled": "Команды подписчиков<br> Включены для всех",
         "Twitch.Panel.Title.Text": "Чат Twitch",
-
         "Exiting.SavingItems": "Сохранение {n, plural, one {# предмета} few {# предметов} many {# предметов}}...",
         "Exiting.SavingChanges": "Сохранение Изменений...",
         "Exiting.Exiting": "Выход...",
         "Exiting.LoggingOut": "Выход из аккаунта...",
-
         "Migration.Title": "Миграция",
         "Migration.NewTask": "Новая задача миграции",
-
         "Migration.LoginModal.Title": "Мигрировать данные?",
         "Migration.LoginModal.Description": "Хотите перенести данные из другой учетной записи? Вы также можете сделать это позже во вкладке \"Миграция\" на Дэшборде.",
         "Migration.LoginModal.OpenMigration": "Открыть миграцию",
@@ -2644,59 +2268,43 @@
         "Migration.LoginResetID.Title": "Действительно сбросить UserID?",
         "Migration.LoginResetID.Description": "Пожалуйста имейте в виду, что это приведет к <color=red>НЕПРЕДСКАЗУЕМОМУ ПОВРЕЖДЕНИЮ СОДЕРЖИМОГО</color>. Все ваши предметы, миры, контакты и сообщения будут успешно перенесены, но любая логика и компоненты, которые полагаются на ваш старый UserID, скорее всего, сломаются, что потребует перенастройки и починки. Если у вас нет серьезной причины сбрасывать свой UserID, <color=red>НЕ ВЫБИРАЙТЕ ЭТОТ ВАРИАНТ</color>.",
         "Migration.LoginResetID.ResetButton": "Да, сбросить",
-
         "Migration.ReservedUsername.Title": "<b>Зарезервированное имя пользователя</b>",
         "Migration.ReservedUsername.Description": "Это имя пользователя зарезервировано для первоначального владельца. Если это Ваша учетная запись, предоставьте свои учетные данные для {platform}, чтобы разблокировать ее. Мы не храним эти учетные данные, они используются только для подтверждения принадлежности вашей учетной записи при регистрации.",
         "Migration.SourcePassword": "Пароль {platform}:",
         "Migration.SourceUsername": "Имя пользователя {platform}:",
-
         "Migration.Dialog.Title": "Миграция аккаунта",
         "Migration.Dialog.Source": "Вы можете перенести данные из любой совместимой инфраструктуры. Сначала выберите из списка ниже, откуда вы хотите перенести данные. Вы можете добавить дополнительную инфраструктуру, поместив файлы конфигурации в папку \"Migrations\" внутри установочной папки.",
         "Migration.Dialog.AccountDescription": "Чтобы перенести вашу учетную запись, нам понадобится пароль от вашей учетной записи в {platform}. Это позволит нам войти в систему и получить доступ к данным.",
-
         "Migration.ResetID.Title": "Сбросить мой UserID",
         "Migration.ResetID.Description": "<color=red><b>ВНИМАНИЕ:</b></color> Выбор этого пункта <b>ЯВЛЯЕТСЯ НЕОБРАТИМЫМ И ЧАСТИЧНО СЛОМАЕТ СУЩЕСТВУЮЩИЙ КОНТЕНТ</b>, включая любые ссылки на UserID в пользовательском контенте, публичных сервисах, ссылках, облачных переменных и т.д. Эти ссылки будут сброшены, но сами ваши предметы, миры, контакты и сообщения не потеряются. Мы рекомендуем использовать эту опцию <b>ТОЛЬКО</b> в том случае, если вы хотите избавиться от своего старого UserId и заменить его новым, рандомизированным. Если у вас нет веской причины для сброса вашего UserID, вам <b>НЕ СЛЕДУЕТ</b> выбирать этот пункт. Ваш UserID изменится следующим образом:\n U-MyUsername -> U-fX3pKe7AYYQ",
-
         "Migration.DataSelection.Title": "Какие данные нам следует перенести при миграции вашей учетной записи?",
         "Migration.DataSelection.Everything": "Все",
         "Migration.DataSelection.Choose": "Позвольте мне выбрать",
-
         "Migration.DataSelection.Favorites": "Избранное (аватар, домашний мир, камера, клавиатура, фасеты)",
-
         "Migration.DataSelection.Favorites.Description": "Сначала будет перенесен ваш дом, любимый аватар, клавиатура, камера и фасеты, чтобы вы могли начать использовать их как можно скорее.\n <color=red><b>ВНИМАНИЕ:</b></color> Если вы выберете этот пункт, вы можете <b>ПОТЕРЯТЬ ИЗМЕНЕНИЯ</b> уже избранных предметов на этой платформе до переноса.",
         "Migration.DataSelection.Favorites.OverwriteTitle": "Должны ли мы перезаписать избранное при переносе?",
-
         "Migration.DataSelection.Home.Title": "Установить ли ваш старый дом избранным?",
         "Migration.DataSelection.Home.Description": "Когда мы перенесем ваши данные, ваш оригинальный облачный дом будет размещен под другим URL-адресом, и по умолчанию вы получите совершенно новый облачный дом. Однако, если вы предпочитаете, мы можем сделать ваш старый дом избранным домом по умолчанию. Даже если вы выберете \"Нет\", ваш старый облачный дом по-прежнему будет доступен, и вы сможете отметить его избранным по умолчанию позже.",
-
         "Migration.DataSelection.Contacts": "Контакты",
         "Migration.DataSelection.Message History": "История сообщений",
         "Migration.DataSelection.InventoryWorld": "Инвентарь и миры",
         "Migration.DataSelection.CloudVariable.Definitions": "Определения облачных переменных",
         "Migration.DataSelection.CloudVariable.Values": "Значения облачных переменных",
-
         "Migration.DataSelection.AlwaysOverwrite": "Всегда перезаписывать",
-
         "Migration.Start": "Начать миграцию",
         "Migration.Groups.Title": "Мигрировать группы",
         "Migration.Groups.Introduction": "Перенести ли нам ваши группы?",
-
         "Migration.Groups.Description": "Все группы, администратором которых вы являетесь, будут перенесены по умолчанию. Если вы хотите перенести только избранные группы, нажмите кнопку ниже, чтобы загрузить их, а затем отметьте группы, которые вы хотите перенести.",
-
         "Migration.Groups.LoadGroups": "Загрузить группы",
         "Migration.Groups.RefreshGroups": "Обновить группы",
-
         "Migration.Groups.Fetching": "Получение групп...",
         "Migration.Groups.Fetching.LoginFailed": "Ошибка входа: {error}",
         "Migration.Groups.Fetching.Error": "Ошибка при получении групп: {error}",
         "Migration.Groups.NoGroups": "Не найдено групп в {platform} для переноса.",
         "Migration.Groups.NotGroupAdmin": "Вы не являетесь администратором ни одной группы в {platform}. Попросите администраторов вашей группы перенести её!",
-
         "Migration.Summary": "Хорошо, у нас есть все, что нам нужно. Нажмите \"Начать миграцию ниже\", и мы начнем миграцию.\n\nМиграция может занять некоторое время, нам нужно будет скопировать всё. Если вы решили перенести избранное, мы сделаем это в первую очередь, чтобы вам было удобно.\n\nВам не нужно держать {appName} все время запущенным во время миграции, мы будем отправлять вам обновления через бота {appName} чтобы вы знали, как идут дела.",
-
         "Migration.List.EmptyTitle": "Хотите начать новую миграцию?",
         "Migration.List.EmptySubtitle": "Нажмите \"Новая задача миграции\" в левом верхнем углу.",
-
         "Migration.List.ButtonLabel": "{name}\n<size=50%>Создана в:{time}\nСтатус:{state}",
         "Migration.Report.Title": "Отчет о задаче миграции:",
         "Migration.Report.Description": "<color={hex}>Описание:</color> {value}",
@@ -2704,12 +2312,9 @@
         "Migration.Report.CreatedOn": "<color={hex}>Создана в:</color> {value}",
         "Migration.Report.StartedOn": "<color={hex}>Начата в:</color> {value}",
         "Migration.Report.CompletedOn": "<color={hex}>Завершена в:</color> {value}",
-
         "Migration.Report.CurrentlyMigrating": "В настоящее время переносятся данные <color={hex}>{value}</color>.",
         "Migration.Report.CurrentItem": "Текущий предмет: <color={hex}>{value}</color>",
-
         "Migration.Report.CurrentRate": "<color={hex}>Текущая скорость:</color> ~{value} миров/предметов в минуту",
-
         "Migration.Report.EstimatedQueuePosition": "<color={hex}>Оставшиеся задачи в очереди перед этой:</color> {value}",
         "Migration.Report.ContactStatus": "Перенесено <color={hex}>{current}</color> контактов из <color={hex}>{total}</color>",
         "Migration.Report.MessageStatus": "Перенесено <color={hex}>{value}</color> сообщений",
@@ -2718,61 +2323,42 @@
         "Migration.Report.RecordStatus": "Перенесено <color={hex}>{current}</color> предметов/миров из <color={hex}>{total}</color>. <color=red>{failed}</color> неудачно.",
         "Migration.Report.GroupStatus": "Перенесено <color={hex}>{current}</color> групп из <color={hex}>{total}</color>",
         "Migration.Report.GroupMemberStatus": "Перенесено всего <color={hex}>{value}</color> участников группы",
-
         "Migration.Error": "<color=red>Ошибка:</color> {error}",
         "Migration.NothingSelected": "Ничего не выбрано, не запущено.",
-
         "Migration.ColorManagement": "Этот мир был создан в гамма-пространстве и автоматически преобразован в линейное пространство.<br><br>Он может отличаться от оригинала, но в целом должен быть пригоден для использования.<br><br>если вы являетесь автором и обнаружите какие-либо проблемы с преобразованием мира <color=red>НЕ СОХРАНЯТЕ ЕГО</color>. Сохраняйте только копии.<br><br>Пока существует оригинал, мы можем настроить процесс преобразования. В противном случае вы будете нести ответственность за то, чтобы исправить это самостоятельно.",
-
         "Temporary.MMC.Voting UI": "Интерфейс голосования MMC",
         "Temporary.MMC.Vote": "Голосовать",
-
         "Temporary.MMC.Categories.Name": "Категории",
-
         "Temporary.MMC.Categories.Worlds": "Миры",
         "Temporary.MMC.Categories.Worlds.Social": "Социальные",
         "Temporary.MMC.Categories.Worlds.Game": "Игры",
-
         "Temporary.MMC.Categories.Other": "Другие",
         "Temporary.MMC.Categories.Misc": "Разное",
         "Temporary.MMC.Categories.Meme": "Мемы",
-
         "Temporary.MMC.Categories.Avatars": "Аватары",
         "Temporary.MMC.Categories.Avatars.Accessories": "Аксессуары",
-
         "Temporary.MMC.VoteSuccess": "Голос отправлен за {voteTarget} в категории {category}.",
         "Temporary.MMC.VoteFailure": "Голосование неуспешно, ваш голос не был зарегистрирован, попробуйте снова.",
         "Temporary.MMC.VotedAlready": "Вы уже голосовали за {voteTarget}.",
         "Temporary.MMC.VoteInvalid": "Голос некорректен, попробуйте снова.",
-
         "CloudHome.WelcomeHome": "Добро пожаловать домой",
         "CloudHome.TargetRangeOptions": "Настройки тира",
-
         "Tutorial.Saving.Title": "Добро пожаловать домой!",
         "Tutorial.Saving.Content": "Добро пожаловать в ваш <b><i><color=hero.yellow>дом</b></i></color>! Вы окажетесь в этом месте при каждом входе.<br>Этот мир полностью ваш, поэтому вы можете сохранить любые сделанные вами изменения.<br>При сохранении мира всё останется на своих местах в ваш следующий визит!",
-
-
         "Tutorial.Teleporter.SessionList.UnnamedSession": "<i><alpha=#77>Неименованная сессия</closeall>",
         "Tutorial.Teleporter.SessionList.UnnamedHost": "Хост: <i><alpha=#77>Неименованный</closeall>",
         "Tutorial.Teleporter.SessionList.HostName": "Хост: <b>{hostName}</b>",
         "Tutorial.Teleporter.SessionList.PresentUsers": "<b>{presentUsers}</b> / {totalUsers} присутствуют",
         "Tutorial.Teleporter.SessionList.PublicSessions": "Публичные Сессии",
         "Tutorial.Teleporter.SessionList.NoPublicSessions": "Публичные сессии пока не доступны! :(<br><size=66%>Тем не менее у вас есть следующие возможности:</size>",
-
         "Tutorial.Teleporter.ChooseDestination": "Выберите куда желаете пойти дальше",
-
         "Tutorial.Teleporter.Destinations.CloudHome": "Перейти в Облачный дом",
         "Tutorial.Teleporter.Destinations.AvatarWorld": "Перейти в Avatar Gazebo",
         "Tutorial.Teleporter.Destinations.PickAnotherSession": "Выбрать иную сессию",
         "Tutorial.Teleporter.Destinations.PickPublicSession": "Присоединиться к публичной сессии",
-
         "Tutorial.Teleporter.WorldsTabHint": "Вы также можете найти миры куда можете зайти<br>используя вкладку Миры в вашем Дэшборде!",
-
         "Tutorial.Teleporter.FailedToJoin": "<color=hero.red>Присоединиться не удалось! :(</color><br><size=66%>Тем не менее у вас есть следующие возможности:</size>",
-
         "Tutorial.Teleporter.Transporting": "Перемещаемся...",
-
-
         "CloudHome.Info.OnlineUsers": "Онлайн: {online_users} {online_users,plural, one {пользователь} few {пользователя} other {пользователей}}<br>Можно подключиться к: {joinable_users} {joinable_users,plural, one {пользователю} other {пользователям}}",
         "CloudHome.Info.Moderation": "Модерация",
         "CloudHome.Info.Inventory": "Инвентарь",
@@ -2781,51 +2367,37 @@
         "CloudHome.Info.SessionUptime": "Время работы сессии:",
         "CloudHome.Info.AccessLevel": "Уровень доступа:",
         "CloudHome.Info.StorageUsed": "Хранилища использовано:",
-
         "CloudHome.Info.DashInfoTab.Title": "Добро пожаловать!",
         "CloudHome.Info.DashInfoDesktop": "Чтобы ввести вас в курс дела, вам следует знать пару вещей. У вас есть <i><color=hero.purple>Дэшборд</color></i>, который вы можете открыть, нажав Escape. Дэшборд можно сравнить с рабочим столом или панелью управления вашего ПК.<br><br>Если вы запутались, на этом экране есть дополнительная информация, которая поможет вам. Нажмите кнопку ниже, чтобы закрыть это сообщение.",
         "CloudHome.Info.DashInfoVR": "Чтобы ввести вас в курс дела, вам следует знать пару вещей. У вас есть <i><color=hero.purple>Дэшборд</color></i>, который вы можете открыть, нажав B или Y. Дэшборд можно сравнить с рабочим столом или панелью управления вашего ПК.<br><br>Если вы запутались, на этом экране есть дополнительная информация, которая поможет вам. Нажмите кнопку ниже, чтобы закрыть это сообщение.",
         "CloudHome.Info.DashInfoVRNoButtons": "Чтобы ввести вас в курс дела, вам следует знать пару вещей. У вас есть <i><color=hero.purple>Дэшборд</color></i>, который вы можете открыть, нажав и задержав кнопку Menu, пока круг не заполнится. Дэшборд можно сравнить с рабочим столом или панелью управления вашего ПК.<br><br>Если вы запутались, на этом экране есть дополнительная информация, которая поможет вам. Нажмите кнопку ниже, чтобы закрыть это сообщение.",
-
         "CloudHome.Info.GoToWiki": "Перейти в Wiki!",
         "CloudHome.Info.GoToDiscord": "Перейти в Discord!",
-
         "CloudHome.Info.ModerationTab.Title": "Модерация!",
         "CloudHome.Info.ModerationTab.Content": "Нам важна безопасность. Если вам нужна помощь или вы хотите пожаловаться на пользователя, оставьте заявку в нашем <u><color=hero.cyan>Портале модерации.</color></u><sprite name=hyperlink><br><br>У нас есть сильная команда модераторов - волонтеров <sprite name=modbadge>, которая обеспечивает безопасность сообщества! Оставьте заявку, если у вас есть вопросы или вы заметили поведение, нарушающее правила.",
-
         "CloudHome.Info.InventoryTab.Title": "Сохраните свои предметы!",
         "CloudHome.Info.InventoryTab.Content": "<i><color=hero.purple>Инвентарь</color></i> в вашем <i><color=hero.purple>Дэшборде</color></i> хранит ваши сохраненные аватары и иные предметы.<br><br>Папка <i><color=hero.purple>Essentials</color></i> хранит в себе ряд интересных вещей; дважды кликните по предмету чтобы заспавнить его!",
-
         "CloudHome.Info.ToolsTab.Title": "Редактирование в мире!",
         "CloudHome.Info.ToolsTab.Content": "Отличительная черта {appName} это возможность создавать и редактировать вещи прямо в игре.<br><br>Да, прямо здесь! Или вообще, где угодно - инструменты из <i><color=hero.purple>Essentials -> Tools</color></i> в вашем инвентаре позволяют вам менять мир вокруг так, как вам захочется.",
-
         "CloudHome.Info.HelpTab.Title": "Получение помощи",
         "CloudHome.Info.HelpTab.InfoLineOne": "Нужна помощь? Взгляните на нашу <u><color=hero.cyan>Wiki</color></u><sprite name=hyperlink>, или получите ответы на ваши вопросы в нашем <u><color=hero.cyan>Discord!</color></u><sprite name=hyperlink>",
         "CloudHome.Info.HelpTab.InfoLineTwo": "Кстати, вы можете открывать ссылки на вашем рабочем столе, внутри Дэшборда, на вкладке <i><color=hero.purple>Рабочий стол</color></i>.",
-
         "CloudHome.Info.UsersTab.Title": "Поиск пользователей",
         "CloudHome.Info.UsersTab.Content": "Публичные сессии это отличный способ погрузиться в жизнь сообщества!<br><br>Публичные сессии, к которым вы сейчас можете подключиться, можно найти во вкладке <i><color=hero.purple>Миры</color></i> вашего дэшборда. Проверьте сами!",
-
         "Mirror.Header.RenderingOptions": "Настройки рендера",
         "Mirror.Header.Type": "Тип Зеркала",
         "Mirror.Header.Resolution": "Разрешение Зеркала",
         "Mirror.Header.AspectRatio": "Соотношение сторон",
-
         "Mirror.EnableLights": "Включить свет",
         "Mirror.DisableLights": "Выключить свет",
-
         "Mirror.EnableShadows": "Включить тени",
         "Mirror.DisableShadows": "Выключить тени",
-
         "Mirror.Camera": "Камера",
-
         "Mirror.AspectRatio.Tall": "Высокое",
         "Mirror.AspectRatio.Square": "Квадратное",
         "Mirror.AspectRatio.Wide": "Широкое",
-
         "Mirror.Menu": "Меню",
         "Mirror.CloseMenu": "Закрыть меню",
-
         "StickyNote.SpinMe": "Покрути меня!",
         "StickyNote.FruitPlate": "Бесплатная самопополняющаяся тарелка с фруктами",
         "StickyNote.EmptyForYou": "Оставили пустым специально для вас! :)",
@@ -2836,31 +2408,24 @@
         "StickyNote.Shade": "Настраиваемый зонтик",
         "StickyNote.TheaterTablet": "Используйте этот планшет для настройки вентилятора и затемнения окон в этой комнате!",
         "StickyNote.ControlTablet": "Используйте этот планшет для настройки частей своего дома!",
-
         "StickyNote.RotateMeDesktop": "Покрути меня, удерживая E!",
         "StickyNote.RotateMeVR": "Покрути меня!",
-
         "StickyNote.EquipMeDesktop": "Экипируйте и нажмите левую кнопку мыши!",
         "StickyNote.EquipMeVR": "Экипируйте и натяните тетиву!",
-
         "StickyNote.DipBrushes": "Макайте кисточки в сферы, чтобы использовать соответствующие материалы",
         "StickyNote.BrushColor": "Цвет и размер кисти можно поменять в контекстном меню",
         "StickyNote.Drawing": "Вы можете рисовать на доске, в воздухе, или где угодно!",
         "StickyNote.WorldCanvas": "Мир - ваш холст!",
-
         "CloudHome.Panel.HomeControl": "Настройки дома",
-
         "CloudHome.Panel.General": "Общие",
         "CloudHome.Panel.Lighting": "Освещение",
         "CloudHome.Panel.Furniture": "Мебель",
-
         "CloudHome.Panel.Quality": "Качество",
         "CloudHome.Panel.Doors": "Двери",
         "CloudHome.Panel.Audio": "Звук",
         "CloudHome.Panel.OverheadLighting": "Потолочное освещение",
         "CloudHome.Panel.Sconces": "Настенное освещение",
         "CloudHome.Panel.FurnitureVisibility": "Видимость мебели",
-
         "CloudHome.Panel.LowQualityMode": "Режим низкого качества",
         "CloudHome.Panel.DoorSounds": "Звуки дверей",
         "CloudHome.Panel.DoorsAlwaysOpen": "Оставить двери открытыми",
@@ -2870,7 +2435,6 @@
         "CloudHome.Panel.LightIntensity": "Яркость света",
         "CloudHome.Panel.LightColor": "Цвет света",
         "CloudHome.Panel.LightColorTemperature": "Температура освещения",
-
         "CloudHome.Panel.Spawn": "Точка возрождения",
         "CloudHome.Panel.Foyer": "Фойе",
         "CloudHome.Panel.Workspace": "Рабочий стол",
@@ -2879,106 +2443,75 @@
         "CloudHome.Panel.Center": "Центр",
         "CloudHome.Panel.Balcony": "Балкон",
         "CloudHome.Panel.Theater": "Театр",
-
         "CloudHome.Panel.TheaterControl": "Управление театром",
         "CloudHome.Panel.FanControl": "Управление вентилятором",
         "CloudHome.Panel.WindowControl": "Управление окнами",
         "CloudHome.Panel.FanSpeed": "Скорость вентилятора",
         "CloudHome.Panel.WindowTint": "Затемнение окон",
-
         "CloudHome.FeaturedPanel.OpenWorld": "Открыть мир",
         "CloudHome.FeaturedPanel.LinkText": "Откройте этот мир <br>самостоятельно, нажав здесь!",
         "CloudHome.FeaturedPanel.Featured": "Избранные",
-
         "CloudHome.AvatarPanel.Title": "Избранные миры с аватарами",
-
         "CloudHome.SupporterPanel.Title": "<b>Наши спонсоры</b>",
-
         "Tutorial.InfoPanel.Title": "Хэй! Перед тем как вы уйдете...",
         "Tutorial.InfoPanel.Content": "     Впереди вас ждет мир, полный возможностей, и эти возможности ограничены лишь вашим воображением.<br><br>     Почти все что вы видели до этого момента было сделано прямо в игре! Люди по всему миру работали вместе в реальном времени чтобы добиться этого.<br><br>     Продукт все еще в стадии очень ранней разработки, и мы постоянно его обновляем и улучшаем. Но вы тоже часть этого путешествия, и бесконечность - не предел!<br><br><align=center>Спасибо что заглянули и дали нам шанс.</align>",
-
         "Tutorial.GrabItems.Grab": "Схватите",
         "Tutorial.GrabItems.Snap": "Примагнитьте",
         "Tutorial.GrabItems.Slide": "Подвигайте",
-
         "Tutorial.Panel.Jumping.Title": "Прыжок",
         "Tutorial.Panel.Jumping.ContentDesktop": "Пока вы находитесь в режиме ходьбы, нажмите пробел, чтобы прыгнуть!",
         "Tutorial.Panel.Jumping.ContentVR": "Пока вы находитесь в режиме ходьбы, нажмите на джойстик, чтобы прыгнуть!",
         "Tutorial.Panel.Jumping.ContentVRNoButtons": "Пока вы находитесь в режиме ходьбы, нажмите на центр вашего трэкпада, чтобы прыгнуть!",
-
         "Tutorial.Panel.WalkLocomotion.Title": "Режим ходьбы",
         "Tutorial.Panel.WalkLocomotion.Content": "Двигайтесь и прыгайте по земле.",
-
         "Tutorial.Panel.TeleportLocomotion.Title": "Режим телепорта",
         "Tutorial.Panel.TeleportLocomotion.Content": "Телепорт моментально перемещает вас в указанную локацию.",
-
         "Tutorial.DashboardInfo.Header": "Ваш Дэшборд",
         "Tutorial.DashboardInfo.Content": "<b><color=hero.cyan>Дэшборд</closeall> это ваше главное меню - с помощью него вы можете: разговаривать с другими пользователями, искать миры чтобы прогуляться, и другое!<br><br>Если нужна помощь взгляните во вкладку <b><color=hero.purple>Справка.",
         "Tutorial.DashboardInfo.GotIt": "Понятно!",
-
         "Tutorial.MentorPanel.Title": "Нужна помощь?",
         "Tutorial.MentorPanel.Content": "Если видите над головой пользователя этот значек - попросите его о помощи, они здесь чтобы помочь <i>вам</i>!",
-
         "Tutorial.HelpTabPanel.Title": "Нужна справка?",
         "Tutorial.HelpTabPanel.Content": "Внутри вашего дэшборда есть вкладка справки где можете прочесть интересующую вас информацию о {appName}!",
-
         "Hints.Spawn.InitialMovementDesktop": "Используйте кнопки перемещения для передвижения!",
         "Hints.Spawn.InitialMovementVR": "Используйте джойстик для передвижения!",
         "Hints.Spawn.InitialMovementVRNoButtons": "Используйте трэкпад для передвижения!",
-
         "Hints.Spawn.ContextMenuDesktop": "Откройте ваше Контекстное Меню нажатием на кнопку T!",
         "Hints.Spawn.ContextMenuVR": "Укачивает? Откройте ваше Контекстное Меню нажатием на кнопки B или Y!",
         "Hints.Spawn.ContextMenuVRNoButtons": "Укачивает? Откройте ваше Контекстное Меню нажатием на кнопку Menu!",
-
         "Hints.Spawn.TeleportLocomotionDesktop": "Другие режимы передвижения, такие как полет, вы можете попробовать в меню Передвижение.",
         "Hints.Spawn.TeleportLocomotionVR": "Другие режимы передвижения, такие как телепорт или полет, вы можете попробовать в меню Передвижение.",
-
         "Hints.Bridge.RaiseTheWorld": "Нажмите на эту кнопку чтобы призвать платформу!",
-
         "Hints.Grabbing.GrabbingDesktop": "Хватайте вещи, удерживая правую кнопку мыши!",
         "Hints.Grabbing.GrabbingVR": "Хватайте вещи, удерживая Grip!",
-
         "Hints.Grabbing.Rotating": "Предметы можно крутить, удерживая E и двигая мышью!",
         "Hints.Grabbing.RotatingExtra": "Держите Shift и E чтобы крутить предметы по горизонтали!",
-
         "Hints.Grabbing.ScalingDesktop": "Возьмите предмет и, удерживая Shift, прокрутите колесико мыши чтобы изменить размер предмета!",
         "Hints.Grabbing.ScalingVR": "Схватите предмет обоими руками, чтобы изменить его размер!",
-
         "Hints.Grabbing.OtherGrabbables": "В игре много вариантов взаимодействия с предметами, поиграйтесь с этими тремя и посмотрите, как они работают!",
         "Hints.Grabbing.OtherGrabbablesExtraDesktop": "Помимо изменения размеров объектов, вы также можете изменить и свой размер, включив масштабирование в Контекстном Меню. Затем удерживайте Control и прокрутите колесико мыши!",
         "Hints.Grabbing.OtherGrabbablesExtraVR": "Помимо изменения размеров объектов, вы также можете изменить и свой размер, включив масштабирование в Контекстном Меню. Затем зажмите Grab обоими руками перед собой и двигайте их ближе - дальше друг от друга!",
-
         "Hints.Telescope.Alignment": "Возьмитесь за телескоп и наведите его на луну!",
-
         "Hints.Telescope.TheMoonDesktop": "Смотря на луну, зажмите правую кнопку мыши и подвигайте мышью, чтобы подвигать луну!",
         "Hints.Telescope.TheMoonVR": "Активируйте свой лазер нажатием на Trigger и схватите луну!",
-
         "Hints.Sundial.SoftEquip": "Возьмите этот инструмент, чтобы экипировать его!",
         "Hints.Sundial.SoftEquipExtra": "Инструменты позволяют вам менять мир вокруг вас разными способами!",
-
         "Hints.Sundial.HardEquip": "Нажмите на этот инструмент, чтобы экипировать его!",
         "Hints.Sundial.HardEquipExtra": "Не видите свой лазер? Слегка нажмите на Trigger чтобы показать его!",
-
         "Hints.Sundial.TheSun": "Прицельтесь в небо и нажмите, чтобы пододвинуть солнце в эту точку!",
         "Hints.Sundial.TheSunExtra": "Попробуйте прицелиться за горизонт чтобы сотворить ночь!",
-
         "Hints.Sundial.Dequip": "Бросьте экипированный инструмент, выбрав пункт Отпустить в вашем контекстном меню.",
         "Hints.Sundial.DequipExtra": "Заметьте, что опции в Контекстном Меню поменялись, потому что вы экипировали инструмент.",
-
         "Hints.Sundial.Doorway": "Пройдите для продолжения!",
-
         "Hints.DashboardDesktop": "Откройте и закройте дэшборд нажатием кнопки Esc на клавиатуре!",
         "Hints.DashboardVR": "Откройте и закройте дэшборд нажатем кнопки Меню вашего контроллера!",
         "Hints.DashboardExtra": "Ниже отображена дополнительная информация по дэшборду.",
-
         "Hints.Teleporter": "Встаньте в телепортер и укажите куда хотите пойти дальше!",
         "Hints.TeleporterExtra": "Неважно куда вы пойдете, добро пожаловать в {appName}!",
-
         "UI.TextDisplay.Landscape": "Ландшафтный",
         "UI.TextDisplay.Portrait": "Портретный",
         "UI.TextDisplay.NormalText": "Нормальный",
         "UI.TextDisplay.MonospaceText": "Фиксированная ширина",
-
         "UI.DocumentDisplay.PageNumber": "Страница {page_number}",
         "UI.DocumentDisplay.DocumentQuality": "Качество",
         "UI.DocumentDisplay.QualityLow": "Низкое",
@@ -2986,7 +2519,6 @@
         "UI.DocumentDisplay.QualityHigh": "Высокое",
         "UI.DocumentDisplay.Pages": "Страницы",
         "UI.DocumentDisplay.ResetZoom": "Сбросить масштаб",
-
         "UI.VideoPlayer.GlobalSettings": "Глобальные<br>настройки",
         "UI.VideoPlayer.LocalSettings": "Локальные<br>настройки",
         "UI.VideoPlayer.SpatialAudio": "Пространственное<br>Аудио",
@@ -2997,43 +2529,31 @@
         "UI.VideoPlayer.AudioZoneGlobal": "Звук:<br>Глобальный",
         "UI.VideoPlayer.UsersLoaded": "Загружено у<br>{users_loaded}/{users_present} {users_present,plural, one {пользователя} other {пользователей}}",
         "UI.VideoPlayer.AllUsersLoaded": "Загружено у<br>всех пользователей",
-
         "UI.ColorPicker.ColorPicker": "Выбор цвета",
-
         "UI.ColorPicker.Linear": "Линейный",
-
         "UI.ColorPicker.Hexadecimal": "Шестнадцатиричный",
         "UI.ColorPicker.Blackbody": "Температура цвета",
         "UI.ColorPicker.ColorSwatches": "Палитра",
-
         "UI.ColorPicker.Red": "Красный",
         "UI.ColorPicker.Green": "Зелёный",
         "UI.ColorPicker.Blue": "Синий",
-
         "UI.ColorPicker.Hue": "Оттенок",
         "UI.ColorPicker.Saturation": "Насыщенность",
         "UI.ColorPicker.Value": "Значение",
-
         "UI.ColorPicker.Alpha": "Альфа/прозрачность",
         "UI.ColorPicker.Gain": "Усиление белого",
-
         "UI.ProgressBar.ImportingItem": "Импорт предмета",
-
         "UI.Camera.Automatic": "Авто",
         "UI.Camera.Manual": "Ручная",
-
         "Tools.Names.MultiTool": "Мультитул",
-
         "Tools.Names.CommonTools": "Обычные инструменты",
         "Tools.Names.ManipulationTools": "Инструменты манипуляции",
         "Tools.Names.InformationTools": "Инструменты информации",
-
         "Discord.RichPresence.InPrivateWorld": "В приватном мире",
         "Discord.RichPresence.InPrivateLargeText": "В приватном мире ({version})",
         "Discord.RichPresence.InPublicWorld": "В публичном мире",
         "Discord.RichPresence.PublicWorldDetails": "{worldName} ({totalWorlds} {totalWorlds,plural, one {мир} few {мира} other {миров}})",
         "Discord.RichPresence.InPublicLargeText": "В публичном мире ({version})",
-
         "Universe.UI.Narrative": "Повествование",
         "Universe.UI.Freeform": "Свободная форма",
         "Universe.Stars.Sun": "Солнце",
@@ -3222,16 +2742,11 @@
         "Universe.Units.HubbleLength": "Длина Хаббла",
         "Universe.Units.EarthRadius": "Радиус Земли",
         "Universe.Units.LunarDistance": "Лунное расстояние",
-
         "CloudHome.UpdateNotice.Header": "Уведомление об обновлении",
-
         "Help.Help": "Справка",
-
         "Help.VROnlyNote": "<b><color=hero.Orange>Внимание</closeall>: Эта функция доступна только через VR.",
-
         "Help.PlatformBotLinkName": "Перейти к боту {appName}",
         "Help.PlatformEssentialsSubmissionLinkName": "Форма публикации в {appName} Essentials",
-
         "Help.Modal.Header": "С чем помочь?",
         "Help.Modal.Avatar": "Я хочу настроить мой аватар...",
         "Help.Modal.Explore": "Я хочу исследовать...",
@@ -3239,16 +2754,12 @@
         "Help.Modal.Socialize": "Я хочу общаться...",
         "Help.Modal.Building": "Я хочу создавать...",
         "Help.Modal.BrowseTopics": "Я хочу посмотреть темы сам",
-
         "Help.ControllerDiagram.ViewingYourControllerLayout": "Это ваша текущая раскладка контроллера",
         "Help.ControllerDiagram.GoToYourControllerLayout": "Перейти к вашей текущей раскладке контроллера",
-
         "Help.MainPage.Content": "<br><align=center><b><size=250%>Добро пожаловать во вкладку <color=hero.purple>Справки</color>!</closeall><br><br>Здесь вы можете найти ответы на большинство основных вопросов и много дополнительной документации если желаете углубить свои знания. <b>Выберите категорию слева чтобы начать!</b><br><br><br><size=200%>Полезные ссылки:</size><br> ",
         "Help.MainPage.Content2": "<br><size=200%>FAQ:</size><br><size=66%><br>Часто задаваемые вопросы</size>",
-
         "Help.FAQ.AvatarQuestions": "Кто может мне помочь с аватаром?",
         "Help.FAQ.AvatarQuestions.Content": "Ты можешь попросить помощи у <b><color=hero.green>Наставника</closeall>! Наставники - это добровольные члены сообщества, предлагающие помощь новым пользователям в свое время и содействующие решению вопросов сообщества также помогающие с настройкой аватаров. Они выделяются нашивкой <sprite name=MentorIcon> Наставника.",
-
         "Help.GettingStarted.AvatarBasics": "Аватары",
         "Help.GettingStarted.AvatarBasics.Equipping": "Надевание аватаров",
         "Help.GettingStarted.AvatarBasics.Equipping.Content": "<b><color=hero.purple>Аватары</closeall> в {appName} похожи на костюмы - Ты можешь использовать любой аватар когда тебе нравится и ты можешь владеть ими или извлекать их в любой момент!<br><br>Чтобы одеть аватар{is_desktop, select, True {} other { сначала нажми <b><color=hero.purple>{Primary_Input}</closeall> чтобы увидеть лазер. Затем,}} наведись на него{is_desktop, select, True {} other { с помощью лазера}} и нажми <b><color=hero.purple>{Primary_Input}</closeall>{is_desktop, select, True {} other { снова}}. В появившемся меню выбери <sprite name=EquipAvatar> <b><color=hero.green>Надеть аватар</closeall>. Теперь вы одели аватар!",
@@ -3260,8 +2771,6 @@
         "Help.GettingStarted.AvatarBasics.Wearing": "Одевание",
         "Help.GettingStarted.AvatarBasics.Favoriting": "Избранное",
         "Help.GettingStarted.AvatarBasics.FindingMoreAvatars": "Поиск аватаров",
-
-
         "Dummy": "Dummy"
     }
 }
