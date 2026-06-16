@@ -882,6 +882,7 @@
         "Tools.ProtoFlux.PackInto": "Verpacken nach <size=50%>{name}</size>",
         "Tools.ProtoFlux.Unpack": "Entpacken aus <size=50%>{name}</size>",
         "Tools.ProtoFlux.ExplicitCast": "Explizite Umwandlung\n<size=50%>(<color=red>Warnung:</color> Möglicher Informationsverlust)</size>",
+        "Tools.ProtoFlux.Wiki": "Wiki <size=50%>{node}</size>",
 
         "Tools.Meter.Mode.Ray": "Modus: Projiziert",
         "Tools.Meter.Mode.Perpendicular": "Modus: Senkrecht",
@@ -919,7 +920,14 @@
         "Tools.ControllerDiagnostic.Name": "Controller-Diagnose-Tool",
 
         "Tools.Labeler.Name": "Etikettier-Tool",
-
+        
+        "Tools.Rig.AddEffector": "Effektor hinzufügen",
+        "Tools.Rig.RemoveEffector": "Effektor entfernen",
+        "Tools.Rig.SetupFABRIK": "FABRIK IK solver einrichten",
+        "Tools.Rig.CreateNew": "Erstelle neues Rig",
+        "Tools.Rig.DeselectRig": "Rig abwählen",
+        "Tools.Rig.DestroyBone": "Knochen entfernen",
+        
         "ProtoFlux.UI.Call": "Aufruf",
         "ProtoFlux.UI.AsyncCall": "<size=50%>Asynchroner</size> Aufruf",
         "ProtoFlux.UI.NodeBrowser.Title": "ProtoFlux Nodes",
@@ -1129,12 +1137,12 @@
 
         "GaussianSplat.Encoding.Title": "Gaussian Splat Encodierung",
         "GaussianSplat.Encoding.Metadata": "Metadata Encodierung",
-        "GaussianSplat.Encoding.EncodingPositions" : "Encodiere Positionen {encoded} von {total}",
-        "GaussianSplat.Encoding.EncodingRotations" : "Encodiere Rotationen {encoded} von {total}",
-        "GaussianSplat.Encoding.EncodingScales" : "Encodiere Scales {encoded} von {total}",
-        "GaussianSplat.Encoding.EncodingAlphas" : "Encodiere Alphas {encoded} von {total}",
-        "GaussianSplat.Encoding.EncodingColors" : "Encodiere Farben {encoded} von {total}",
-        "GaussianSplat.Encoding.EncodingFinalizing" : "Finalisierung der Encodierung",
+        "GaussianSplat.Encoding.EncodingPositions": "Encodiere Positionen {encoded} von {total}",
+        "GaussianSplat.Encoding.EncodingRotations": "Encodiere Rotationen {encoded} von {total}",
+        "GaussianSplat.Encoding.EncodingScales": "Encodiere Scales {encoded} von {total}",
+        "GaussianSplat.Encoding.EncodingAlphas": "Encodiere Alphas {encoded} von {total}",
+        "GaussianSplat.Encoding.EncodingColors": "Encodiere Farben {encoded} von {total}",
+        "GaussianSplat.Encoding.EncodingFinalizing": "Finalisierung der Encodierung",
 
         "GaussianSplat.Processing.RemovingSplats": "Entferne Splats",
         "GaussianSplat.Processing.SplatProgress": "{count} von {total} bearbeitet",
@@ -1395,6 +1403,10 @@
         "Settings.AudioAccessibilitySettings": "Audio Barrierefreiheit",
         "Settings.AudioInputFilteringSettings": "Aufnahmefilter",
 
+        "Settings.AudioStreamSettings": "Audiostream-Einstellungen",
+        "Settings.AudioStreamSettings.DefaultBitrate": "Standardbitrate",
+        "Settings.AudioStreamSettings.DefaultDeviceID": "Standard-Geräte-ID",
+        
         "Settings.RealtimeNetworkingSettings": "Echtzeit-Netzwerk-Einstellungen",
         "Settings.AssetGatherSettings": "Asset-Sammlung",
 
@@ -1654,7 +1666,7 @@
         "Settings.GiggleTechSettings.Devices.CustomName.Description": "Hier können Sie dem GigglePuck einen eigenen Namen geben, um ihn leichter zu unterscheiden. Dies ändert nur die Darstellung und hat keine weiteren funktionellen Unterschiede.",
         "Settings.GiggleTechSettings.Devices.Breadcrumb": "GigglePucks",
         "Settings.GiggleTechSettings.Devices.ActivationIntensity": "Aktuelle Intensität",
-        "Settings.GiggleTechSettings.Devices.MinimumIntensity" : "Minimale Intensität",
+        "Settings.GiggleTechSettings.Devices.MinimumIntensity": "Minimale Intensität",
         "Settings.GiggleTechSettings.Devices.MinimumIntensity.Description": "Dies ist die minimale Intensität, mit der die Haptik betrieben wird. Wenn die Intensität zu niedrig ist, kann dies dazu führen, dass das haptische Gerät stehen bleibt und nicht mehr reagiert.",
         "Settings.GiggleTechSettings.Devices.InitialActivationIntensity": "Intensität der Anfangsaktivität",
         "Settings.GiggleTechSettings.Devices.InitialActivationIntensity.Description": "Wenn die Haptik von einem inaktiven in einen aktiven Zustand übergeht, wird sie für einen sehr kurzen Zeitraum mit mindestens dieser Intensität betrieben. Dies kann dazu beitragen, die Haptik \"anzustoßen\", wenn sonst der Aktivierungswert zu niedrig wäre, um den Motor zu starten.",
@@ -2253,7 +2265,7 @@
         "Inspector.MeshCollider.VHACD": "Konvexe Hüllenzerlegung (V-HACD 2.0)",
         "Inspector.MeshCollider.ReplaceBox": "Mit Box Collider ersetzen",
 
-        "Inspector.Texture3D.SpawnVisualizer" : "Visualisierung erzeugen",
+        "Inspector.Texture3D.SpawnVisualizer": "Visualisierung erzeugen",
 
         "Inspector.Skybox.SetActiveSkybox": "Als aktive Skybox festlegen",
         "Inspector.AmbientLightSH2.SetActiveAmbientLight": "Als aktives Umgebungslicht festlegen",
@@ -2443,6 +2455,8 @@
         "Inspector.FacetPreset.Warning": "<color=red><size=125%>WARNUNG!</size></color><br>Facet-Voreinstellungen aktualisieren ihren Inhalt automatisch, wenn wir neue Versionen dieser Voreinstellungen veröffentlichen. Wenn Sie eine eigene Version erstellen, empfehlen wir, diese Komponente zu löschen.",
         "Inspector.GrabbableSaveBlock.Warning": "<color=red><size=125%>WARNUNG!</size></color><br>Diese Komponente ist kein Sicherheitssystem oder Diebstahlschutz. Sie ist für Situationen bestimmt, in denen die einfachen Speichermöglichkeiten aus Designgründen oder zum Erhalt des Spielerlebnisses blockiert werden sollen. Sie kann einfach umgangen werden, und wir werden die Sicherheit in keinem Fall verbessern.",
 
+        "Inspector.NewSystem.Warning": "<color=red><size=125%>WARNUNG!</size></color><br> Diese Komponente ist Teil eines neu hinzugefügten Systems, das sich noch in der Entwicklung befindet. Sie können es gerne schon ausprobieren, aber beachten Sie, dass wir möglicherweise noch Änderungen daran vornehmen werden, und Sie dann Ihre Inhalte anpassen müssen.<br><br>Wenn Ihre Inhalte langfristig kompatibel bleiben sollen, nutzen Sie diese Komponente erst, wenn dieser Hinweis entfernt worden ist.",        
+        
         "Inspector.AI_GeneratedContent.Info": "Diese Komponente soll von generativer KI erzeugte Inhalte markieren. Es wird empfohlen, sie an der Wurzel der Objekte zu platzieren, die mit diesen Methoden generiert werden. Wenn diese Komponenten vorhanden sind, werden beim Speichern des Objektes oder der Welt Tags hinzugefügt, wodurch diese Inhalte gefiltert werden können.",
         
         "Inspector.ParticleSystem.BasicInfo": "Partikel: {count}, FPS: {fps}, Simulationszeit: {time}, Submit-Zeit: {renderSubmitTime}, Render-Allokationen: {allocationCount}",
@@ -2468,6 +2482,12 @@
         "Inspector.SimpleAwayIndicator.TestAway": "Auf abwesend setzen (debug)",
         "Inspector.SimpleAwayIndicator.TestRestore": "Normalzustand wiederherstellen (debug)",
 
+        "Inspector.FingerReferencePoseSource.AssignFromBipedRig": "Aus dem Biped-Rig übertragen",
+        "Inspector.FingerReferencePoseSource.CaptureMyLeftHand": "Von meiner linken Hand übernehmen",
+        "Inspector.FingerReferencePoseSource.CaptureMyRightHand": "Von meiner rechten Hand übernehmen",
+        "Inspector.BipedRig.GenerateStaticFingerPoseCode": "Kopiere statische Fingerpose in die Zwischenablage",
+        "Inspector.FingerReferencePoseSource.CaptureReference": "Aus Referenz übernehmen",
+        
         "Inspector.Fields.Drive": "Drive",
         "Inspector.Fields.DriveWriteBack": "Drive <size=50%>(zurückschreibend)</size>",
 
