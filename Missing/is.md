@@ -227,6 +227,7 @@ Tools.ProtoFlux.PackInPlace
 Tools.ProtoFlux.PackInto  
 Tools.ProtoFlux.Unpack  
 Tools.ProtoFlux.ExplicitCast  
+Tools.ProtoFlux.Wiki  
 Tools.Meter.Mode.Ray  
 Tools.Meter.Mode.Perpendicular  
 Tools.Meter.Mode.Drag  
@@ -253,6 +254,12 @@ Tools.Shape.Name
 Tools.CameraObjectHider.Name  
 Tools.ControllerDiagnostic.Name  
 Tools.Labeler.Name  
+Tools.Rig.AddEffector  
+Tools.Rig.RemoveEffector  
+Tools.Rig.SetupFABRIK  
+Tools.Rig.CreateNew  
+Tools.Rig.DeselectRig  
+Tools.Rig.DestroyBone  
 ProtoFlux.UI.Call  
 ProtoFlux.UI.AsyncCall  
 ProtoFlux.UI.NodeBrowser.Title  
@@ -640,6 +647,9 @@ Settings.AudioOutputDeviceSettings
 Settings.AudioVolumeSettings  
 Settings.AudioAccessibilitySettings  
 Settings.AudioInputFilteringSettings  
+Settings.AudioStreamSettings  
+Settings.AudioStreamSettings.DefaultBitrate  
+Settings.AudioStreamSettings.DefaultDeviceID  
 Settings.RealtimeNetworkingSettings  
 Settings.AssetGatherSettings  
 Settings.HostAccessSettings  
@@ -1518,6 +1528,7 @@ Inspector.CharacterController.Warning
 Inspector.PrimitiveMemberEditor.Warning  
 Inspector.FacetPreset.Warning  
 Inspector.GrabbableSaveBlock.Warning  
+Inspector.NewSystem.Warning  
 Inspector.AI_GeneratedContent.Info  
 Inspector.ParticleSystem.BasicInfo  
 Inspector.ParticleSystem.TrailInfo  
@@ -1538,6 +1549,11 @@ Inspector.Collider.SetFromPreciseCylinderBounds
 Inspector.Collider.Visualize  
 Inspector.SimpleAwayIndicator.TestAway  
 Inspector.SimpleAwayIndicator.TestRestore  
+Inspector.FingerReferencePoseSource.AssignFromBipedRig  
+Inspector.FingerReferencePoseSource.CaptureMyLeftHand  
+Inspector.FingerReferencePoseSource.CaptureMyRightHand  
+Inspector.BipedRig.GenerateStaticFingerPoseCode  
+Inspector.FingerReferencePoseSource.CaptureReference  
 Inspector.Wizard.PackTexture  
 Inspector.Wizard.UnpackTexture  
 Inspector.Error  
